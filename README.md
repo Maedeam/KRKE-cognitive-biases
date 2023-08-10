@@ -1,3 +1,5 @@
+The HomePage:
+* https://kr-project.gitbook.io/kr-project/
 ---
 description: >-
   Documentation for the Knowledge Representation and Extraction Project about
