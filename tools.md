@@ -21,7 +21,7 @@ layout:
 
 ### 🛠️  Tools
 
-For reach our goal we will use the following technologies:
+For reach our goal we could use the following technologies:
 
 * ChatGPT: [https://chat.openai.com](https://chat.openai.com/)
 * OWL 2: [https://www.w3.org/TR/owl2-syntax/#Ontologies](https://www.w3.org/TR/owl2-syntax/#Ontologies)

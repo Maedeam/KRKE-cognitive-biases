@@ -6,21 +6,7 @@ coverY: 0
 
 # ❓ CQ answers
 
-
-
-
-
-
-
-
-
-xxxxx
-
-
-
 ### 1 - Name of the observer is Story 1?
-
-
 
 ```
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
@@ -39,8 +25,6 @@ SELECT ?subject
 
 ### 2 - Which bias does Sarah exhibits?
 
-
-
 ```
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
@@ -57,8 +41,6 @@ SELECT ?subject
 
 ### 3 - Which information confirms her bias?
 
-
-
 <pre><code>PREFIX rdf: &#x3C;http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX owl: &#x3C;http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: &#x3C;http://www.w3.org/2000/01/rdf-schema#>
@@ -74,8 +56,6 @@ SELECT ?subject
 
 ### 4 - She holds belief about?
 
-
-
 <pre><code>PREFIX rdf: &#x3C;http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX owl: &#x3C;http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: &#x3C;http://www.w3.org/2000/01/rdf-schema#>
@@ -89,9 +69,7 @@ SELECT ?subject
 
 ***
 
-### 6 - Which information she encountered?
-
-
+### 5 - Which information she encountered?
 
 ```
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
@@ -104,13 +82,11 @@ SELECT ?subject
 
 ```
 
-<figure><img src=".gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (8).png" alt=""><figcaption><p>CQ6</p></figcaption></figure>
 
 ***
 
-### 7 - Name of the characters in Story 2?
-
-
+### 6 - Name of the characters in Story 2?
 
 ```
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
@@ -122,11 +98,11 @@ SELECT ?subject
     WHERE { ?subject a bias:Character }
 ```
 
-<figure><img src=".gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (9).png" alt=""><figcaption><p>CQ7</p></figcaption></figure>
 
 ***
 
-### 8 - List all the generalities in Story 2?
+### 7 - List all the generalities in Story 2?
 
 
 
@@ -140,15 +116,11 @@ SELECT ?subject
     WHERE {?subject a bias:Generalities} 
 ```
 
-<figure><img src=".gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
-
-
+<figure><img src=".gitbook/assets/image (10).png" alt=""><figcaption><p>CQ8</p></figcaption></figure>
 
 ***
 
-### 9 - Name of the bias does John exhibits in story 2?
-
-
+### 8 - Name of the bias does John exhibits in story 2?
 
 
 
@@ -166,9 +138,7 @@ SELECT ?subject
 
 ***
 
-### 10 - What is the observation in story 2?
-
-
+### 9 - What is the observation in story 2?
 
 
 
@@ -188,9 +158,8 @@ SELECT ?subject
 
 ***
 
-### What are some specifics in Story 2?
+### 10 - What are some specifics in Story 2?
 
-\
 
 
 ```
