@@ -1,18 +1,18 @@
-# The HomePage:
-# https://kr-project.gitbook.io/kr-project/
----
-description: >-
-  Documentation for the Knowledge Representation and Extraction Project about
-  Modelling two Cognitive Biases
-cover: .gitbook/assets/shutterstock_1413803102-1024x585.webp
-coverY: 21
----
-
 # 💡 Modeling Cognitive Biases
+
+## The HomePage:
+
+## https://maede.gitbook.io/kr-project/
+
+***
+
+### description: >- Documentation for the Knowledge Representation and Extraction Project about Modelling two Cognitive Biases cover: .gitbook/assets/shutterstock\_1413803102-1024x585.webp coverY: 21
+
+## 💡 Modeling Cognitive Biases
 
 > _The Brain — is wider — than the Sky_
 >
-> _For — put them side by side —_&#x20;
+> _For — put them side by side —_
 >
 > _The one the other will contain_
 >
@@ -20,9 +20,9 @@ coverY: 21
 >
 > _**"Emily Dickinson"**_
 
-With this little part  poem, we start our project with the goal of modelling two different clusters of biases taken from the classification made by Buster Benson, posted at this [Medium post.](https://betterhumans.pub/cognitive-bias-cheat-sheet-55a472476b18)
+With this little part poem, we start our project with the goal of modelling two different clusters of biases taken from the classification made by Buster Benson, posted at this [Medium post.](https://betterhumans.pub/cognitive-bias-cheat-sheet-55a472476b18)
 
-## 🗂 Benson Classification
+### 🗂 Benson Classification
 
 According on Benson classification, we choose these biases:
 
@@ -34,14 +34,14 @@ Buster Benson in his post categorise all biases in 4 different problems that we 
 <figure><img src=".gitbook/assets/4b34a960-eb75-4aa2-85ba-8f69a27beba3.jpeg" alt=""><figcaption><p>A visualisation of the cognitive bias cheat sheet has been provided by <a href="https://medium.com/@jm3">John Manoogian III.</a></p></figcaption></figure>
 
 \
-The biases are grouped into 20 unique mental strategies that we use for specific reasons. These 20 clusters of biases are grouped by the general mental problem they attempt to address, which are:&#x20;
+The biases are grouped into 20 unique mental strategies that we use for specific reasons. These 20 clusters of biases are grouped by the general mental problem they attempt to address, which are:
 
 1. "What should we remember?"
 2. "Too much information"
 3. "Not enough meaning"
 4. "Need to act fast"
 
-## 📍 About our two cluster
+### 📍 About our two cluster
 
 By knowing these 4 biases, we choose our two cluster of biases respectfully from the two mental problems of "Not enough meaning" and "What should we remember?"
 
@@ -76,27 +76,27 @@ This includes:
 * [_Prejudice_](https://en.wikipedia.org/wiki/Prejudice)
 * [_Stereotypical bias_](https://en.wikipedia.org/wiki/Implicit\_stereotype)
 * [_Implicit stereotypes_](https://en.wikipedia.org/wiki/Implicit\_stereotype)
-* &#x20;[_Implicit associations_](https://en.wikipedia.org/wiki/Implicit\_stereotype)
+* [_Implicit associations_](https://en.wikipedia.org/wiki/Implicit\_stereotype)
 
 ***
 
-## 📚 Methodology
+### 📚 Methodology
 
-###
+####
 
-### Overview
+#### Overview
 
 Our final goal is modelling the biases presented above and create an ontology for semantic web technologies using a specific iterative method for pattern-based ontology design, called **eXtreme Design (XD).**
 
-###
+####
 
-### **eXtreme Design (XD)**
+#### **eXtreme Design (XD)**
 
 As stated in the paper _"eXtreme Design with Content Ontology Design Patterns"_ by _Valentina Presutti, Enrico Daga, Aldo Gangemi and Eva Blomqvist_:
 
 > "With the name eXtreme Design (XD), we identify an approach, a family of methods, and associated tools, based on the application, exploitation, and definition of **Ontology Design Patterns (ODPs)** for solving ontology development issues."
 
-&#x20;In few words, XD is an incremental, iterative method for pattern-based ontology design.
+In few words, XD is an incremental, iterative method for pattern-based ontology design.
 
 <figure><img src="https://github.com/KRKE-Delayed/KRKE-cognitive-biases/raw/main/documentation/img/XD-design-approach.png" alt=""><figcaption><p>eXtreme Design (XD)</p></figcaption></figure>
 
@@ -107,9 +107,9 @@ As you can see, XD adopts the notion of ontology project, a development project 
 
 ODPs are associated with Generic Use Cases (GUC) and compose the ontology project’s solution space, which is used as the main knowledge source for addressing ontology design issues e.g. reengineering, evaluation, construction, etc., the ontology project’s problem space provides descriptions of the actual issues called “Local Use Cases” (LUC).
 
-###
+####
 
-### Ontology Design Patterns
+#### Ontology Design Patterns
 
 Before exploring the main principles and workflow of XD, it is worthy to spend some words on the methodology on which it is build upon [**Ontology Design Patterns** (Gangemi 2005)](bibliography.md#ontology-design-patterns-gangemi-2005).
 
@@ -140,9 +140,7 @@ In the _"Problem Space"_ we have all the available competency questions, we need
 
 We need a large repository where we can look for ODPs, the one we will use in our project is [Ontology Design Patterns](http://ontologydesignpatterns.org/).
 
-
-
-### **eXtreme Design principles and tasks**
+#### **eXtreme Design principles and tasks**
 
 XD principles are inspired by those of the agile software methodology called eXtreme Programming (XP). The main idea of agile software development is to be able to incorporate changes easily, in any stage of the development. based on the idea of Gangemi A. in [_"eXtreme Design with Content Ontology Design Patterns"_](bibliography.md#extreme-design-with-content-ontology-design-patterns) The method make intensive use of _Content Ontology_ _Design Patterns_ (CPs) and its principles are based on modular design and collaboration. Main XD principles can be summarised as follow:
 
