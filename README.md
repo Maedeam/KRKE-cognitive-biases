@@ -1,3 +1,9 @@
+---
+description: >-
+  Documentation for the Knowledge Representation and Extraction Project, about
+  Modelling two Cognitive Biases cover
+---
+
 # 💡 Modeling Cognitive Biases
 
 ## The HomePage:
@@ -5,10 +11,6 @@
 ## https://maede.gitbook.io/kr-project/
 
 ***
-
-### description: >- Documentation for the Knowledge Representation and Extraction Project about Modelling two Cognitive Biases cover: .gitbook/assets/shutterstock\_1413803102-1024x585.webp coverY: 21
-
-## 💡 Modeling Cognitive Biases
 
 > _The Brain — is wider — than the Sky_
 >
