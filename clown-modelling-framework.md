@@ -1,3 +1,7 @@
+---
+description: A Structured Framework for Ontology Modelling and Development
+---
+
 # 🧲 CLOWN Modelling framework
 
 #### **CLOWN Modelling framework**

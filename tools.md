@@ -32,3 +32,5 @@ For reach our goal we could use the following technologies:
 * Framester: [https://framester.github.io/](https://framester.github.io/)
 * FrameNet: [https://framenet.icsi.berkeley.edu/](https://framenet.icsi.berkeley.edu/)
 * Protégé: [https://protege.stanford.edu](https://protege.stanford.edu/)
+* GitBook: [https://app.gitbook.com/](https://app.gitbook.com/)
+

@@ -50,7 +50,7 @@ We write two stories, possibly from real, documented scenarios, that samples the
 
 ### Task 3. Select a story that has not been treated yet
 
-We choose our two previous stories
+We choose our two previous stories that both of them are unique and based on true cases that they have not yet been treated and reviewed.
 
 ***
 
@@ -127,7 +127,7 @@ SO, in our case, the sub-tasks will be:
 
 We will first create a subclass of _**owl:Thing**_ which will be _**Bias1**_.
 
-Then we will create two child classes of the _**Bias1**_ class which will be&#x20;
+Then we will create two child classes of the _**Bias1**_ class which will be:
 
 1. _**Observer**_ class
 2. _**Bias**_ cclass
