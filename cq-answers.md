@@ -65,7 +65,7 @@ SELECT ?subject
 <strong>    WHERE { bias:Sarah  bias:holdsBelief ?subject }
 </strong></code></pre>
 
-<figure><img src=".gitbook/assets/image (7).png" alt=""><figcaption><p>CQ 5</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (7).png" alt=""><figcaption><p>CQ 4</p></figcaption></figure>
 
 ***
 
@@ -82,7 +82,7 @@ SELECT ?subject
 
 ```
 
-<figure><img src=".gitbook/assets/image (8).png" alt=""><figcaption><p>CQ6</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (8).png" alt=""><figcaption><p>CQ 5</p></figcaption></figure>
 
 ***
 
@@ -98,13 +98,11 @@ SELECT ?subject
     WHERE { ?subject a bias:Character }
 ```
 
-<figure><img src=".gitbook/assets/image (9).png" alt=""><figcaption><p>CQ7</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (9).png" alt=""><figcaption><p>CQ 6</p></figcaption></figure>
 
 ***
 
 ### 7 - List all the generalities in Story 2?
-
-
 
 ```
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
@@ -116,13 +114,11 @@ SELECT ?subject
     WHERE {?subject a bias:Generalities} 
 ```
 
-<figure><img src=".gitbook/assets/image (10).png" alt=""><figcaption><p>CQ8</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (10).png" alt=""><figcaption><p>CQ 7</p></figcaption></figure>
 
 ***
 
 ### 8 - Name of the bias does John exhibits in story 2?
-
-
 
 ```
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
@@ -134,13 +130,11 @@ SELECT ?subject
     WHERE { bias:John  bias:exhibitsBias ?subject }
 ```
 
-<figure><img src=".gitbook/assets/image (11).png" alt=""><figcaption><p>CQ 9</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (11).png" alt=""><figcaption><p>CQ 8</p></figcaption></figure>
 
 ***
 
 ### 9 - What is the observation in story 2?
-
-
 
 ```
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
@@ -152,15 +146,11 @@ SELECT ?subject
     WHERE {?subject a bias:Observations}
 ```
 
-<figure><img src=".gitbook/assets/image (12).png" alt=""><figcaption><p>CQ 10</p></figcaption></figure>
-
-
+<figure><img src=".gitbook/assets/image (12).png" alt=""><figcaption><p>CQ 9</p></figcaption></figure>
 
 ***
 
 ### 10 - What are some specifics in Story 2?
-
-
 
 ```
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
@@ -172,4 +162,4 @@ SELECT ?subject
     WHERE { ?subject rdfs:subClassOf bias:Specifics}
 ```
 
-<figure><img src=".gitbook/assets/image (13).png" alt=""><figcaption><p>CQ 12</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (13).png" alt=""><figcaption><p>CQ 10</p></figcaption></figure>

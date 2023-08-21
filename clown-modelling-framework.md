@@ -1,5 +1,7 @@
 ---
 description: A Structured Framework for Ontology Modelling and Development
+cover: .gitbook/assets/agateno_BlogKW28-1080x675.jpeg
+coverY: 0
 ---
 
 # 🧲 CLOWN Modelling framework

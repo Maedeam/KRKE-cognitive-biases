@@ -1,5 +1,15 @@
 # ???
 
+### Used CQs:
+
+CQs: What is before that? What's Next? [http://ontologydesignpatterns.org/wiki/Submissions:Sequence](http://ontologydesignpatterns.org/wiki/Submissions:Sequence) Reusable OWL Building Block: [http://ontologydesignpatterns.org/cp/owl/sequence.owl](http://ontologydesignpatterns.org/cp/owl/sequence.owl)
+
+CQs: What are the consequences of this action? [http://ontologydesignpatterns.org/wiki/Submissions:Action](http://ontologydesignpatterns.org/wiki/Submissions:Action) Reusable OWL Building Block: [http://www.ontology.se/odp/content/owl/Action.owl](http://www.ontology.se/odp/content/owl/Action.owl)
+
+### The OWL file
+
+[The two Biases OWL file](cognitive-biases/bias.owl)
+
 ## First bias :  ‘ We imagine things and people we're familiar with or fond of as better '&#x20;
 
 &#x20;&#x20;
@@ -195,7 +205,7 @@ Contradiction&#x20;
 
 &#x20;
 
-### Second bias : "We discard specifics to form generalities"&#x20;
+## Second bias : "We discard specifics to form generalities"&#x20;
 
 &#x20;
 
@@ -231,13 +241,11 @@ User Story: The Scenario "Superficial Impressions"&#x20;
 
 &#x20;
 
-
-
 &#x20;
 
 Ontology for "We discard specifics to form generalities":&#x20;
 
-&#x20;
+
 
 #### Classes:&#x20;
 
