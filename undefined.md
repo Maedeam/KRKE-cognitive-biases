@@ -1,10 +1,9 @@
-# ???
+---
+cover: .gitbook/assets/methodology-concept-cork-board-77226659.jpeg
+coverY: 0
+---
 
-### Used CQs:
-
-CQs: What is before that? What's Next? [http://ontologydesignpatterns.org/wiki/Submissions:Sequence](http://ontologydesignpatterns.org/wiki/Submissions:Sequence) Reusable OWL Building Block: [http://ontologydesignpatterns.org/cp/owl/sequence.owl](http://ontologydesignpatterns.org/cp/owl/sequence.owl)
-
-CQs: What are the consequences of this action? [http://ontologydesignpatterns.org/wiki/Submissions:Action](http://ontologydesignpatterns.org/wiki/Submissions:Action) Reusable OWL Building Block: [http://www.ontology.se/odp/content/owl/Action.owl](http://www.ontology.se/odp/content/owl/Action.owl)
+# 👩🏫 Methodology
 
 ### The OWL file
 
@@ -12,11 +11,13 @@ CQs: What are the consequences of this action? [http://ontologydesignpatterns.or
 
 ## First bias :  ‘ We imagine things and people we're familiar with or fond of as better '&#x20;
 
-&#x20;&#x20;
+### _**Bias Name**_:&#x20;
 
-Bias Name: Confirmation Bias&#x20;
+Confirmation Bias&#x20;
 
-Definition: Confirmation bias is a cognitive bias that refers to the tendency of individuals to seek out, interpret, and remember information in a way that confirms their pre-existing beliefs or hypotheses while ignoring or dismissing contradicting information&#x20;
+### _**Definition**_:&#x20;
+
+Confirmation bias is a cognitive bias that refers to the tendency of individuals to seek out, interpret, and remember information in a way that confirms their pre-existing beliefs or hypotheses while ignoring or dismissing contradicting information&#x20;
 
 ### Example Scenarios of Confirmation Bias: &#x20;
 
@@ -33,17 +34,9 @@ Definition: Confirmation bias is a cognitive bias that refers to the tendency of
 
 &#x20;
 
-&#x20;
+### **User Story:**&#x20;
 
-**User Story:** "Sarah, a politically active individual, had a strong confirmation bias towards a particular political party. She avidly followed news sources and social media accounts that shared views aligned with her party's ideology. One day, Sarah came across an article that presented a different perspective on a key issue. Despite the article being well-researched and providing evidence to support its claims, Sarah immediately dismissed it as biased and inaccurate, due to her confirmation bias. She shared the article with her friends, highlighting the parts that confirmed her pre-existing beliefs, reinforcing their shared biases.”&#x20;
-
-&#x20;
-
-&#x20;
-
-&#x20;
-
-&#x20;
+"Sarah, a politically active individual, had a strong confirmation bias towards a particular political party. She avidly followed news sources and social media accounts that shared views aligned with her party's ideology. One day, Sarah came across an article that presented a different perspective on a key issue. Despite the article being well-researched and providing evidence to support its claims, Sarah immediately dismissed it as biased and inaccurate, due to her confirmation bias. She shared the article with her friends, highlighting the parts that confirmed her pre-existing beliefs, reinforcing their shared biases.”&#x20;
 
 ### Ontology for Confirmation Bias: &#x20;
 
@@ -71,27 +64,16 @@ contradictsBelief: Relates the Contradiction class with the Belief class.&#x20;
 
 Using the provided ontology, the relevant frames from Framester resource could be:&#x20;
 
-&#x20;
-
-Cognitive Bias&#x20;
-
-Belief&#x20;
-
-Evidence&#x20;
-
-Interpretation&#x20;
-
-Perception&#x20;
-
-Attention&#x20;
-
-Memory&#x20;
-
-Selectivity&#x20;
-
-Confirmation&#x20;
-
-Contradiction&#x20;
+* Cognitive Bias&#x20;
+* Belief&#x20;
+* Evidence&#x20;
+* Interpretation&#x20;
+* Perception&#x20;
+* Attention&#x20;
+* Memory&#x20;
+* Selectivity&#x20;
+* Confirmation&#x20;
+* Contradiction&#x20;
 
 &#x20;
 
@@ -207,47 +189,32 @@ Contradiction&#x20;
 
 ## Second bias : "We discard specifics to form generalities"&#x20;
 
-&#x20;
+### Definition:&#x20;
 
-Definition: The bias of "we discard specifics to form generalities" refers to the tendency of individuals or groups to overlook or ignore specific details or nuances in favor of generalizations or stereotypes. It involves drawing broad conclusions or making assumptions based on limited or incomplete information, often leading to oversimplification and biased judgments.&#x20;
+The bias of "we discard specifics to form generalities" refers to the tendency of individuals or groups to overlook or ignore specific details or nuances in favor of generalizations or stereotypes. It involves drawing broad conclusions or making assumptions based on limited or incomplete information, often leading to oversimplification and biased judgments.&#x20;
 
-&#x20;
-
-Example Scenarios of "We discard specifics to form generalities":&#x20;
-
-&#x20;
-
-Stereotyping: Assuming that all individuals belonging to a particular ethnic group possess certain characteristics or behaviors without considering the unique qualities and individual differences within the group.&#x20;
-
-Prejudice: Holding negative attitudes or beliefs towards a certain religious community based on limited encounters or misinformation, disregarding the diversity of beliefs and practices within that community.&#x20;
-
-Generalizing from Personal Experience: Making broad generalizations about an entire country or culture based on a single negative personal experience or encounter.&#x20;
-
-Confirmation Bias: Seeking out information or evidence that supports preconceived notions or beliefs while disregarding contradictory evidence or alternative perspectives.&#x20;
-
-Media Stereotypes: Accepting media portrayals and stereotypes as accurate representations of real-life individuals or groups, without critically evaluating the underlying assumptions or biases.&#x20;
-
-Implicit Bias: Unconscious biases that influence judgments and decisions, causing individuals to form generalities about certain social groups based on ingrained stereotypes or associations.&#x20;
-
-Superficial Impressions: Forming quick judgments about someone's personality or abilities based solely on their physical appearance or limited interaction, without considering the complexity of their character.&#x20;
-
-Overgeneralizing from Limited Data: Drawing sweeping conclusions about a particular phenomenon or trend based on a small sample size or limited data, ignoring potential variations or exceptions.&#x20;
-
-Political Biases: Assuming that all individuals affiliated with a particular political party hold identical views and opinions, disregarding the diversity of perspectives within the party.&#x20;
-
-Cultural Stereotypes: Believing that individuals from a specific culture conform to fixed behaviors or traditions, neglecting the individuality and diversity within that culture.&#x20;
-
-User Story: The Scenario "Superficial Impressions"&#x20;
-
-&#x20;
-
-&#x20;
-
-Ontology for "We discard specifics to form generalities":&#x20;
+### Example Scenarios of "We discard specifics to form generalities":&#x20;
 
 
 
-#### Classes:&#x20;
+1. <mark style="color:red;">Stereotyping:</mark> Assuming that all individuals belonging to a particular ethnic group possess certain characteristics or behaviors without considering the unique qualities and individual differences within the group.&#x20;
+2. <mark style="color:red;">Prejudice:</mark> Holding negative attitudes or beliefs towards a certain religious community based on limited encounters or misinformation, disregarding the diversity of beliefs and practices within that community.&#x20;
+3. <mark style="color:red;">Generalizing from Personal Experience:</mark> Making broad generalizations about an entire country or culture based on a single negative personal experience or encounter.&#x20;
+4. <mark style="color:red;">Confirmation Bias:</mark> Seeking out information or evidence that supports preconceived notions or beliefs while disregarding contradictory evidence or alternative perspectives.&#x20;
+5. <mark style="color:red;">Media Stereotypes:</mark> Accepting media portrayals and stereotypes as accurate representations of real-life individuals or groups, without critically evaluating the underlying assumptions or biases.&#x20;
+6. <mark style="color:red;">Implicit Bias:</mark> Unconscious biases that influence judgments and decisions, causing individuals to form generalities about certain social groups based on ingrained stereotypes or associations.&#x20;
+7. <mark style="color:red;">Superficial Impressions:</mark> Forming quick judgments about someone's personality or abilities based solely on their physical appearance or limited interaction, without considering the complexity of their character.&#x20;
+8. <mark style="color:red;">Overgeneralizing from Limited Data:</mark> Drawing sweeping conclusions about a particular phenomenon or trend based on a small sample size or limited data, ignoring potential variations or exceptions.&#x20;
+9. <mark style="color:red;">Political Biases:</mark> Assuming that all individuals affiliated with a particular political party hold identical views and opinions, disregarding the diversity of perspectives within the party.&#x20;
+10. <mark style="color:red;">Cultural Stereotypes:</mark> Believing that individuals from a specific culture conform to fixed behaviors or traditions, neglecting the individuality and diversity within that culture.&#x20;
+
+### User Story:&#x20;
+
+The Scenario "Superficial Impressions"&#x20;
+
+### Ontology for "We discard specifics to form generalities":&#x20;
+
+### Classes:&#x20;
 
 Bias: Represents the overarching concept of biases in general.&#x20;
 
@@ -255,15 +222,13 @@ Specifics: Represents specific details, nuances, or individual characteristics t
 
 Generalities: Represents broad conclusions, stereotypes, or oversimplifications formed from limited or incomplete information.&#x20;
 
-#### Properties:&#x20;
+### Properties:&#x20;
 
 LeadsTo: Describes the relationship between the Bias class and the Specifics class, indicating that biases result from disregarding or discarding specific details.&#x20;
 
 Forms: Describes the relationship between the Bias class and the Generalities class, indicating that biases involve the formation of broad conclusions or stereotypes.&#x20;
 
 Relevant Frames from Framester resource (selected based on the bias cluster):&#x20;
-
-&#x20;
 
 1.Stereotype&#x20;
 
