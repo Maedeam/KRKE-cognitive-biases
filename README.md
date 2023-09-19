@@ -2,6 +2,8 @@
 description: >-
   Documentation for the Knowledge Representation and Extraction Project, about
   Modelling two Cognitive Biases
+cover: .gitbook/assets/Cognitive_biases_diagram_RU.png
+coverY: 0
 ---
 
 # 💡 Modeling Cognitive Biases
