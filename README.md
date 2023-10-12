@@ -1,14 +1,14 @@
 ---
 description: >-
   Documentation for the Knowledge Representation and Extraction Project, about
-  Modelling two Cognitive Biases
+  Modelling Cognitive Biases
 cover: .gitbook/assets/Cognitive_biases_diagram_RU.png
 coverY: 0
 ---
 
 # 💡 Modeling Cognitive Biases
 
-### 🔗 GitHub and GitBook links:
+## 🔗 GitHub and GitBook links:
 
 [The project GitBook Presentation](https://maede.gitbook.io/kr-project/)
 
@@ -28,34 +28,32 @@ coverY: 0
 
 With this little part poem, we start our project with the goal of modelling two different clusters of biases taken from the classification made by Buster Benson, posted at this [Medium post.](https://betterhumans.pub/cognitive-bias-cheat-sheet-55a472476b18)
 
-### 🗂 Benson Classification
+## 🗂 Benson Classification
 
-According on Benson classification, we choose these biases:
-
-* **We imagine things and people we’re familiar with or fond of as better than things and people we aren’t familiar with or fond of.**
-* **We discard specifics to form generalities.**
-
-Buster Benson in his post categorise all biases in 4 different problems that we can see in detail in this awesome diagram:
+Buster Benson in his Medium post, categorise all biases in 20 unique mental strategies that we use for specific reasons and then put each cluster of these biases into 4 different general mental problems category, that we can see all in details in this awesome diagram:
 
 <figure><img src=".gitbook/assets/4b34a960-eb75-4aa2-85ba-8f69a27beba3.jpeg" alt=""><figcaption><p>A visualisation of the cognitive bias cheat sheet has been provided by <a href="https://medium.com/@jm3">John Manoogian III.</a></p></figcaption></figure>
 
 \
-The biases are grouped into 20 unique mental strategies that we use for specific reasons. These 20 clusters of biases are grouped by the general mental problem they attempt to address, which are:
+The 4 general mental problems are:
 
 1. "What should we remember?"
 2. "Too much information"
 3. "Not enough meaning"
 4. "Need to act fast"
 
-### 📍 About our two cluster
+## 📍 About our two clusters
 
-By knowing these 4 biases, we choose our two cluster of biases respectfully from the two mental problems of "Not enough meaning" and "What should we remember?"
+By knowing these 4 general mental problems, we choose our two cluster of biases respectfully from the two different mental problems of "Not enough meaning" and "What should we remember?"
+
+* **We imagine things and people we’re familiar with or fond of as better than things and people we aren’t familiar with or fond of.**
+* **We discard specifics to form generalities.**
 
 {% hint style="info" %}
 Now, we deep into our two clusters parts by details
 {% endhint %}
 
-1. **We imagine things and people we’re familiar with or fond of as better than things and people we aren’t familiar with or fond of.**
+### **1- We imagine things and people we’re familiar with or fond of as better than things and people we aren’t familiar with or fond of.**
 
 Similar to some other clusters, but the filled-in bits generally also include built in assumptions about the quality and value of the thing we’re looking at.
 
@@ -71,7 +69,7 @@ This includes:
 * [_Reactive devaluation_](https://en.wikipedia.org/wiki/Reactive\_devaluation)
 * [_Positivity effect_](https://en.wikipedia.org/wiki/Positivity\_effect)
 
-2. **We discard specifics to form generalities.**
+### **2- We discard specifics to form generalities.**
 
 We do this out of necessity, but the impact of implicit associations, stereotypes, and prejudice results in some of the most glaringly bad consequences from our full set of cognitive biases.
 
@@ -86,13 +84,13 @@ This includes:
 
 ***
 
-### 📚 Methodology
+## 📚 Methodology
 
-#### Overview
+### Overview
 
 Our final goal is modelling the biases presented above and create an ontology for semantic web technologies using a specific iterative method for pattern-based ontology design, called **eXtreme Design (XD).**
 
-#### **eXtreme Design (XD)**
+### **eXtreme Design (XD)**
 
 As stated in the paper _"eXtreme Design with Content Ontology Design Patterns"_ by _Valentina Presutti, Enrico Daga, Aldo Gangemi and Eva Blomqvist_:
 
@@ -109,7 +107,7 @@ As you can see, XD adopts the notion of ontology project, a development project 
 
 ODPs are associated with Generic Use Cases (GUC) and compose the ontology project’s solution space, which is used as the main knowledge source for addressing ontology design issues e.g. reengineering, evaluation, construction, etc., the ontology project’s problem space provides descriptions of the actual issues called “Local Use Cases” (LUC).
 
-#### Ontology Design Patterns
+### Ontology Design Patterns
 
 Before exploring the main principles and workflow of XD, it is worthy to spend some words on the methodology on which it is build upon [**Ontology Design Patterns** (Gangemi 2005)](bibliography.md#ontology-design-patterns-gangemi-2005).
 
