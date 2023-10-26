@@ -1,5 +1,7 @@
 ---
 description: Imagine familiars better than unfamiliar
+cover: ../../.gitbook/assets/Dont-bring-me-problems-bring-me-solutions.jpeg
+coverY: 0
 ---
 
 # Problem 1

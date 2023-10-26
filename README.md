@@ -44,13 +44,13 @@ The 4 general mental problems are:
 
 ## 📍 About our two clusters
 
-By knowing these 4 general mental problems, we choose our two cluster of biases respectfully from the two different mental problems of "Not enough meaning" and "What should we remember?"
+By knowing these 4 general mental problems, we choose this two clusters of biases respectfully from the two different mental problems of "Not enough meaning" and "What should we remember?" :
 
 * **We imagine things and people we’re familiar with or fond of as better than things and people we aren’t familiar with or fond of.**
 * **We discard specifics to form generalities.**
 
 {% hint style="info" %}
-Now, we deep into our two clusters parts by details
+Now, we deep into our two clusters by details one by one.
 {% endhint %}
 
 ### **1- We imagine things and people we’re familiar with or fond of as better than things and people we aren’t familiar with or fond of.**

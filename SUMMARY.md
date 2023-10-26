@@ -1,14 +1,11 @@
 # Table of contents
 
 * [💡 Modeling Cognitive Biases](README.md)
-* [〽 eXtreme Design workflow](extreme-design-workflow.md)
-* [🧲 CLOWN Modelling framework](clown-modelling-framework.md)
+* [〽 eXtreme Design Methodology](extreme-design-workflow.md)
 * [🧗 Workflow](workflow.md)
-* [❓ CQ answers](cq-answers.md)
-* [👩🏫 Methodology](undefined.md)
 * [📚 Ontologies](ontologies/README.md)
   * [Problem 1](ontologies/problem-1/README.md)
-    * [Halo effect](ontologies/problem-1/halo-effect.md)
+    * [⚡ Halo effect](ontologies/problem-1/halo-effect.md)
     * [In-group bias](ontologies/problem-1/in-group-bias.md)
     * [Not invented here](ontologies/problem-1/not-invented-here.md)
     * [Cross-race effect](ontologies/problem-1/cross-race-effect.md)

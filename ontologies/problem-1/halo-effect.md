@@ -1,93 +1,52 @@
 ---
-description: Ontology page for the Halo effect
+description: Ontology page for "Halo effect"
+coverY: 0
 ---
 
-# Halo effect
+# ⚡ Halo effect
 
-## Definition
+Halo effect OWL file
 
-The "Halo Effect" is a cognitive bias within the realm of cognitive psychology and social psychology. It describes the tendency of people to form a positive overall impression of a person, product, or organization based on a single positive trait, feature, or experience. In other words, if someone or something is perceived favorably in one aspect, this positive judgment can "radiate" or create a "halo" effect, influencing judgments and evaluations in unrelated areas. This cognitive bias can lead to biased assessments, as individuals may assume that if a person or entity excels in one area, they must excel in others, even when no logical connection exists. The "Halo Effect" highlights how our preconceived notions and cognitive shortcuts can affect our judgment and decision-making processes. It's important to recognize this bias to make more accurate and fair assessments of people and things.
+Diagram for the ontology of Halo effect
 
-## User story
+## 1. Background, Context and Literature State of the Art&#x20;
 
-**User:** John, a human resources manager.
+### Wikipedia:&#x20;
 
-**Objective:** As John, I want to become aware of the "Halo Effect" cognitive bias so that I can make more objective and unbiased hiring decisions.
+The Halo effect (sometimes called the halo error) is the tendency for positive impressions of a person, company, country, brand, or product in one area to positively or negatively influence one's opinion or feelings in other areas.
 
-**Scenario:** John has been in charge of hiring new employees for his company for a while. Lately, he has noticed that he often falls into the trap of the "Halo Effect." He realizes that he tends to form an overly positive opinion about job candidates who excel in one specific area, like having an impressive resume or exceptional communication skills.
+The Halo effect is "the name given to the phenomenon whereby evaluators tend to be influenced by their previous judgments of performance or personality."
 
-**Desired Outcome:** John intends to educate himself about the "Halo Effect" and implement strategies to mitigate its impact on his hiring decisions. He recognizes that by overcoming this bias, he can evaluate candidates more fairly and select the best fit for the job based on a comprehensive assessment of their qualifications and skills.
+The halo effect is a cognitive bias which can possibly prevent someone from accepting a person, a product or a brand based on the idea of an unfounded belief on what is good or bad.
 
-## Competency Questions and answers
+The term was coined by Edward Thorndike. A simplified example of the halo effect is a person, after noticing that an individual in a photograph is attractive, well groomed, and properly attired, then assuming, using a mental heuristic, that the person in the photograph is a good person based upon the rules of their own social concept.
 
-**Competency Question 1:** _Question:_ What is the "Halo Effect" in cognitive bias?
+This constant error in judgement is reflective of the individual's preferences, prejudices, ideology, aspirations, and social perception.
 
-_Answer:_ The "Halo Effect" is a cognitive bias where people form a positive overall impression of a person, product, or organization based on a single positive trait, experience, or aspect, leading to the assumption that other unrelated aspects must also be positive.
+[Wikipedia Link](https://en.wikipedia.org/wiki/Halo\_effect)
 
-**Competency Question 2:** _Question:_ Why is John, the human resources manager, interested in understanding the "Halo Effect"?
+### Research paper:
 
-_Answer:_ John is interested in understanding the "Halo Effect" because he has noticed that it affects his hiring decisions. He tends to overvalue a single impressive quality in job candidates and wants to make more objective hiring choices.
+xxx
 
-**Competency Question 3:** _Question:_ How can John mitigate the impact of the "Halo Effect" on his hiring decisions?
+***
 
-_Answer:_ John can mitigate the "Halo Effect" by educating himself about the bias, using structured interview processes, and seeking input from others in the hiring process to maintain a balanced evaluation of job candidates.
+## 2. LLMs (Large Language Models)
 
-**Competency Question 4:** _Question:_ What are the consequences of the "Halo Effect" in the hiring process?
+### 2.1 - A general description of the bias to get an overall idea of the domain.
 
-_Answer:_ The "Halo Effect" can lead to biased hiring decisions where candidates are evaluated more favorably than they should be based on a single trait. This can result in suboptimal hiring choices and a less diverse and well-rounded workforce.
+The "Halo Effect" is a cognitive bias where individuals tend to form a favorable overall impression of a person, product, or entity based on a single positive trait, experience, or characteristic, which then radiates, or creates a "halo," leading to the presumption that other unrelated aspects or qualities must also be positive. This bias can cloud judgment and decision-making, as it assumes that excellence in one area equates to excellence in others, often resulting in overly positive evaluations and potentially biased assessments.
 
-**Competency Question 5:** _Question:_ What's the benefit of recognizing and addressing cognitive biases like the "Halo Effect" in HR practices?
+### 2.2 - Different examples of possible scenarios to understanding the context of the domain
 
-_Answer:_ Recognizing and addressing cognitive biases, including the "Halo Effect," in HR practices leads to more fair, objective, and effective hiring processes. It helps in selecting the best-qualified candidates and creating a diverse and skilled workforce.
+**1- Job Interview Bias:** Imagine a job interview scenario where the candidate arrives impeccably dressed, exudes confidence, and possesses an impressive academic background. The interviewer is immediately impressed by these qualities and, without thoroughly evaluating other competencies, assumes the candidate must excel in all aspects of the job. This is a classic case of the "Halo Effect," where the positive impression from the candidate's appearance and confidence radiates to influence the overall evaluation.
 
-## Ontology
+**2- Product Marketing:** In the world of consumer products, a well-known brand introduces a new smartphone model. Due to their past reputation for quality, consumers automatically assume that this new product must also be of high quality in all respects, including camera performance, battery life, and durability, even without thorough research or direct experience. The "Halo Effect" from the brand's history influences their perception of the new product.
 
-Ontology for the "Halo effect" and the user story involves defining classes, individuals, and relationships
+**3- Celebrity Admiration:** People often admire celebrities and public figures for their talents or accomplishments in a particular domain, such as acting or sports. The admiration for their expertise can lead to the belief that these individuals are also knowledgeable and credible on a wide range of topics, from politics to nutrition, even when their expertise is limited. The "Halo Effect" in this scenario results from the positive impression of their expertise radiating to areas beyond their actual domain of competence.
 
-### **Classes**
-
-1. **Cognitive Bias:** This class represents the overarching concept of cognitive biases. The "Halo Effect" is a subclass of cognitive biases.
-2. **Halo Effect:** This is a subclass of the "Cognitive Bias" class, representing the specific cognitive bias under consideration.
-3. **Human Resources Manager:** This class represents individuals who work in HR management.
-
-### **Individuals**
-
-1. **John:** An individual belonging to the "Human Resources Manager" class.
-
-### **Relationships**
-
-1. **AffectedBy:** This relationship connects the individual "John" with the "Halo Effect" cognitive bias, indicating that John is affected by this cognitive bias in his HR decisions.
-2. **Mitigates:** This relationship indicates that John is actively taking steps to mitigate the impact of the "Halo Effect" in his hiring decisions.
-3. **Understands:** This relationship shows that John understands the concept of the "Halo Effect."
-
-### **Sample Ontology in Turtle format**
-
-```
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-
-<http://example.org/CognitiveBiasOntology> rdf:type rdfs:Class .
-
-<http://example.org/HaloEffect> rdf:type rdfs:Class .
-<http://example.org/HaloEffect> rdfs:subClassOf <http://example.org/CognitiveBiasOntology> .
-
-<http://example.org/HumanResourcesManager> rdf:type rdfs:Class .
-
-<http://example.org/John> rdf:type <http://example.org/HumanResourcesManager> .
-
-<http://example.org/AffectedBy> rdf:type rdf:Property .
-<http://example.org/AffectedBy> rdfs:domain <http://example.org/HumanResourcesManager> .
-<http://example.org/AffectedBy> rdfs:range <http://example.org/HaloEffect> .
-
-<http://example.org/Mitigates> rdf:type rdf:Property .
-<http://example.org/Mitigates> rdfs:domain <http://example.org/HumanResourcesManager> .
-
-<http://example.org/Understands> rdf:type rdf:Property .
-<http://example.org/Understands> rdfs:domain <http://example.org/HumanResourcesManager> .
-<http://example.org/Understands> rdfs:range <http://example.org/HaloEffect> .
-
-```
-
-This is a simplified ontology to demonstrate the relationships between classes, individuals, and the "Halo Effect" cognitive bias, as well as John's actions and understanding. A real-world ontology would be more comprehensive and structured.
+### 2.3 - Choosing one scenario as our main user story and generate competency questions
 
 \
+
+
