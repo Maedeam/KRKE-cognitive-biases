@@ -150,17 +150,15 @@ These examples demonstrate how the ontology's classes and properties can be appl
 
 _<mark style="color:green;">Words as Frame Semantic Triggers</mark>_
 
-To further align the biases with existing semantic frames in Framester, we leverage powerful knowledge extraction tools like QUOKKA's "Concepts Extractor" and FRED.
+To further align the biases with existing semantic frames in Framester, we leverage powerful knowledge extraction tools like [QUOKKA](http://etna.istc.cnr.it/quokka/)&#x20;
 
-In QUOKKA, we extracted concepts from the following lexical units:
+Within [QUOKKA](http://etna.istc.cnr.it/quokka/concepts)[ Concepts Extractor Tool](http://etna.istc.cnr.it/quokka/concepts), we derived concepts from the following three lexical units as our SLM (Starting Lexical Material):
 
 * 1
 * 2
 * 3
 
-We cross our results with the ones obtained in FRED by putting the following scenario:
 
-**Celebrity Admiration:** Fans assume that a beloved actor's expertise in film extends to topics like politics and nutrition, demonstrating the "Halo Effect" where excellence in one area leads to broader credibility.
 
 
 

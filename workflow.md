@@ -1,22 +1,34 @@
 ---
-description: 'Project Documentation: The Ontology Development Workflow'
+description: 'Project documentation: our workflow in this project'
 cover: .gitbook/assets/iStock-1172252198.webp
 coverY: -270.0260586319218
 ---
 
 # 🧗 Workflow
 
-This comprehensive project documentation outlines the essential phases of developing an ontology focused on modelling two clusters of cognitive biases using the eXtreme Design approach. Our primary objective is to construct a task-specific Application Ontology tailored precisely to the domain at hand.
+This extensive project documentation outlines the essential phases of developing an ontology focused on modelling two clusters of cognitive biases using the [_eXtreme Design pproach_](extreme-design-workflow.md). Our primary objective is to construct a task-specific Application Ontology tailored precisely to the domain at hand.
 
-In this project, we adopt a hybrid methodology that blends both top-down and text-driven approaches. Initially, we utilize a top-down approach to comprehensively grasp and define the Universe of Discourse. Furthermore, we harness potent tools such as QUOKKA and FRED to enhance our knowledge extraction from textual sources. This enrichment process allows us to validate and augment the ontology with invaluable insights derived from the textual data. This combined methodology ensures the robustness and comprehensiveness of the ontology, stemming from a fusion of theoretical conceptualization and empirical data.
+In this project, we use a mix of methods. First, we start with a top-down approach to understand and define our main subject. Then, we make it even better by using helpful tools like [_QUOKKA_](tools.md) and [_FRED_](tools.md) to enhance knowledge extraction from textual sources, enabling us to enrich and validate the ontology with valuable insights derived from the text. This way, we create a strong and complete ontology using both ideas and real information
 
-Following enlightening discussions and guidance from _Prof. Aldo Gangemi_ and _Stefano De Giorgis_, we have identified the initial steps necessary for advancing from the planning phase to the practical implementation of our ontology project.
+Following enlightening discussions and guidance from [_Prof. Aldo Gangemi_](https://www.unibo.it/sitoweb/aldo.gangemi/en) and [_Stefano De Giorgis_](https://www.unibo.it/sitoweb/stefano.degiorgis2/en), we have identified the initial steps necessary for advancing from the planning phase to the practical implementation of our ontology project.
 
-## 1. Background, Context and Literature State of the Art&#x20;
+## 1. Literature Review
 
-To understand how biases work, we began by looking at what experts and sources like Wikipedia had to say. We read academic papers and articles from specialized journals. This helped us form our initial understanding of how biases behave and what makes them tick. We also used ChatGPT, a clever tool that can write and give us insights like a human expert. This way, we could learn from both traditional experts and advanced technology. We made sure the information we collected was trustworthy, relevant, and up-to-date. By combining all these sources, we built a strong foundation for our project. This way, our work fits with the most current knowledge about biases and how they relate to the web and technology.
+_<mark style="color:green;">Background, Context and Literature State of the Art</mark>_&#x20;
 
-## 2. LLMs (Large Language Models)
+To understand how biases work, we start by referring to [_Wikipedia_](https://www.wikipedia.org/) to gain a foundational understanding and precise definition of the biases under investigation. We also read academic papers and articles from specialized journals. This helped us form our initial understanding of how biases behave and what makes them tick.
 
-We use _AI_ and _Larg Language Models_ to turn bias definitions into user stories. _ChatGPT_ helps us create these stories and scenarios. We extract _Lexical Units_ from the textual contents, which will be utilized to find semantic frames in _Framester_. As part of the _XD_ procedure, we create _Competency Questions (CQs)_ from the scenarios. Analyzing these _CQs_ helps us identify classes and properties restrictions needed to answer them effectively. Whenever we run into problems while we're building the project, we can check _Ontology Design Patterns_ for ideas on how to solve them.
+## 2. LLMs
+
+_<mark style="color:green;">Large Language Models</mark>_
+
+We use _AIs like_ [_ChatGPT_](https://chat.openai.com/) and _Larg Language Models_ to turn bias definitions into user stories. [_ChatGPT_](https://chat.openai.com/) helps us create these stories and scenarios. We extract [_Lexical Units_](glossary.md#lexical-units) from the textual contents, which will be utilized to find [_Semantic Frames_](glossary.md#frame-semantics) in _Framester_. As part of the _XD_ procedure, we create _Competency Questions (CQs)_ from the scenarios. Analyzing these _CQs_ helps us identify classes and properties restrictions needed to answer them effectively. Whenever we run into problems while we're building the project, we can check _Ontology Design Patterns_ for ideas on how to solve them.
+
+## 3. Frame Semantic Triggers
+
+_<mark style="color:green;">Words as Frame Semantic Triggers</mark>_
+
+We
+
+
 
