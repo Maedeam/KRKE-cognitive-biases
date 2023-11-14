@@ -28,23 +28,21 @@ Diagram for the ontology of Halo effect
 
 _<mark style="color:green;">Background, Context and Literature State of the Art</mark>_&#x20;
 
-### Wikipedia:&#x20;
+### Wikipedia&#x20;
 
-The Halo effect (sometimes called the halo error) is the tendency for positive impressions of a person, company, country, brand, or product in one area to positively or negatively influence one's opinion or feelings in other areas.
-
-The Halo effect is "the name given to the phenomenon whereby evaluators tend to be influenced by their previous judgments of performance or personality."
-
-The halo effect is a cognitive bias which can possibly prevent someone from accepting a person, a product or a brand based on the idea of an unfounded belief on what is good or bad.
-
-The term was coined by Edward Thorndike. A simplified example of the halo effect is a person, after noticing that an individual in a photograph is attractive, well groomed, and properly attired, then assuming, using a mental heuristic, that the person in the photograph is a good person based upon the rules of their own social concept.
-
-This constant error in judgement is reflective of the individual's preferences, prejudices, ideology, aspirations, and social perception.
+The halo effect (sometimes called the halo error) is the tendency for positive impressions of a person, company, country, brand, or product in one area to positively or negatively influence one's opinion or feelings in other areas. The Halo effect is "the name given to the phenomenon whereby evaluators tend to be influenced by their previous judgments of performance or personality." The Halo effect is a [Cognitive Bias](https://en.wikipedia.org/wiki/Cognitive\_bias) which can possibly prevent someone from accepting a person, a product or a brand based on the idea of an unfounded belief on what is good or bad.
 
 [Wikipedia Link](https://en.wikipedia.org/wiki/Halo\_effect)
 
-### Research Paper(s):
+### Research Paper(s)
 
-xxx
+\[1] Nisbett, Richard E. & Timothy D. Wilson (1977). The halo effect: evidence for unconscious alteration of judgments. Journal of Personality and Social Psychology 35(4): 250.
+
+\[2] Abikoff, Howard, Mary Courtney, William E. Pelham & Harold S. Koplewicz (1993). Teachers' ratings of disruptive behaviors: The influence of halo effects. Journal of Abnormal Child Psychology 21(5): 519-533.
+
+\[3] Forgas, Joseph P. (2011). She just doesn't look like a philosopher…? Affective influences on the halo effect in impression formation. European Journal of Social Psychology 41(7): 812-817.
+
+\[4] Wetzel, Christopher G., Timothy D. Wilson & James Kort (1981). The halo effect revisited: Forewarned is not forearmed. Journal of Experimental Social Psychology 17(4): 427-439.
 
 ***
 
@@ -56,46 +54,60 @@ _<mark style="color:green;">Large Language Models</mark>_
 
 _<mark style="color:green;">A general description of the bias to get an overall idea of the domain</mark>_
 
-The "Halo Effect" is a cognitive bias where individuals tend to form a favorable overall impression of a person, product, or entity based on a single positive trait, experience, or characteristic, which then radiates, or creates a "halo," leading to the presumption that other unrelated aspects or qualities must also be positive. This bias can cloud judgment and decision-making, as it assumes that excellence in one area equates to excellence in others, often resulting in overly positive evaluations and potentially biased assessments.
+The "Halo Effect" is a cognitive bias that influences individuals to form a favorable overall impression of a person, product, or entity based on a single positive trait, experience, or characteristic. This positive evaluation creates a metaphorical "halo" around the subject, leading to the assumption that other unrelated aspects or qualities must also be positive. In essence, the Halo Effect occurs when a positive perception in one area extends to influence judgments in unrelated areas, clouding objectivity. This bias can result in overly positive evaluations and skewed assessments, as individuals project their admiration or approval from one specific aspect onto the overall entity, sometimes leading to inaccurate or biased conclusions.
 
 ### 2.2. Examples Scenarios
 
 _<mark style="color:green;">Ten different examples of possible scenarios to understanding the context of the domain</mark>_
 
-1. Job Interview: An applicant for a job position is an excellent athlete, leading the interviewer to assume they are equally competent in their professional skills.
-2. Celebrity Admiration: Fans assume that a beloved actor's expertise in film extends to topics like politics and nutrition, demonstrating the "Halo Effect" where excellence in one area leads to broader credibility.
-3. Expert Opinion: A well-respected scientist expresses their views on climate change, and the public automatically trusts their advice on unrelated scientific matters, such as medical research.
-4. Attractive Politician: A politician is considered physically attractive, and voters assume they are more capable and honest in their political decisions.
-5. Popular Teacher: A teacher who is liked by many students for their sense of humor is believed to be an excellent educator in all subjects, even those outside their expertise.
-6. Company Reputation: A tech company is known for creating innovative software, leading consumers to believe that their hardware products must also be of high quality.
-7. Nobel Laureate: A Nobel Prize winner in physics is asked for their opinion on a complex political issue, and many assume their expertise extends to political matters.
-8. Philanthropic Act: A wealthy philanthropist donates a substantial amount to a charitable cause, and people assume they must be morally superior in all aspects of life.
-9. Celebrity Chef: A famous chef prepares a delightful dish on a cooking show, and viewers assume they are equally skilled in other culinary styles or unrelated fields.
-10. Sports Star: A renowned athlete endorses a brand of energy drinks, and consumers believe that drinking the product will make them as physically fit and skilled as the athlete.
+1. **Interview Impressions:** A job candidate, known for a prestigious accomplishment, is automatically assumed to possess strong leadership skills and expertise in various areas, influencing interviewers to positively evaluate unrelated qualifications.
+2. **Celebrity Influence:** Fans of a famous musician may extend their admiration for the artist's musical talent to presume expertise in other fields, like endorsing a product or expressing political opinions.
+3. **Physical Attractiveness:** Individuals deemed physically attractive may be unconsciously perceived as possessing positive qualities in areas such as intelligence or kindness, solely based on their appearance.
+4. **Company Reputation:** A company renowned for its innovative products might benefit from the Halo Effect, with consumers assuming excellence in customer service and ethical practices, even in the absence of direct evidence.
+5. **Academic Achievements:** A student excelling in one subject is often perceived as competent in all subjects, showcasing the Halo Effect in educational settings.
+6. **Political Figures:** Supporters of a political figure may attribute competence in various policy areas based on charisma or success in a specific domain, impacting overall political judgments.
+7. **Athletic Endorsements:** An athlete's endorsement of a product might lead consumers to believe in the product's quality, even if the athlete's expertise lies solely in sports.
+8. **Social Media Influence:** Influencers with a large following may experience the Halo Effect, where their audience assumes expertise in diverse fields beyond their primary content domain.
+9. **Charitable Activities:** Individuals engaged in charitable work might be perceived as virtuous in all aspects of their lives, leading to a positive Halo Effect on their character.
+10. **Product Packaging:** A well-designed and visually appealing product package may influence consumers to assume superior quality and functionality, creating a positive Halo Effect for the entire product.
 
-### 2.3 - Main Scenario
+### 2.3 Main Scenario
 
-_<mark style="color:green;">Considering one scenario, here the</mark> <mark style="color:green;"></mark><mark style="color:green;">**Celebrity Admiration,**</mark> <mark style="color:green;"></mark><mark style="color:green;">as our main user story and generate competency questions from that</mark>_
+_<mark style="color:green;">Considering one scenario; here the</mark> <mark style="color:green;"></mark><mark style="color:green;">**Social Media Influence,**</mark> <mark style="color:green;"></mark><mark style="color:green;">as our main user story</mark>_
 
-User Story: Understanding Celebrity Admiration and the Halo Effect
+**User Story:** Navigating Social Media Influence and the Halo Effect
 
-User: Sarah, an avid fan of a well-known actor, Alex.
+**User:** Emma, an avid follower of a popular social media influencer, Lily.
 
-Objective: As Sarah, I want to recognize and overcome the "Halo Effect" related to my admiration for Alex, the actor, to make more informed judgments about the actor's expertise in areas outside of acting.
+**Objective:** As Emma, I aim to critically assess the recommendations and opinions of Lily, the influencer, on various topics, recognizing and mitigating the potential Halo Effect that might influence my judgments.
 
-Scenario: Sarah has always been a fan of Alex for their outstanding acting skills. She has followed Alex's career closely and admires their performances in various movies and television series. Recently, Alex made public statements about environmental conservation, advocating for sustainable practices. Sarah found herself wholeheartedly supporting Alex's stance on the environment, assuming that someone so talented in acting must also be highly knowledgeable about ecological matters.
+**Scenario:** Lily, known for her engaging content on fashion and lifestyle, starts expressing opinions on environmental conservation. Emma, impressed by Lily's fashion sense, automatically assumes Lily's expertise in environmental matters, supporting Lily's initiatives without independently evaluating their environmental impact.
 
-Desired Outcome: Sarah recognizes that her admiration for Alex in the realm of acting may have led to a cognitive bias, the "Halo Effect," influencing her perception of Alex's expertise in unrelated fields. She aims to evaluate environmental matters and other subjects independently from her admiration for the actor, ensuring a more balanced and informed approach to the causes and topics she supports.
+**Desired Outcome:** Emma, realizing the potential Halo Effect, decides to delve deeper into environmental issues. She seeks information from reliable sources, ensuring a more informed stance, separating Lily's influence in fashion from her credibility on environmental topics. Emma aims to avoid undue biases and make decisions based on a comprehensive understanding of each subject.
 
 ### 2.4. Possible CQs
 
 _<mark style="color:green;">Generating some possible competency questions</mark>_
 
-Now we derive Three different possible CQs from the user story:
+**1. AgentRole Competency Question:**
 
-* CQ1: What factors contribute to the "Halo Effect" in celebrity admiration?
-* CQ2: How can individuals recognize and mitigate the "Halo Effect" in their judgments?
-* CQ3: What are the implications of the "Halo Effect" on public support for various causes and topics?
+* **CQ1-1:** Who is the primary agent influencing Emma's opinions in the scenario?
+* **CQ1-2:** What role does Lily, the social media influencer, play in shaping Emma's perspectives
+* **CQ1-3:** Are there other agents aside from Lily that contribute to Emma's decision-making regarding environmental matters?
+
+**2. Sequence Competency Question:**
+
+* **CQ2-1:** What events or content precede Lily expressing opinions on environmental conservation in Emma's social media feed?
+* **CQ2-2:** What follows Emma's initial support for Lily's initiatives in the context of environmental matters?
+* **CQ2-3:** What is the sequence of events leading to Emma's realization of the potential Halo Effect?
+
+**3. Situation Competency Question:**
+
+* **CQ3-1:** What is the broader context or situation in which Emma encounters Lily's opinions on environmental issues?
+* **CQ3-2:** What factors are present in the social media environment that contribute to Emma's automatic support for Lily's environmental initiatives?
+* **CQ3-3:** How does Emma's understanding of the broader situation evolve as she navigates through Lily's content and environmental topics?
+
+These competency questions aim to address the roles, sequences, and situations surrounding the user story, providing a comprehensive exploration of the factors influencing Emma's decision-making.
 
 ### 2.5. Modelling Bias
 
@@ -103,46 +115,76 @@ _<mark style="color:green;">For making an Ontology and modelling the bias, we ca
 
 **Classes:**
 
-1. **CognitiveBias:** Represents various types of cognitive biases, including the "Halo Effect." This class serves as a superclass for specific types of biases.
-2. **BiasType:** Represents different categories of cognitive biases that generalize traits or attributes to specific individuals, like the "Halo Effect."
-3. **HaloEffectBias:** Instances of biases related to the "Halo Effect" where individuals tend to form a favorable overall impression of a person based on a single positive trait.
-4. **Individual:** Represents individuals, such as Sarah and Alex, who are subject to the "Halo Effect."
-5. **Trait:** Represents specific traits or characteristics, for example, Alex's acting skills and environmental advocacy.
-6. **AreaOfExpertise:** Represents different fields of expertise, for example, acting and environmental conservation.
+* **CognitiveBias**: Represents various types of cognitive biases, including the "Halo Effect." This class serves as a superclass for specific types of biases.
+* **BiasType**: Represents different categories or types of biases. In this case, it would include the "Halo Effect" as a specific type of cognitive bias.
+* **TargetDomain**: Represents the specific domain or area where the "Halo Effect" occurs. For example, in the scenario of celebrity admiration, the target domain could be the celebrity's expertise outside of their primary field.
+* **InfluencingFactor**: Represents factors or traits that contribute to the formation of the "Halo Effect." This could include traits like talent, charisma, or public image.
 
 **Properties:**
 
-1. **hasBiasType:** Connects an Individual to its corresponding BiasType instance, indicating the type of cognitive bias involved (e.g., "HaloEffectBias").
-2. **hasTrait:** Connects an Individual to their specific traits or characteristics. For example, it connects Sarah to her admiration for Alex's acting skills and his environmental advocacy.
-3. **isKnownFor:** Connects an Individual to their areas of expertise or fields they are known for. For example, it connects Alex to his expertise in acting and environmental conservation.
-4. **hasOpinion:** Connects an Individual to their opinions and beliefs. In this case, it would connect Sarah to her support for Alex's environmental stance.
-5. **isInfluencedBy:** Connects an Individual to entities, such as celebrities or influencers, that influence their opinions and beliefs. This could connect Sarah to her influence by Alex's performances.
+* **hasBiasType**: Connects a CognitiveBias instance to its corresponding BiasType instance, indicating that it is a specific type of bias, such as the "Halo Effect."
+* **targetsDomain**: Specifies the TargetDomain instance that is the subject of the "Halo Effect" in a particular scenario.
+* **isInfluencedBy**: Connects an instance of the "Halo Effect" to the factors or traits (InfluencingFactor) that contribute to its occurrence.
+* **resultsInPerception**: Indicates the impact of the "Halo Effect" on perception or judgment. For example, it could represent the perception that excellence in one area implies excellence in unrelated areas.
 
-These classes and properties should provide a foundation for representing the "Halo Effect" and how it relates to individuals and their areas of expertise. You can further expand or customize this ontology based on your specific requirements and use cases.
+These classes and properties provide a foundational structure for modeling the "Halo Effect" in different contexts and scenarios. The ontology can be extended or refined based on specific use cases and requirements.
 
 ### 2.6. Examples Ontology
 
 _<mark style="color:green;">Three different examples of usage of the Ontology</mark>_
 
-**Example 1: Identifying Cognitive Bias**
+**Example 1: Celebrity Admiration Scenario**
 
-* **Instance:** Sarah
-* **Scenario:** Sarah, as a fan of Alex, supports his stance on environmental conservation due to her admiration for his acting skills.
-* **Usage:** We can create an instance of the `EssentialismBias` class representing the "Halo Effect" cognitive bias. This instance links to `Sarah` as the observer and `Alex` as the target actor. The `hasBiasType` property connects it to the specific `BiasType` representing the "Halo Effect."
+Class Instances:
 
-**Example 2: Analyzing Influence**
+* Instance of CognitiveBias: "Halo Effect"
+* Instance of BiasType: "Celebrity Bias"
+* Instance of TargetDomain: "Environmental Advocacy"
+* Instance of InfluencingFactor: "Public Statements"
 
-* **Instance:** Alex
-* **Scenario:** Alex's celebrity status and acting skills influence Sarah's perception of his expertise in environmental matters.
-* **Usage:** We can create an instance of the `Influence` class to represent the influence that Alex has on Sarah. The `hasName` property can be used to assign a name or label to this influence, such as "Celebrity Influence." This can help analyze how social or cultural influences affect cognitive biases.
+Properties:
 
-**Example 3: Recognizing Cognitive Bias Impact**
+* hasBiasType: Connects "Halo Effect" to "Celebrity Bias."
+* targetsDomain: Connects "Halo Effect" to "Environmental Advocacy."
+* isInfluencedBy: Connects "Halo Effect" to "Public Statements."
 
-* **Instance:** Sarah
-* **Scenario:** Sarah recognizes that her admiration for Alex may have led to the "Halo Effect" bias influencing her perception.
-* **Usage:** We can create an instance of the `CognitiveBias` class with the `EssentialismBias` subclass that represents the "Halo Effect." This instance links to `Sarah` as the individual experiencing the bias. Additionally, the `isAttributedToGroup` property can be used to associate traits or attributes with specific groups to better understand the impact of biases on group interactions.
 
-These examples demonstrate how the ontology's classes and properties can be applied to capture and analyze instances related to the "Halo Effect" and its influence on individuals like Sarah.
+
+**Example 2: Product Review Bias Scenario**
+
+Class Instances:
+
+* Instance of CognitiveBias: "Halo Effect"
+* Instance of BiasType: "Product Review Bias"
+* Instance of TargetDomain: "Product Expertise"
+* Instance of InfluencingFactor: "Positive User Experience"
+
+Properties:
+
+* hasBiasType: Connects "Halo Effect" to "Product Review Bias."
+* targetsDomain: Connects "Halo Effect" to "Product Expertise."
+* isInfluencedBy: Connects "Halo Effect" to "Positive User Experience."
+
+
+
+**Example 3: Academic Achievement Bias Scenario**
+
+Class Instances:
+
+* Instance of CognitiveBias: "Halo Effect"
+* Instance of BiasType: "Academic Achievement Bias"
+* Instance of TargetDomain: "General Intelligence"
+* Instance of InfluencingFactor: "High Grades"
+
+Properties:
+
+* hasBiasType: Connects "Halo Effect" to "Academic Achievement Bias."
+* targetsDomain: Connects "Halo Effect" to "General Intelligence."
+* isInfluencedBy: Connects "Halo Effect" to "High Grades."
+
+
+
+These examples demonstrate how the defined ontology can be instantiated in different scenarios, such as celebrity admiration, product reviews, or academic achievement, capturing the relationships between classes and properties.
 
 ***
 
@@ -150,13 +192,24 @@ These examples demonstrate how the ontology's classes and properties can be appl
 
 _<mark style="color:green;">Words as Frame Semantic Triggers</mark>_
 
-To further align the biases with existing semantic frames in Framester, we leverage powerful knowledge extraction tools like [QUOKKA](http://etna.istc.cnr.it/quokka/)&#x20;
+To better synchronize the biases with established semantic frames in Framester, we use knowledge extraction tools like [QUOKKA's Concepts Extractor Tool](http://etna.istc.cnr.it/quokka/concepts) and [FRED](http://wit.istc.cnr.it/stlab-tools/fred/demo/).
 
-Within [QUOKKA](http://etna.istc.cnr.it/quokka/concepts)[ Concepts Extractor Tool](http://etna.istc.cnr.it/quokka/concepts), we derived concepts from the following three lexical units as our SLM (Starting Lexical Material):
+### 3.1. Starting Lexical Material (SLM),
 
-* 1
-* 2
-* 3
+_<mark style="color:green;">Choosing these 3 Lexical Units, then extracted concepts in QUOKKA's</mark>_
+
+* celebrity
+* audience
+* perspective
+* judgement
+
+\
+Social Media Influence scenario:
+
+Influencers with a large following may experience the Halo Effect, where their audience assumes expertise in diverse fields beyond their primary content domain.
+
+\
+
 
 
 

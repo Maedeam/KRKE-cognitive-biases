@@ -22,13 +22,29 @@ To understand how biases work, we start by referring to [_Wikipedia_](https://ww
 
 _<mark style="color:green;">Large Language Models</mark>_
 
-We use _AIs like_ [_ChatGPT_](https://chat.openai.com/) and _Larg Language Models_ to turn bias definitions into user stories. [_ChatGPT_](https://chat.openai.com/) helps us create these stories and scenarios. We extract [_Lexical Units_](glossary.md#lexical-units) from the textual contents, which will be utilized to find [_Semantic Frames_](glossary.md#frame-semantics) in _Framester_. As part of the _XD_ procedure, we create _Competency Questions (CQs)_ from the scenarios. Analyzing these _CQs_ helps us identify classes and properties restrictions needed to answer them effectively. Whenever we run into problems while we're building the project, we can check _Ontology Design Patterns_ for ideas on how to solve them.
+_LLM_s play a significant role in ontology development, providing suggestions, generating ontological elements, and aiding in the extraction of relevant information from textual sources. We use _AI_ like[ _ChatGPT_](https://chat.openai.com/) and [_Bard_](https://bard.google.com/chat) to create _Large Language Models_ to turn biases definitions into user stories.
+
+We initially ask _AI_ a broad definition of biases and then request to generation ten different hypothetical scenarios to illuminate that particular bias. Among them, we selected one of the most tangible scenarios and crafted a user story. Subsequently, we extracted three different competency questions from this scenario, aiming to cover three main domains during the selection of these _CQ_s:
+
+[AgentRole CPs](http://ontologydesignpatterns.org/wiki/Submissions:AgentRole)
+
+Which agent does play this role? And What is the role that is played by that agent?
+
+[Sequence CPs](http://ontologydesignpatterns.org/wiki/Submissions:Sequence)
+
+What is before what? What's next? and What's immediately following this?
+
+[Situation CPs](http://ontologydesignpatterns.org/wiki/Submissions:Situation)
+
+What is the context or situation of something? and What are the things present in this context or situation?
+
+Following this, with the assistance of _AI_, we created classes and properties for bias modeling. Finally, for better users comprehension of these classes and properties, we presented three diverse examples.
 
 ## 3. Frame Semantic Triggers
 
 _<mark style="color:green;">Words as Frame Semantic Triggers</mark>_
 
-We
+We extract [_Lexical Units_](glossary.md#lexical-units) from the textual contents, which will be utilized to find [_Semantic Frames_](glossary.md#frame-semantics) in _Framester_. As part of the _XD_ procedure, we create _Competency Questions (CQs)_ from the scenarios. Analyzing these _CQs_ helps us identify classes and properties restrictions needed to answer them effectively. Whenever we run into problems while we're building the project, we can check _Ontology Design Patterns_ for ideas on how to solve them.
 
 
 
