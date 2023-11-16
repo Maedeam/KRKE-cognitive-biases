@@ -1,0 +1,140 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/stefanodegiorgis/ontologies/2023/10/untitled-ontology-8/"
+     xml:base="http://www.semanticweb.org/stefanodegiorgis/ontologies/2023/10/untitled-ontology-8/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-8="http://www.semanticweb.org/stefanodegiorgis/ontologies/2023/10/untitled-ontology-8#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/stefanodegiorgis/ontologies/2023/10/untitled-ontology-8"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/stefanodegiorgis/ontologies/2023/10/untitled-ontology-8#influences -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/stefanodegiorgis/ontologies/2023/10/untitled-ontology-8#influences"/>
+    
+
+
+    <!-- http://www.semanticweb.org/stefanodegiorgis/ontologies/2023/10/untitled-ontology-8#owns -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/stefanodegiorgis/ontologies/2023/10/untitled-ontology-8#owns"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/stefanodegiorgis/ontologies/2023/10/untitled-ontology-8#Agent1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stefanodegiorgis/ontologies/2023/10/untitled-ontology-8#Agent1">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/stefanodegiorgis/ontologies/2023/10/untitled-ontology-8#influences"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/stefanodegiorgis/ontologies/2023/10/untitled-ontology-8#Agent2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/stefanodegiorgis/ontologies/2023/10/untitled-ontology-8#owns"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/stefanodegiorgis/ontologies/2023/10/untitled-ontology-8#Celebrity"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stefanodegiorgis/ontologies/2023/10/untitled-ontology-8#Agent2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stefanodegiorgis/ontologies/2023/10/untitled-ontology-8#Agent2"/>
+    
+
+
+    <!-- http://www.semanticweb.org/stefanodegiorgis/ontologies/2023/10/untitled-ontology-8#Celebrity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stefanodegiorgis/ontologies/2023/10/untitled-ontology-8#Celebrity">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/Fame"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stefanodegiorgis/ontologies/2023/10/untitled-ontology-8#OutputDecision -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stefanodegiorgis/ontologies/2023/10/untitled-ontology-8#OutputDecision">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/Deciding"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/framester/data/framestercore/Deciding -->
+
+    <owl:Class rdf:about="https://w3id.org/framester/data/framestercore/Deciding"/>
+    
+
+
+    <!-- https://w3id.org/framester/data/framestercore/Fame -->
+
+    <owl:Class rdf:about="https://w3id.org/framester/data/framestercore/Fame"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/stefanodegiorgis/ontologies/2023/10/untitled-ontology-8#CelebrityOfFamousPerson -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/stefanodegiorgis/ontologies/2023/10/untitled-ontology-8#CelebrityOfFamousPerson">
+        <rdf:type rdf:resource="http://www.semanticweb.org/stefanodegiorgis/ontologies/2023/10/untitled-ontology-8#Celebrity"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/stefanodegiorgis/ontologies/2023/10/untitled-ontology-8#Claire -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/stefanodegiorgis/ontologies/2023/10/untitled-ontology-8#Claire">
+        <rdf:type rdf:resource="http://www.semanticweb.org/stefanodegiorgis/ontologies/2023/10/untitled-ontology-8#Agent2"/>
+        <untitled-ontology-8:influences rdf:resource="http://www.semanticweb.org/stefanodegiorgis/ontologies/2023/10/untitled-ontology-8#Claire"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/stefanodegiorgis/ontologies/2023/10/untitled-ontology-8#FamousPerson -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/stefanodegiorgis/ontologies/2023/10/untitled-ontology-8#FamousPerson">
+        <rdf:type rdf:resource="http://www.semanticweb.org/stefanodegiorgis/ontologies/2023/10/untitled-ontology-8#Agent1"/>
+        <untitled-ontology-8:owns rdf:resource="http://www.semanticweb.org/stefanodegiorgis/ontologies/2023/10/untitled-ontology-8#CelebrityOfFamousPerson"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+
