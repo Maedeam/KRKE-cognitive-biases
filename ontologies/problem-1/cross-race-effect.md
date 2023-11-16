@@ -1,5 +1,5 @@
 ---
-description: Ontology page for "Halo effect"
+description: Ontology page for "Cross Race Effect"
 cover: ../../.gitbook/assets/pb-iv-winter-wealth-wellbeing-banner.jpeg
 coverY: 0
 layout:
@@ -18,7 +18,7 @@ layout:
     visible: true
 ---
 
-# ⚡ Halo effect
+# ⚡ Cross Race Effect
 
 ## 1. Literature Review&#x20;
 
@@ -26,19 +26,19 @@ _<mark style="color:green;">Background, Context and Literature State of the Art<
 
 ### Wikipedia&#x20;
 
-The halo effect (sometimes called the halo error) is the tendency for positive impressions of a person, company, country, brand, or product in one area to positively or negatively influence one's opinion or feelings in other areas. The Halo effect is "the name given to the phenomenon whereby evaluators tend to be influenced by their previous judgments of performance or personality." The Halo effect is a [Cognitive Bias](https://en.wikipedia.org/wiki/Cognitive\_bias) which can possibly prevent someone from accepting a person, a product or a brand based on the idea of an unfounded belief on what is good or bad.
+The cross-race effect, is a [Cognitive Bias](https://en.wikipedia.org/wiki/Cognitive\_bias) which is the tendency to more easily recognize faces that belong to one's own racial group, or racial groups that one has been in contact with. In social psychology, the cross-race effect is described as the "ingroup advantage," whereas in other fields, the effect can be seen as a specific form of the "ingroup advantage" since it is only applied in interracial or inter-ethnic situations. The cross-race effect is thought to contribute to difficulties in cross-race identification, as well as implicit racial bias.
 
-[Wikipedia Link](https://en.wikipedia.org/wiki/Halo\_effect)
+[Wikipedia Link](https://en.wikipedia.org/wiki/Cross-race\_effect)
 
 ### Research Paper(s)
 
-\[1] Nisbett, Richard E. & Timothy D. Wilson (1977). The halo effect: evidence for unconscious alteration of judgments. Journal of Personality and Social Psychology 35(4): 250.
+\[1] _Brigham JC, Bennett LB, Meissner CA, Mitchell TL (2006). "The influence of race on eyewitness memory.". In Lindsay R, Ross D, Read J, Toglia M (eds.). Handbook of Eyewitness Psychology: Memory for People. Lawrence Erlbaum & Associates. pp. 257–281._
 
-\[2] Abikoff, Howard, Mary Courtney, William E. Pelham & Harold S. Koplewicz (1993). Teachers' ratings of disruptive behaviors: The influence of halo effects. Journal of Abnormal Child Psychology 21(5): 519-533.
+\[2] _Marcon JL, Meissner CA, Malpass RS (January 2008). "Cross-race effect in eyewitness identification.". In Cutler BL (ed.). Encyclopedia of Psychology & Law. Vol. 1. Sage Publications. pp. 172–5._ [_ISBN_](https://en.wikipedia.org/wiki/ISBN\_\(identifier\)) [_978-1-4129-5189-0_](https://en.wikipedia.org/wiki/Special:BookSources/978-1-4129-5189-0)_._
 
-\[3] Forgas, Joseph P. (2011). She just doesn't look like a philosopher…? Affective influences on the halo effect in impression formation. European Journal of Social Psychology 41(7): 812-817.
+\[3] _Meissner CA, Brigham JC (2001). "Thirty years of investigating the own-race bias in memory for faces: A meta-analytic review". Psychology, Public Policy, and Law. 7: 3–35._ [_CiteSeerX_](https://en.wikipedia.org/wiki/CiteSeerX\_\(identifier\)) [_10.1.1.468.7169_](https://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.468.7169)_._ [_doi_](https://en.wikipedia.org/wiki/Doi\_\(identifier\))_:_[_10.1037/1076-8971.7.1.3_](https://doi.org/10.1037%2F1076-8971.7.1.3)_._
 
-\[4] Wetzel, Christopher G., Timothy D. Wilson & James Kort (1981). The halo effect revisited: Forewarned is not forearmed. Journal of Experimental Social Psychology 17(4): 427-439.
+\[4] _Sporer SL (2001). "Recognizing faces of other ethnic groups: An integration of theories". Psychology, Public Policy, and Law. 7: 36–97._ [_doi_](https://en.wikipedia.org/wiki/Doi\_\(identifier\))_:_[_10.1037/1076-8971.7.1.36_](https://doi.org/10.1037%2F1076-8971.7.1.36)_._
 
 ***
 
@@ -220,11 +220,11 @@ A person, the Cognizer, thinks about a Topic over a period of time. What is thou
 _<mark style="color:green;">In the last step, we create the bias ontology in the Protege and also a Graph of it</mark>_
 
 {% hint style="success" %}
-[Halo effect OWL file](../../cognitive-biases/Cluster1-FamiliarsBetterThanUnfamiliars/HaloEffect.owl)
+[Cross Race Effect OWL file](../../cognitive-biases/Cluster1-FamiliarsBetterThanUnfamiliars/CrossRaceEffect.owl)
 {% endhint %}
 
-{% embed url="https://service.tib.eu/webvowl/#iri=https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/Cluster1-FamiliarsBetterThanUnfamiliars/HaloEffect.owl" %}
-Visualisation the model of Halo Effect bias
+{% embed url="https://service.tib.eu/webvowl/#iri=https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/Cluster1-FamiliarsBetterThanUnfamiliars/CrossRaceEffect.owl" %}
+Visualisation the model of Cross Race Effect
 {% endembed %}
 
 ## 4. Selected Content Ontology Design Patterns

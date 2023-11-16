@@ -1,5 +1,5 @@
 ---
-description: Ontology page for "Halo effect"
+description: Ontology page for "Implicit Associations Bias"
 cover: ../../.gitbook/assets/pb-iv-winter-wealth-wellbeing-banner.jpeg
 coverY: 0
 layout:
@@ -18,7 +18,7 @@ layout:
     visible: true
 ---
 
-# ⚡ Halo effect
+# ⚡ Implicit Associations Bias
 
 ## 1. Literature Review&#x20;
 
@@ -26,19 +26,21 @@ _<mark style="color:green;">Background, Context and Literature State of the Art<
 
 ### Wikipedia&#x20;
 
-The halo effect (sometimes called the halo error) is the tendency for positive impressions of a person, company, country, brand, or product in one area to positively or negatively influence one's opinion or feelings in other areas. The Halo effect is "the name given to the phenomenon whereby evaluators tend to be influenced by their previous judgments of performance or personality." The Halo effect is a [Cognitive Bias](https://en.wikipedia.org/wiki/Cognitive\_bias) which can possibly prevent someone from accepting a person, a product or a brand based on the idea of an unfounded belief on what is good or bad.
+The implicit-association test (IAT) is an assessment intended to detect subconscious associations between mental representations of objects (concepts) in memory. Its best-known application is the assessment of implicit stereotypes held by test subjects, such as associations between particular racial categories and stereotypes about those groups. The test has been applied to a variety of belief associations, such as those involving racial groups, gender, sexuality, age, and religion but also the self-esteem, political views, and predictions of the test taker. The implicit-association test is the subject of significant academic and popular debate regarding its validity, reliability, and usefulness in assessing implicit bias which is a [Cognitive Bias](https://en.wikipedia.org/wiki/Cognitive\_bias).
 
-[Wikipedia Link](https://en.wikipedia.org/wiki/Halo\_effect)
+[Wikipedia Link](https://en.wikipedia.org/wiki/Implicit-association\_test)
 
 ### Research Paper(s)
 
-\[1] Nisbett, Richard E. & Timothy D. Wilson (1977). The halo effect: evidence for unconscious alteration of judgments. Journal of Personality and Social Psychology 35(4): 250.
+\[1] [Project Implicit – take the test](https://implicit.harvard.edu/implicit/)
 
-\[2] Abikoff, Howard, Mary Courtney, William E. Pelham & Harold S. Koplewicz (1993). Teachers' ratings of disruptive behaviors: The influence of halo effects. Journal of Abnormal Child Psychology 21(5): 519-533.
+\[2] [IAT Review chapter in _Implicit measures of attitudes: Procedures and controversies_ (seven years after IAT creation)](http://faculty.washington.edu/agg/pdf/Lane%20et%20al.UUIAT4.2007.pdf)
 
-\[3] Forgas, Joseph P. (2011). She just doesn't look like a philosopher…? Affective influences on the halo effect in impression formation. European Journal of Social Psychology 41(7): 812-817.
+\[3] [IAT Review chapter in _Zeitschrift für Experimentelle Psychologie_ (three years after IAT creation)](http://faculty.washington.edu/agg/pdf/Gwald\_Nosek\_ZEITSCHR\_2001.OCR.pdf)
 
-\[4] Wetzel, Christopher G., Timothy D. Wilson & James Kort (1981). The halo effect revisited: Forewarned is not forearmed. Journal of Experimental Social Psychology 17(4): 427-439.
+\[4] [Discussion of IAT critiques in American Psychological Association article](http://www.apa.org/monitor/2008/07-08/psychometric.aspx)
+
+\[5] [Further Readings on Unconscious Bias](http://tierneylab.blogs.nytimes.com/2008/11/17/further-reading-on-unconscious-bias/) from John Tierney New York Times column on [Bias of Bias test](https://www.nytimes.com/2008/11/18/science/18tier.html)
 
 ***
 
@@ -220,11 +222,11 @@ A person, the Cognizer, thinks about a Topic over a period of time. What is thou
 _<mark style="color:green;">In the last step, we create the bias ontology in the Protege and also a Graph of it</mark>_
 
 {% hint style="success" %}
-[Halo effect OWL file](../../cognitive-biases/Cluster1-FamiliarsBetterThanUnfamiliars/HaloEffect.owl)
+[Implicit Associations Bias OWL file](../../cognitive-biases/Cluster2-DiscardSpecificsFormGeneralities/ImplicitAssociations.owl)
 {% endhint %}
 
-{% embed url="https://service.tib.eu/webvowl/#iri=https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/Cluster1-FamiliarsBetterThanUnfamiliars/HaloEffect.owl" %}
-Visualisation the model of Halo Effect bias
+{% embed url="https://service.tib.eu/webvowl/#iri=https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/Cluster2-DiscardSpecificsFormGeneralities/ImplicitAssociations.owl" %}
+Visualisation the model of Implicit Associations Bias
 {% endembed %}
 
 ## 4. Selected Content Ontology Design Patterns

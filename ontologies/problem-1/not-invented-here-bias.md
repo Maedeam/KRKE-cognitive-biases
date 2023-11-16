@@ -1,5 +1,5 @@
 ---
-description: Ontology page for "Halo effect"
+description: Ontology page for "Not Invented Here Bias"
 cover: ../../.gitbook/assets/pb-iv-winter-wealth-wellbeing-banner.jpeg
 coverY: 0
 layout:
@@ -18,7 +18,7 @@ layout:
     visible: true
 ---
 
-# ⚡ Halo effect
+# ⚡ Not Invented Here Bias
 
 ## 1. Literature Review&#x20;
 
@@ -26,19 +26,21 @@ _<mark style="color:green;">Background, Context and Literature State of the Art<
 
 ### Wikipedia&#x20;
 
-The halo effect (sometimes called the halo error) is the tendency for positive impressions of a person, company, country, brand, or product in one area to positively or negatively influence one's opinion or feelings in other areas. The Halo effect is "the name given to the phenomenon whereby evaluators tend to be influenced by their previous judgments of performance or personality." The Halo effect is a [Cognitive Bias](https://en.wikipedia.org/wiki/Cognitive\_bias) which can possibly prevent someone from accepting a person, a product or a brand based on the idea of an unfounded belief on what is good or bad.
+Not invented here bias is a [Cognitive Bias](https://en.wikipedia.org/wiki/Cognitive\_bias) which is the tendency to avoid using or buying products, research, standards, or knowledge from external origins. It is usually adopted by social, corporate, or institutional cultures. Research illustrates a strong bias against ideas from the outside. The reasons for not wanting to use the work of others are varied, but can include a desire to support a local economy instead of paying royalties to a foreign license-holder, fear of patent infringement, lack of understanding of the foreign work, an unwillingness to acknowledge or value the work of others, jealousy, belief perseverance, or forming part of a wider turf war. As a social phenomenon, this tendency can manifest itself as an unwillingness to adopt an idea or product because it originates from another culture, a form of tribalism and/or an inadequate effort in choosing the right approach for the business. The term is typically used in a pejorative sense. The opposite predisposition is sometimes called "proudly found elsewhere" or "invented elsewhere".
 
-[Wikipedia Link](https://en.wikipedia.org/wiki/Halo\_effect)
+[Wikipedia Link](https://en.wikipedia.org/wiki/Not\_invented\_here)
 
 ### Research Paper(s)
 
-\[1] Nisbett, Richard E. & Timothy D. Wilson (1977). The halo effect: evidence for unconscious alteration of judgments. Journal of Personality and Social Psychology 35(4): 250.
+\[1] _Piezunka, Henning; Dahlander, Linus (26 June 2014). "Distant Search, Narrow Attention: How Crowding Alters Organizations' Filtering of Suggestions in Crowdsourcing". Academy of Management Journal. 58 (3): 856–880._ [_doi_](https://en.wikipedia.org/wiki/Doi\_\(identifier\))_:_[_10.5465/amj.2012.0458_](https://doi.org/10.5465%2Famj.2012.0458)_._
 
-\[2] Abikoff, Howard, Mary Courtney, William E. Pelham & Harold S. Koplewicz (1993). Teachers' ratings of disruptive behaviors: The influence of halo effects. Journal of Abnormal Child Psychology 21(5): 519-533.
+\[2] _Webb, Nicholas J.; Thoen, Chris (2010). The Innovation Playbook: A Revolution in Business Excellence. John Wiley and Sons._ [_ISBN_](https://en.wikipedia.org/wiki/ISBN\_\(identifier\)) [_978-0-470-63796-8_](https://en.wikipedia.org/wiki/Special:BookSources/978-0-470-63796-8)_._
 
-\[3] Forgas, Joseph P. (2011). She just doesn't look like a philosopher…? Affective influences on the halo effect in impression formation. European Journal of Social Psychology 41(7): 812-817.
+\[3] _Floud, Roderick; Johnson, Paul, eds. (2003)._ [_The Cambridge Economic History of Modern Britain_](https://books.google.com/books?id=zociQR9kLm8C\&pg=PA100)_. Vol. 3. Cambridge University Press. p. 100._ [_ISBN_](https://en.wikipedia.org/wiki/ISBN\_\(identifier\)) [_9780521527385_](https://en.wikipedia.org/wiki/Special:BookSources/9780521527385)_._
 
-\[4] Wetzel, Christopher G., Timothy D. Wilson & James Kort (1981). The halo effect revisited: Forewarned is not forearmed. Journal of Experimental Social Psychology 17(4): 427-439.
+\[4] _Hagler, Bo (2020-03-04)._ [_"Build Vs. Buy: Why Most Businesses Should Buy Their Next Software Solution"_](https://www.forbes.com/sites/forbestechcouncil/2020/03/04/build-vs-buy-why-most-businesses-should-buy-their-next-software-solution/?sh=3717b9561128)_. Forbes. Retrieved 2021-10-29._
+
+\[5] _Huston, Larry; Sakkab, Nabil (2006-03-20)._ [_"P\&G's New Innovation Model"_](https://hbswk.hbs.edu/archive/pg-s-new-innovation-model)_. hbswk.hbs.edu. Retrieved 2020-04-18._
 
 ***
 
@@ -220,11 +222,11 @@ A person, the Cognizer, thinks about a Topic over a period of time. What is thou
 _<mark style="color:green;">In the last step, we create the bias ontology in the Protege and also a Graph of it</mark>_
 
 {% hint style="success" %}
-[Halo effect OWL file](../../cognitive-biases/Cluster1-FamiliarsBetterThanUnfamiliars/HaloEffect.owl)
+[Not Invented Here Bias OWL file](../../cognitive-biases/Cluster1-FamiliarsBetterThanUnfamiliars/NotInventedHere.owl)
 {% endhint %}
 
-{% embed url="https://service.tib.eu/webvowl/#iri=https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/Cluster1-FamiliarsBetterThanUnfamiliars/HaloEffect.owl" %}
-Visualisation the model of Halo Effect bias
+{% embed url="https://service.tib.eu/webvowl/#iri=https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/Cluster1-FamiliarsBetterThanUnfamiliars/NotInventedHere.owl" %}
+Visualisation the model of Not Invented Here Bias
 {% endembed %}
 
 ## 4. Selected Content Ontology Design Patterns

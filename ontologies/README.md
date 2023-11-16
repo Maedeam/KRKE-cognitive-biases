@@ -5,4 +5,4 @@ coverY: 0
 
 # 🌐 Ontologies
 
-In this part, we use ChatGPT to find about definitions and get some relevant examples and stories of the choosen clusters.
+In this part, we follow the _**Workflow**_ to find about definitions and get some relevant examples and stories of the chosen clusters. Then provide an ontology module for each biases.

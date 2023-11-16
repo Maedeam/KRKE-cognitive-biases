@@ -1,5 +1,5 @@
 ---
-description: Ontology page for "Halo effect"
+description: Ontology page for "Implicit Stereotypes Bias"
 cover: ../../.gitbook/assets/pb-iv-winter-wealth-wellbeing-banner.jpeg
 coverY: 0
 layout:
@@ -18,7 +18,7 @@ layout:
     visible: true
 ---
 
-# ⚡ Halo effect
+# ⚡ Implicit Stereotypes Bias
 
 ## 1. Literature Review&#x20;
 
@@ -26,19 +26,17 @@ _<mark style="color:green;">Background, Context and Literature State of the Art<
 
 ### Wikipedia&#x20;
 
-The halo effect (sometimes called the halo error) is the tendency for positive impressions of a person, company, country, brand, or product in one area to positively or negatively influence one's opinion or feelings in other areas. The Halo effect is "the name given to the phenomenon whereby evaluators tend to be influenced by their previous judgments of performance or personality." The Halo effect is a [Cognitive Bias](https://en.wikipedia.org/wiki/Cognitive\_bias) which can possibly prevent someone from accepting a person, a product or a brand based on the idea of an unfounded belief on what is good or bad.
+An implicit bias or implicit stereotype is a [Cognitive Bias](https://en.wikipedia.org/wiki/Cognitive\_bias) which is the pre-reflective attribution of particular qualities by an individual to a member of some social out group. Implicit stereotypes are thought to be shaped by experience and based on learned associations between particular qualities and social categories, including race and/or gender. Individuals' perceptions and behaviors can be influenced by the implicit stereotypes they hold, even if they are sometimes unaware they hold such stereotypes. Implicit bias is an aspect of implicit social cognition: the phenomenon that perceptions, attitudes, and stereotypes can operate prior to conscious intention or endorsement. The existence of implicit bias is supported by a variety of scientific articles in psychological literature. Implicit biases, however, are thought to be the product of associations learned through past experiences. Implicit biases can be activated by the environment and operate prior to a person's intentional, conscious endorsement. Implicit bias can persist even when an individual rejects the bias explicitly.
 
-[Wikipedia Link](https://en.wikipedia.org/wiki/Halo\_effect)
+[Wikipedia Link](https://en.wikipedia.org/wiki/Implicit\_stereotype)
 
 ### Research Paper(s)
 
-\[1] Nisbett, Richard E. & Timothy D. Wilson (1977). The halo effect: evidence for unconscious alteration of judgments. Journal of Personality and Social Psychology 35(4): 250.
+\[1] [Project implicit](https://implicit.harvard.edu/) Take Implicit Association Tests to reveal your own implicit attitudes and stereotypes, as well as contribute to the research as a participant.
 
-\[2] Abikoff, Howard, Mary Courtney, William E. Pelham & Harold S. Koplewicz (1993). Teachers' ratings of disruptive behaviors: The influence of halo effects. Journal of Abnormal Child Psychology 21(5): 519-533.
+\[2] [Are We All Unconscious Racists? No: there’s scant evidence to support the trendy implicit-bias theory](https://www.city-journal.org/html/are-we-all-unconscious-racists-15487.html). [Heather Mac Donald](https://en.wikipedia.org/wiki/Heather\_Mac\_Donald) in [_City Journal_](https://en.wikipedia.org/wiki/City\_Journal\_\(New\_York\_City\)).
 
-\[3] Forgas, Joseph P. (2011). She just doesn't look like a philosopher…? Affective influences on the halo effect in impression formation. European Journal of Social Psychology 41(7): 812-817.
-
-\[4] Wetzel, Christopher G., Timothy D. Wilson & James Kort (1981). The halo effect revisited: Forewarned is not forearmed. Journal of Experimental Social Psychology 17(4): 427-439.
+\[3] Li Chen, Shuyu Zeng, Rui He; [Negative Emotions Can Interfere with the Inhibitory Effect of Proactive Control on Implicit Stereotypes](https://doi.org/10.5281/zenodo.4675801) North American Academic Research, 4(4)53-69, April 2021
 
 ***
 
@@ -220,11 +218,11 @@ A person, the Cognizer, thinks about a Topic over a period of time. What is thou
 _<mark style="color:green;">In the last step, we create the bias ontology in the Protege and also a Graph of it</mark>_
 
 {% hint style="success" %}
-[Halo effect OWL file](../../cognitive-biases/Cluster1-FamiliarsBetterThanUnfamiliars/HaloEffect.owl)
+[Implicit Stereotypes Bias OWL file](../../cognitive-biases/Cluster2-DiscardSpecificsFormGeneralities/ImplicitStereotypes.owl)
 {% endhint %}
 
-{% embed url="https://service.tib.eu/webvowl/#iri=https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/Cluster1-FamiliarsBetterThanUnfamiliars/HaloEffect.owl" %}
-Visualisation the model of Halo Effect bias
+{% embed url="https://service.tib.eu/webvowl/#iri=https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/Cluster2-DiscardSpecificsFormGeneralities/ImplicitStereotypes.owl" %}
+Visualisation the model of Implicit Stereotypes Bias
 {% endembed %}
 
 ## 4. Selected Content Ontology Design Patterns

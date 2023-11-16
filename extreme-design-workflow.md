@@ -41,7 +41,9 @@ As you can see, XD adopts the notion of ontology project, a development project 
 
 ODPs are associated with Generic Use Cases (GUC) and compose the ontology project’s solution space, which is used as the main knowledge source for addressing ontology design issues e.g. reengineering, evaluation, construction, etc., the ontology project’s problem space provides descriptions of the actual issues called “Local Use Cases” (LUC).
 
-## Ontology Design Patterns
+## ODP
+
+_<mark style="color:green;">**Ontology Design Patterns**</mark>_
 
 Before exploring the main principles and workflow of XD, it is worthy to spend some words on the methodology on which it is build upon [**Ontology Design Patterns** (Gangemi 2005)](bibliography.md#ontology-design-patterns-gangemi-2005).
 
@@ -84,7 +86,11 @@ In the _"Problem Space"_ we have all the available competency questions, we need
 
 We need a large repository where we can look for ODPs, the one we will use in our project is [Ontology Design Patterns](http://ontologydesignpatterns.org/).
 
-## **eXtreme Design principles and tasks**
+
+
+## XD principles
+
+_<mark style="color:green;">**eXtreme Design principles and tasks**</mark>_
 
 XD principles are inspired by those of the agile software methodology called eXtreme Programming (XP). The main idea of agile software development is to be able to incorporate changes easily, in any stage of the development. based on the idea of Gangemi A. in [_"eXtreme Design with Content Ontology Design Patterns"_](bibliography.md#extreme-design-with-content-ontology-design-patterns) The method make intensive use of _Content Ontology_ _Design Patterns_ (CPs) and its principles are based on modular design and collaboration. Main XD principles can be summarised as follow:
 

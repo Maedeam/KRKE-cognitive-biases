@@ -4,6 +4,8 @@ cover: ../../.gitbook/assets/Dont-bring-me-problems-bring-me-solutions.jpeg
 coverY: 0
 ---
 
-# Problem 1
+# 1⃣ Problem 1
 
-The main problem: **We imagine things and people we’re familiar with or fond of as better than things and people we aren’t familiar with or fond of.**
+_<mark style="color:green;">The main problem:</mark>_&#x20;
+
+**We imagine things and people we’re familiar with or fond of as better than things and people we aren’t familiar with or fond of.**

@@ -1,5 +1,5 @@
 ---
-description: Ontology page for "Halo effect"
+description: Ontology page for "Stereotypical Bias"
 cover: ../../.gitbook/assets/pb-iv-winter-wealth-wellbeing-banner.jpeg
 coverY: 0
 layout:
@@ -18,7 +18,7 @@ layout:
     visible: true
 ---
 
-# ⚡ Halo effect
+# ⚡ Stereotypical Bias
 
 ## 1. Literature Review&#x20;
 
@@ -26,19 +26,21 @@ _<mark style="color:green;">Background, Context and Literature State of the Art<
 
 ### Wikipedia&#x20;
 
-The halo effect (sometimes called the halo error) is the tendency for positive impressions of a person, company, country, brand, or product in one area to positively or negatively influence one's opinion or feelings in other areas. The Halo effect is "the name given to the phenomenon whereby evaluators tend to be influenced by their previous judgments of performance or personality." The Halo effect is a [Cognitive Bias](https://en.wikipedia.org/wiki/Cognitive\_bias) which can possibly prevent someone from accepting a person, a product or a brand based on the idea of an unfounded belief on what is good or bad.
+Stereotypical bias is a [Cognitive Bias](https://en.wikipedia.org/wiki/Cognitive\_bias) which is shortly, memory distorted towards stereotypes (e.g., racial or gender). It's a part of Misattribution of memory bias.
 
-[Wikipedia Link](https://en.wikipedia.org/wiki/Halo\_effect)
+[Wikipedia Link](https://en.wikipedia.org/wiki/Misattribution\_of\_memory)
 
 ### Research Paper(s)
 
-\[1] Nisbett, Richard E. & Timothy D. Wilson (1977). The halo effect: evidence for unconscious alteration of judgments. Journal of Personality and Social Psychology 35(4): 250.
+\[1] Tajfel, Henri (2001). Social stereotypes and social groups. In M. A. Hogg & D. Abrams (Eds.), Key readings in social psychology. Intergroup relations: Essential readings (p. 132–145). Psychology Press.
 
-\[2] Abikoff, Howard, Mary Courtney, William E. Pelham & Harold S. Koplewicz (1993). Teachers' ratings of disruptive behaviors: The influence of halo effects. Journal of Abnormal Child Psychology 21(5): 519-533.
+\[2] Allport, Gordon (1954). The nature of prejudice. Addison-Wesley.
 
-\[3] Forgas, Joseph P. (2011). She just doesn't look like a philosopher…? Affective influences on the halo effect in impression formation. European Journal of Social Psychology 41(7): 812-817.
+\[3] Fiske, Susan T., Amy J. Cuddy, Peter Glick & Jun Xu (2002). A model of (often mixed) stereotype content: competence and warmth respectively follow from perceived status and competition. Journal of personality and social psychology, 82(6), 878.
 
-\[4] Wetzel, Christopher G., Timothy D. Wilson & James Kort (1981). The halo effect revisited: Forewarned is not forearmed. Journal of Experimental Social Psychology 17(4): 427-439.
+\[4] Fiske, Susan T. & Shelley E. Taylor (1984) Social cognition. Random House.
+
+\[5] Spencer, Steven J., Christine Logel & Paul G. Davies (2016). Stereotype threat. Annual Review of Psychology, 67(1) : 415-437.
 
 ***
 
@@ -220,11 +222,11 @@ A person, the Cognizer, thinks about a Topic over a period of time. What is thou
 _<mark style="color:green;">In the last step, we create the bias ontology in the Protege and also a Graph of it</mark>_
 
 {% hint style="success" %}
-[Halo effect OWL file](../../cognitive-biases/Cluster1-FamiliarsBetterThanUnfamiliars/HaloEffect.owl)
+[Stereotypical Bias OWL file](../../cognitive-biases/Cluster2-DiscardSpecificsFormGeneralities/StereotypicalBias.owl)
 {% endhint %}
 
-{% embed url="https://service.tib.eu/webvowl/#iri=https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/Cluster1-FamiliarsBetterThanUnfamiliars/HaloEffect.owl" %}
-Visualisation the model of Halo Effect bias
+{% embed url="https://service.tib.eu/webvowl/#iri=https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/Cluster2-DiscardSpecificsFormGeneralities/StereotypicalBias.owl" %}
+Visualisation the model of Stereotypical Bias
 {% endembed %}
 
 ## 4. Selected Content Ontology Design Patterns

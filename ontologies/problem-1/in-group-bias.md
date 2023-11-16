@@ -1,5 +1,5 @@
 ---
-description: Ontology page for "Halo effect"
+description: Ontology page for "In Group Bias"
 cover: ../../.gitbook/assets/pb-iv-winter-wealth-wellbeing-banner.jpeg
 coverY: 0
 layout:
@@ -18,7 +18,7 @@ layout:
     visible: true
 ---
 
-# ⚡ Halo effect
+# ⚡ In Group Bias
 
 ## 1. Literature Review&#x20;
 
@@ -26,19 +26,19 @@ _<mark style="color:green;">Background, Context and Literature State of the Art<
 
 ### Wikipedia&#x20;
 
-The halo effect (sometimes called the halo error) is the tendency for positive impressions of a person, company, country, brand, or product in one area to positively or negatively influence one's opinion or feelings in other areas. The Halo effect is "the name given to the phenomenon whereby evaluators tend to be influenced by their previous judgments of performance or personality." The Halo effect is a [Cognitive Bias](https://en.wikipedia.org/wiki/Cognitive\_bias) which can possibly prevent someone from accepting a person, a product or a brand based on the idea of an unfounded belief on what is good or bad.
+In-group favoritism, sometimes known in-group bias, is a [Cognitive Bias](https://en.wikipedia.org/wiki/Cognitive\_bias) which is a pattern of favoring members of one's in-group over out-group members. This can be expressed in evaluation of others, in allocation of resources, and in many other ways. This effect has been researched by many psychologists and linked to many theories related to group conflict and prejudice. The phenomenon is primarily viewed from a social psychology standpoint. Studies have shown that in-group favoritism arises as a result of the formation of cultural groups. These cultural groups can be divided based on seemingly trivial observable traits, but with time, populations grow to associate certain traits with certain behavior, increasing covariation. This then incentivizes in-group bias.&#x20;
 
-[Wikipedia Link](https://en.wikipedia.org/wiki/Halo\_effect)
+[Wikipedia Link](https://en.wikipedia.org/wiki/In-group\_favoritism)
 
 ### Research Paper(s)
 
-\[1] Nisbett, Richard E. & Timothy D. Wilson (1977). The halo effect: evidence for unconscious alteration of judgments. Journal of Personality and Social Psychology 35(4): 250.
+\[1] Tajfel, Henri & John C. Turner (1979). An integrative theory of intergroup conflict. In William. G. Austin & Worchel, Stephen (Eds.), The social psychology of intergroup relations: 33-47. Monterey, CA: Brooks-Cole. (Founding article)
 
-\[2] Abikoff, Howard, Mary Courtney, William E. Pelham & Harold S. Koplewicz (1993). Teachers' ratings of disruptive behaviors: The influence of halo effects. Journal of Abnormal Child Psychology 21(5): 519-533.
+\[2] Buttelmann, David & Robert Böhm (2014). The ontogeny of the motivation that underlies in-group bias. Psychological science, 25(4), 921-927.
 
-\[3] Forgas, Joseph P. (2011). She just doesn't look like a philosopher…? Affective influences on the halo effect in impression formation. European Journal of Social Psychology 41(7): 812-817.
+\[3] Jetten, Jolanda, Russell Spears & Antony S. R. Manstead (1996). Inter-group norms and inter-group discrimination: Distinctive self-categorization and social identity effects. Journal of Personality and Social Psychology, 71, 1222–1233.
 
-\[4] Wetzel, Christopher G., Timothy D. Wilson & James Kort (1981). The halo effect revisited: Forewarned is not forearmed. Journal of Experimental Social Psychology 17(4): 427-439.
+\[4] Dovidio, John & Samuel Gaertner (1981). The Effects of Race, Status, and Ability on Helping Behavior. Social Psychology Quarterly, 44(3), 192-203. Retrieved August 24, 2020, from [http://www.jstor.org/stable/3033833](http://www.jstor.org/stable/3033833)
 
 ***
 
@@ -220,11 +220,11 @@ A person, the Cognizer, thinks about a Topic over a period of time. What is thou
 _<mark style="color:green;">In the last step, we create the bias ontology in the Protege and also a Graph of it</mark>_
 
 {% hint style="success" %}
-[Halo effect OWL file](../../cognitive-biases/Cluster1-FamiliarsBetterThanUnfamiliars/HaloEffect.owl)
+[In Group Bias OWL file](../../cognitive-biases/Cluster1-FamiliarsBetterThanUnfamiliars/InGroupBias.owl)
 {% endhint %}
 
-{% embed url="https://service.tib.eu/webvowl/#iri=https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/Cluster1-FamiliarsBetterThanUnfamiliars/HaloEffect.owl" %}
-Visualisation the model of Halo Effect bias
+{% embed url="https://service.tib.eu/webvowl/#iri=https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/Cluster1-FamiliarsBetterThanUnfamiliars/InGroupBias.owl" %}
+Visualisation the model of In Group bias
 {% endembed %}
 
 ## 4. Selected Content Ontology Design Patterns

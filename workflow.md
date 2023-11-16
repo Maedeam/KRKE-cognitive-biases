@@ -44,7 +44,7 @@ Following this, with the assistance of _AI_, we created classes and properties f
 
 _<mark style="color:green;">Words as Frame Semantic Triggers</mark>_
 
-We extract [_Lexical Units_](glossary.md#lexical-units) from the textual contents, which will be utilized to find [_Semantic Frames_](glossary.md#frame-semantics) in _Framester_. As part of the _XD_ procedure, we create _Competency Questions (CQs)_ from the scenarios. Analyzing these _CQs_ helps us identify classes and properties restrictions needed to answer them effectively. Whenever we run into problems while we're building the project, we can check _Ontology Design Patterns_ for ideas on how to solve them.
+We extract [_Lexical Units_](glossary.md#lexical-units) from the textual contents, which will be utilized to find [_Semantic Frames_](glossary.md#frame-semantics) in _Framester_. As part of the _XD_ procedure, we create _Competency Questions (CQs)_ from the scenarios. Analyzing these _CQs_ helps us identify classes and properties restrictions needed to answer them effectively. Whenever we run into problems while we're building the project, we can check _Ontology Design Patterns_ for ideas on how to solve them. Finally now we can creat OWL file for each biases and also the graph view of them.
 
 
 
