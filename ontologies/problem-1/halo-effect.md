@@ -20,10 +20,6 @@ layout:
 
 # ⚡ Halo effect
 
-Halo effect OWL file
-
-Diagram for the ontology of Halo effect
-
 ## 1. Literature Review&#x20;
 
 _<mark style="color:green;">Background, Context and Literature State of the Art</mark>_&#x20;
@@ -196,22 +192,63 @@ To better synchronize the biases with established semantic frames in Framester, 
 
 ### 3.1. Starting Lexical Material (SLM),
 
-_<mark style="color:green;">Choosing these 3 Lexical Units, then extracted concepts in QUOKKA's</mark>_
+_<mark style="color:green;">Choosing these Lexical Units, then extracted concepts in QUOKKA's and FRED</mark>_
 
 * celebrity
 * audience
 * perspective
 * judgement
 
-\
-Social Media Influence scenario:
+### 3.2 Selected Framester F**rames**:
 
-Influencers with a large following may experience the Halo Effect, where their audience assumes expertise in diverse fields beyond their primary content domain.
+_<mark style="color:green;">Finally, these are the best Framester Frames can be chosen</mark>_
 
-\
+[Fame](http://etna.istc.cnr.it/framester2/data/framestercore/Fame)
+
+stringAn Entity is well-known among a wide range of people (in general or in a particular domain) for a particular Reason, which may be a behavior, characteristic, or some other associated item. In the case of events, fame entails a large number of people being aware of the event's occurence; in the case of concrete entities, including humans, fame entails awareness of existence. In both cases, often fame is accompanied by awareness of the Entity's significance in historical, cultural, or social contexts. Shakespeare was famous during his life because he performed in front of Queen Elizabeth I more than anyone else.
+
+[People](https://w3id.org/framester/data/framestercore/People)
+
+This frame contains general words for Individuals, i.e. humans. The Person is conceived of as independent of other specific individuals with whom they have relationships and independent of their participation in any particular activity. They may have an Age, Descriptor, Origin, Persistent\_characteristic, or Ethnicity. A man from Phoenix was shot yesterday. She gave birth to a screaming babyyesterday. I study 16-year-old female adolescents. I am dating an African-American man. She comforted the terrified child. I always thought of him as a stupid man.
+
+[Cogitation](https://w3id.org/framester/data/framestercore/Cogitation)
+
+A person, the Cognizer, thinks about a Topic over a period of time. What is thought about may be a course of action that the person might take, or something more general. The men were silently mulling over the proposition of committing an assassination
+
+### 3.3 Creating the bias ontology file:
+
+_<mark style="color:green;">In the last step, we create the bias ontology in the Protege and also a Graph of it</mark>_
 
 
 
+{% hint style="success" %}
+[Halo effect OWL file](../../cognitive-biases/HaloEffect.owl)
+{% endhint %}
 
+{% embed url="https://service.tib.eu/webvowl/#iri=https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/HaloEffect.owl" %}
+Visualize the model of Halo Effect bias
+{% endembed %}
+
+## 4. Selected Content Ontology Design Patterns
+
+[**AgentRole**](http://ontologydesignpatterns.org/wiki/Submissions:AgentRole)
+
+To represent agents and the roles they play.
+
+**Reusable OWL Building Block:** [http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl](http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl)
+
+[**Sequence**](http://ontologydesignpatterns.org/wiki/Submissions:Sequence)
+
+To represent sequence schemas. It defines the notion of transitive and intransitive precedence and their inverses.
+
+It can then be used between tasks, processes, time intervals, spatially locate objects, situations, etc.
+
+**Reusable OWL Building Block:** [http://ontologydesignpatterns.org/cp/owl/sequence.ow](http://ontologydesignpatterns.org/wiki/index.php?title=Special:ClickHandler\&link=http://ontologydesignpatterns.org/cp/owl/sequence.owl\&message=OWL%20building%20block\&from\_page\_id=756\&update=)[l](http://ontologydesignpatterns.org/cp/owl/sequence.owl)
+
+[**AffectedBy**](http://ontologydesignpatterns.org/wiki/Submissions:AffectedBy)
+
+To represent properties/qualities that may affect the status of a feature of interest.
+
+**Reusable OWL Building Block:** [https://w3id.org/affectedBy](https://w3id.org/affectedBy)\
 
 
