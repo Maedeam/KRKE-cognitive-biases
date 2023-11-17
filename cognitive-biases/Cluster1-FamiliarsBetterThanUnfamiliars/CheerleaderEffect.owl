@@ -1,0 +1,167 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/delayed/cognitive-bias-ontology/Cheerleadereffect#"
+     xml:base="http://www.semanticweb.org/delayed/cognitive-bias-ontology/Cheerleadereffect"
+     xmlns:ns="http://creativecommons.org/ns#"
+     xmlns:ns1="http://www.w3.org/2003/06/sw-vocab-status/ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:vann="http://purl.org/vocab/vann/"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:HaloEffect="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/Cheerleadereffect.owl"
+     xmlns:HaloEffect1="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/Cheerleadereffect.owl#"
+     xmlns:description="http://www.ontologydesignpatterns.org/cp/owl/description.owl#"
+     xmlns:cpannotationschema="http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#">
+    <owl:Ontology rdf:about="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/Cheerleadereffect.owl">
+        <owl:versionIRI rdf:resource="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/Cheerleadereffect.owl"/>
+        <terms:creator xml:lang="en">Atousa Heidarnia</terms:creator>
+        <terms:creator xml:lang="en">Maede Hajjari</terms:creator>
+        <terms:description xml:lang="en">Cheerleader effect module of the Cognitive Bias Ontology.</terms:description>
+        <terms:hasVersion xml:lang="en">0.1</terms:hasVersion>
+        <terms:title xml:lang="en">Cheerleader effect Ontology</terms:title>
+        <rdfs:comment xml:lang="en">The &quot;Cheerleader effect &quot; is the phenomenon where individuals appear more attractive when seen as part of a group than when viewed individually.</rdfs:comment>
+    </owl:Ontology>
+    
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+    <ObjectProperty rdf:about="http://www.ontologydesignpatterns.org/cp/owl/description.owl#belongsToTeam">
+        <rdfs:domain rdf:resource="https://w3id.org/framester/data/framestercore/People"/>
+        <rdfs:range rdf:resource="https://w3id.org/framester/data/framestercore/Organization"/>
+        <rdfs:comment xml:lang="en">Relates a person to a team.</rdfs:comment>
+        <rdfs:label xml:lang="en">belongsToTeam</rdfs:label>
+    </ObjectProperty>
+    
+
+
+
+    <ObjectProperty rdf:about="http://www.ontologydesignpatterns.org/cp/owl/description.owl#capturedInPhoto">
+        <rdfs:domain rdf:resource="https://w3id.org/framester/data/framestercore/People"/>
+        <rdfs:range rdf:resource="https://w3id.org/framester/data/framestercore/Communication"/>
+        <rdfs:comment xml:lang="en">Relates a person or a team to a social media post.</rdfs:comment>
+        <rdfs:label xml:lang="en">capturedInPhoto</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <ObjectProperty rdf:about="http://www.ontologydesignpatterns.org/cp/owl/description.owl#hasTeammates">
+        <rdfs:domain rdf:resource="https://w3id.org/framester/data/framestercore/Organization"/>
+        <rdfs:range rdf:resource="https://w3id.org/framester/data/framestercore/People"/>
+        <rdfs:comment xml:lang="en">Relates a team to its members (Persons).</rdfs:comment>
+        <rdfs:label xml:lang="en">hasTeammates</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <ObjectProperty rdf:about="http://www.ontologydesignpatterns.org/cp/owl/description.owl#participatedInEvent">
+        <rdfs:domain rdf:resource="https://w3id.org/framester/data/framestercore/People"/>
+        <rdfs:domain rdf:resource="https://w3id.org/framester/data/framestercore/Organization"/>
+        <rdfs:range rdf:resource="https://w3id.org/framester/data/framestercore/Event"/>
+        <rdfs:comment xml:lang="en">Relates a person to an event.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Relates a team to an event.</rdfs:comment>
+        <rdfs:label xml:lang="en">participatedInEvent</rdfs:label>
+    </ObjectProperty>
+    
+
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+    <Class rdf:about="https://w3id.org/framester/data/framestercore/Event">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/CauseChange"/>
+        <rdfs:comment xml:lang="en">Represents an event.</rdfs:comment>
+        <rdfs:label xml:lang="en">Event</rdfs:label>
+    </Class>
+    
+
+
+
+    <Class rdf:about="https://w3id.org/framester/data/framestercore/People">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/CauseChange"/>
+        <rdfs:comment xml:lang="en">Represents an individual.</rdfs:comment>
+        <rdfs:label xml:lang="en">Person</rdfs:label>
+    </Class>
+    
+
+
+    <Class rdf:about="https://w3id.org/framester/data/framestercore/CauseChange">
+        <rdfs:comment xml:lang="en">Represents the phenomenon of collective attractiveness of individuals in a group.</rdfs:comment>
+        <rdfs:label xml:lang="en">Phenomenon</rdfs:label>
+    </Class>
+    
+
+
+    <Class rdf:about="https://w3id.org/framester/data/framestercore/Communication">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/CauseChange"/>
+        <rdfs:comment xml:lang="en">Represents a social media post.</rdfs:comment>
+        <rdfs:label xml:lang="en">SocialMediaPost</rdfs:label>
+    </Class>
+    
+
+
+    <Class rdf:about="https://w3id.org/framester/data/framestercore/Organization">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/CauseChange"/>
+        <rdfs:comment xml:lang="en">Represents a team.</rdfs:comment>
+        <rdfs:label xml:lang="en">Team</rdfs:label>
+    </Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+
+    <NamedIndividual rdf:about="https://w3id.org/framester/data/framestercore/Competition">
+        <rdf:type rdf:resource="https://w3id.org/framester/data/framestercore/Event"/>
+        <rdfs:label xml:lang="en">ChampionshipGame</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <NamedIndividual rdf:about="https://w3id.org/framester/data/framestercore/Performers">
+        <rdf:type rdf:resource="https://w3id.org/framester/data/framestercore/People"/>
+    
+        <rdfs:label xml:lang="en">SoccerPlayer</rdfs:label>
+    </NamedIndividual>
+    
+
+    <NamedIndividual rdf:about="https://w3id.org/framester/data/framestercore/ComeTogether">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontology#Team"/>
+        <rdfs:label xml:lang="en">SoccerTeam</rdfs:label>
+    </NamedIndividual>
+    
+
+    <NamedIndividual rdf:about="https://w3id.org/framester/data/framestercore/Representing">
+        <rdf:type rdf:resource="https://w3id.org/framester/data/framestercore/Communication"/>
+        <rdfs:label xml:lang="en">TeamPhotoPost</rdfs:label>
+    </NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.13) https://github.com/owlcs/owlapi -->
+

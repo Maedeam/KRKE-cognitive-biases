@@ -1,0 +1,156 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/delayed/cognitive-bias-ontology/out-group-homogeneity-bias#"
+     xml:base="http://www.semanticweb.org/delayed/cognitive-bias-ontology/out-group-homogeneity-bias"
+     xmlns:ns="http://creativecommons.org/ns#"
+     xmlns:ns1="http://www.w3.org/2003/06/sw-vocab-status/ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:vann="http://purl.org/vocab/vann/"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:HaloEffect="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/out-group-homogeneity-bias.owl"
+     xmlns:HaloEffect1="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/out-group-homogeneity-bias.owl#"
+     xmlns:description="http://www.ontologydesignpatterns.org/cp/owl/description.owl#"
+     xmlns:cpannotationschema="http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#">
+    <owl:Ontology rdf:about="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/out-group-homogeneity-bias.owl">
+        <owl:versionIRI rdf:resource="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/out-group-homogeneity-bias.owl"/>
+        <terms:creator xml:lang="en">Atousa Heidarnia</terms:creator>
+        <terms:creator xml:lang="en">Maede Hajjari</terms:creator>
+        <terms:description xml:lang="en">Out-group homogeneity bias  module of the Cognitive Bias Ontology.</terms:description>
+        <terms:hasVersion xml:lang="en">0.1</terms:hasVersion>
+        <terms:title xml:lang="en">Out-group homogeneity bias  Ontology</terms:title>
+        <rdfs:comment xml:lang="en">The &quot;Out-group homogeneity bias &quot; is the tendency to perceive members of an out-group as more similar to each other than members of one's own in-group.</rdfs:comment>
+    </owl:Ontology>
+    
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <owl:ObjectProperty rdf:about="http://www.ontologydesignpatterns.org/cp/owl/description.owl#hasPerspective">
+    
+        <rdfs:domain rdf:resource="https://w3id.org/framester/data/framestercore/People"/>
+        <rdfs:range rdf:resource="https://w3id.org/framester/data/framestercore/Range"/>
+        <rdfs:comment>Relates an individual to a unique perspective, indicating a distinctive point of view.</rdfs:comment>
+        <rdfs:label>hasPerspective</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+
+    <owl:ObjectProperty rdf:about="http://www.ontologydesignpatterns.org/cp/owl/description.owl#hasCollaborator">
+        <rdfs:domain rdf:resource="https://w3id.org/framester/data/framestercore/Collaboration"/>
+        <rdfs:range rdf:resource="https://w3id.org/framester/data/framestercore/People"/>
+        <rdfs:comment>Indicates that the hasCollaborator property applies to instances of Collaboration, linking them to Collaborator individuals.</rdfs:comment>
+        <rdfs:label>hasCollaborator</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+
+    <owl:ObjectProperty rdf:about="http://www.ontologydesignpatterns.org/cp/owl/description.owl#hasChangedPerception">
+
+        <rdfs:domain rdf:resource="https://w3id.org/framester/data/framestercore/Range"/>
+        <rdfs:range rdf:resource="https://w3id.org/framester/data/framestercore/People"/>
+        <rdfs:comment>Relates an individual to a change in perception, indicating a transformation in one&apos;s understanding or belief</rdfs:comment>
+        <rdfs:label>hasChangedPerception</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+
+
+    <owl:ObjectProperty rdf:about="http://www.ontologydesignpatterns.org/cp/owl/description.owl#hasCapabilities">
+        <rdfs:domain rdf:resource="https://w3id.org/framester/data/framestercore/People"/>
+        <rdfs:range rdf:resource="https://w3id.org/framester/data/framestercore/Capability"/>
+        <rdfs:comment>Relates an individual to their capabilities, signifying the skills and abilities possessed.</rdfs:comment>
+        <rdfs:label>hasCapabilities</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+
+    <owl:Class rdf:about="https://w3id.org/framester/data/framestercore/Collaboration">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/MentalProperty"/>
+        <rdfs:comment >Represents the specific type of bias that can manifest in collaborative settings.</rdfs:comment>
+        <rdfs:label>Collaboration</rdfs:label>
+    </owl:Class>
+    
+
+
+
+
+    <owl:Class rdf:about="https://w3id.org/framester/data/framestercore/MentalProperty">
+        <rdfs:comment>Represents the overarching concept of bias in human cognition.</rdfs:comment>
+        <rdfs:label>Bias</rdfs:label>
+    </owl:Class>
+    
+
+
+    <owl:Class rdf:about="https://w3id.org/framester/data/framestercore/Capability">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/MentalProperty"/>
+        <rdfs:comment>Represents a specific type of bias related to capabilities, skills, or attributes.</rdfs:comment>
+        <rdfs:label>Capabilities</rdfs:label>
+    </owl:Class>
+    
+
+
+    <owl:Class rdf:about="https://w3id.org/framester/data/framestercore/Range">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/MentalProperty"/>
+        <rdfs:comment>Represents a specific type of bias related to unique viewpoints.</rdfs:comment>
+        <rdfs:label>Perspective</rdfs:label>
+    </owl:Class>
+    
+
+
+
+    <owl:Class rdf:about="https://w3id.org/framester/data/framestercore/People">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/MentalProperty"/>
+        <rdfs:comment>Represents a specific type of bias related to individuals</rdfs:comment>
+        <rdfs:label>Individual</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rf3RrisUX47O7uokUSL8ai -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/framester/data/framestercore/People">
+        <rdfs:comment>(Individual of Collaboration) Represents an individual engaged in collaboration</rdfs:comment>
+        <rdfs:label>Collaborator</rdfs:label>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.13) https://github.com/owlcs/owlapi -->
+
