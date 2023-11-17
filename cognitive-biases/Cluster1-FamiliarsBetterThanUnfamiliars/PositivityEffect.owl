@@ -1,0 +1,203 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/delayed/cognitive-bias-ontology/positiveeffect#"
+     xml:base="http://www.semanticweb.org/delayed/cognitive-bias-ontology/positiveeffect"
+     xmlns:ns="http://creativecommons.org/ns#"
+     xmlns:ns1="http://www.w3.org/2003/06/sw-vocab-status/ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:vann="http://purl.org/vocab/vann/"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:HaloEffect="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/positiveeffect.owl"
+     xmlns:HaloEffect1="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/positiveeffect.owl#"
+     xmlns:description="http://www.ontologydesignpatterns.org/cp/owl/description.owl#"
+     xmlns:cpannotationschema="http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#">
+    <owl:Ontology rdf:about="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/positiveeffect.owl">
+        <owl:versionIRI rdf:resource="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/positiveeffect.owl"/>
+        <terms:creator xml:lang="en">Atousa Heidarnia</terms:creator>
+        <terms:creator xml:lang="en">Maede Hajjari</terms:creator>
+        <terms:description xml:lang="en">positive effect  module of the Cognitive Bias Ontology.</terms:description>
+        <terms:hasVersion xml:lang="en">0.1</terms:hasVersion>
+        <terms:title xml:lang="en">positive effect  Ontology</terms:title>
+        <rdfs:comment xml:lang="en">The &quot;positive effect &quot; refers to a favorable or beneficial outcome or impact.</rdfs:comment>
+    </owl:Ontology>
+    
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#comment -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#comment"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+    <owl:ObjectProperty rdf:about="http://www.ontologydesignpatterns.org/cp/owl/description.owl#hasRole">
+        
+        <rdfs:domain rdf:resource="https://w3id.org/framester/data/framestercore/People"/>
+        <rdfs:range rdf:resource="https://w3id.org/framester/data/framestercore/PeopleByVocation"/>
+        <rdfs:comment>Describes the role played by a person in a specific context.</rdfs:comment>
+        <rdfs:label>hasRole</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <owl:ObjectProperty rdf:about="http://www.ontologydesignpatterns.org/cp/owl/description.owl#receivesFeedback">
+        
+        <rdfs:domain rdf:resource="https://w3id.org/framester/data/framestercore/People"/>
+        <rdfs:range rdf:resource="https://w3id.org/framester/data/framestercore/CommunicationResponse"/>
+        <rdfs:comment>Indicates the reception of feedback by a person, influencing their</rdfs:comment>
+        <rdfs:label>receivesFeedback</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+ 
+
+    <owl:ObjectProperty rdf:about="http://www.ontologydesignpatterns.org/cp/owl/description.owl#hasPortfolio">
+
+        <rdfs:domain rdf:resource="https://w3id.org/framester/data/framestercore/Expertise"/>
+        <rdfs:range rdf:resource="https://w3id.org/framester/data/framestercore/Information"/>
+        <rdfs:comment>Specifies the possession of a portfolio by a designer.</rdfs:comment>
+        <rdfs:label>hasPortfolio</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <owl:ObjectProperty rdf:about="http://www.ontologydesignpatterns.org/cp/owl/description.owl#hasColorPalette">
+        <rdfs:domain rdf:resource="https://w3id.org/framester/data/framestercore/Expertise"/>
+        <rdfs:range rdf:resource="https://w3id.org/framester/data/framestercore/Means"/>
+        <rdfs:comment>Indicates the presence of a color palette in a designer&apos;s work.</rdfs:comment>
+        <rdfs:label>hasColorPalette</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <owl:ObjectProperty rdf:about="http://www.ontologydesignpatterns.org/cp/owl/description.owl#demonstrates">
+        <rdfs:domain rdf:resource="https://w3id.org/framester/data/framestercore/People"/>
+        <rdfs:range rdf:resource="https://w3id.org/framester/data/framestercore/MentalProperty"/>
+        <rdfs:comment>Describes the display of specific traits or actions by an individual, such as resilience or optimism.</rdfs:comment>
+        <rdfs:label>demonstrates</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+    <owl:Class rdf:about="https://w3id.org/framester/data/framestercore/CommunicationResponse">
+        <rdfs:comment>Represents the information received about one&apos;s work, including both positive reinforcement and constructive criticism.</rdfs:comment>
+        <rdfs:label>Feedback</rdfs:label>
+    </owl:Class>
+    
+
+    
+
+    <owl:Class rdf:about="https://w3id.org/framester/data/framestercore/UndergoChange">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/CommunicationResponse"/>
+        <rdfs:label>resilienece</rdfs:label>
+    </owl:Class>
+    
+
+
+
+    <owl:Class rdf:about="https://w3id.org/framester/data/framestercore/Information">
+        <rdfs:comment>A collection of creative works, reflecting a designer&apos;s skills and style.</rdfs:comment>
+        <rdfs:label>Portfolio</rdfs:label>
+    </owl:Class>
+    
+
+
+    <owl:Class rdf:about="https://w3id.org/framester/data/framestercore/PeopleByVocation">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/Expertise"/>
+        <rdfs:comment>representing individuals actively pursuing a career as graphic designers.</rdfs:comment>
+        <rdfs:label>AspiringGraphicDesigner</rdfs:label>
+    </owl:Class>
+    
+
+
+
+    <owl:Class rdf:about="https://w3id.org/framester/data/framestercore/People">
+        <rdfs:label>Person</rdfs:label>
+        <rdfs:comment >Represents an individual involved in the context, such as Emma, the aspiring graphic designer.</rdfs:comment>
+    </owl:Class>
+    
+
+
+
+
+    <owl:Class rdf:about="https://w3id.org/framester/data/framestercore/MentalProperty">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/CommunicationResponse"/>
+        <rdfs:label>optimism</rdfs:label>
+    </owl:Class>
+    
+
+
+    <owl:Class rdf:about="https://w3id.org/framester/data/framestercore/Expertise">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/People"/>
+        <rdfs:comment>representing individuals specifically involved in the field of design.</rdfs:comment>
+        <rdfs:label>Designer</rdfs:label>
+    </owl:Class>
+    
+
+
+
+    <owl:Class rdf:about="https://w3id.org/framester/data/framestercore/Means">
+        <rdfs:comment>Represents the selection and arrangement of colors, a key aspect of graphic design.</rdfs:comment>
+        <rdfs:label>Color Palette</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+    <owl:NamedIndividual rdf:about="https://w3id.org/framester/data/framestercore/PeopleByVocation">
+        <rdfs:label>Graphic designer</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/framester/data/framestercore/Expertise">
+        <rdfs:label>Designer</rdfs:label>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.13) https://github.com/owlcs/owlapi -->
+

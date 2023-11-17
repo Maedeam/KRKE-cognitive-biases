@@ -1,0 +1,134 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/delayed/cognitive-bias-ontology/welltraveledroadeffect#"
+     xml:base="http://www.semanticweb.org/delayed/cognitive-bias-ontology/welltraveledroadeffect"
+     xmlns:ns="http://creativecommons.org/ns#"
+     xmlns:ns1="http://www.w3.org/2003/06/sw-vocab-status/ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:vann="http://purl.org/vocab/vann/"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:HaloEffect="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/welltraveledroadeffect.owl"
+     xmlns:HaloEffect1="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/welltraveledroadeffect.owl#"
+     xmlns:description="http://www.ontologydesignpatterns.org/cp/owl/description.owl#"
+     xmlns:cpannotationschema="http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#">
+    <owl:Ontology rdf:about="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/Pwelltraveledroadeffect.owl">
+        <owl:versionIRI rdf:resource="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/welltraveledroadeffect.owl"/>
+        <terms:creator xml:lang="en">Atousa Heidarnia</terms:creator>
+        <terms:creator xml:lang="en">Maede Hajjari</terms:creator>
+        <terms:description xml:lang="en">The well-traveled road effect module of the Cognitive Bias Ontology.</terms:description>
+        <terms:hasVersion xml:lang="en">0.1</terms:hasVersion>
+        <terms:title xml:lang="en">The well-traveled road effect Ontology</terms:title>
+        <rdfs:comment xml:lang="en">The &quot; well-traveled road effect&quot;is the cognitive bias where familiar and frequently taken paths are perceived as shorter or less time-consuming than unfamiliar routes of equal distance.</rdfs:comment>
+    </owl:Ontology>
+    
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+
+    <owl:ObjectProperty rdf:about="http://www.ontologydesignpatterns.org/cp/owl/description.owl#Faces Challenge">
+        <rdfs:domain rdf:resource="https://w3id.org/framester/data/framestercore/People"/>
+        <rdfs:range rdf:resource="https://w3id.org/framester/data/framestercore/MentalProperty"/>
+        <rdfs:comment>Connects individuals or teams to challenges or dilemmas they encounter, emphasizing the difficulties associated with deviating from familiar paths and embracing change.</rdfs:comment>
+        <rdfs:label>Faces Challenge</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+    <owl:ObjectProperty rdf:about="http://www.ontologydesignpatterns.org/cp/owl/description.owl#Adopts Methodology">
+        <rdfs:range rdf:resource="https://w3id.org/framester/data/framestercore/Expertise"/>
+        <rdfs:comment>Relates individuals or teams to the project management methodology they choose to adopt, reflecting the decision-making process and</rdfs:comment>
+        <rdfs:label>Adopts Methodology</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <owl:ObjectProperty rdf:about="http://www.ontologydesignpatterns.org/cp/owl/description.owl#Demonstrates Leadership Style">
+        <rdfs:domain rdf:resource="https://w3id.org/framester/data/framestercore/People"/>
+        <rdfs:range rdf:resource="https://w3id.org/framester/data/framestercore/Leadership"/>
+        <rdfs:comment>Links individuals or teams to their leadership style, whether it&apos;s proactive, reactive, or a combination, illustrating the role of leadership in navigating the &quot;well-traveled road effect.&quot;</rdfs:comment>
+        <rdfs:label>Demonstrates Leadership Style</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    <owl:Class rdf:about="https://w3id.org/framester/data/framestercore/Statement">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/Exemplar"/>
+        <rdfs:label>Traditional Waterfall Approach</rdfs:label>
+    </owl:Class>
+    
+
+
+    <owl:Class rdf:about="https://w3id.org/framester/data/framestercore/Leadership">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/Entity"/>
+        <rdfs:label>Leadership style</rdfs:label>
+    </owl:Class>
+    
+
+
+    <owl:Class rdf:about="https://w3id.org/framester/data/framestercore/Exemplar">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/Entity"/>
+        <rdfs:label>Methodology Paradigm</rdfs:label>
+    </owl:Class>
+    
+
+
+
+
+    <owl:Class rdf:about="https://w3id.org/framester/data/framestercore/Expertise">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/Exemplar"/>
+        <rdfs:label>Agile Methodologies</rdfs:label>
+    </owl:Class>
+    
+
+    <owl:Class rdf:about="https://w3id.org/framester/data/framestercore/MentalProperty">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/Entity"/>
+        <rdfs:comment>representing the overarching challenge faced by individuals or teams when deciding between established, well-known practices and innovative, less-explored alternatives.</rdfs:comment>
+        <rdfs:label>Innovation Dilemma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <owl:Class rdf:about="https://w3id.org/framester/data/framestercore/People">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/Entity"/>
+        <rdfs:comment>representing individual professionals.</rdfs:comment>
+        <rdfs:label>Individuals</rdfs:label>
+    </owl:Class>
+    
+
+    <owl:Class rdf:about="https://w3id.org/framester/data/framestercore/Entity">
+        <rdfs:comment>representing both individuals and teams in a professional setting.</rdfs:comment>
+        <rdfs:label>Entities</rdfs:label>
+    </owl:Class>
+    
+
+    <owl:Class rdf:about="https://w3id.org/framester/data/framestercore/Organization">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/Entity"/>
+        <rdfs:comment>representing groups of individuals working together.</rdfs:comment>
+        <rdfs:label>Teams</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.13) https://github.com/owlcs/owlapi -->
+
