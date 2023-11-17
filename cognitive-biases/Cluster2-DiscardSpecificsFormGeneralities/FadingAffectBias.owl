@@ -1,0 +1,150 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/delayed/cognitive-bias-ontology/Fadingaffectbias#"
+     xml:base="http://www.semanticweb.org/delayed/cognitive-bias-ontology/Fadingaffectbias"
+     xmlns:ns="http://creativecommons.org/ns#"
+     xmlns:ns1="http://www.w3.org/2003/06/sw-vocab-status/ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:vann="http://purl.org/vocab/vann/"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:HaloEffect="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/Fadingaffectbias.owl"
+     xmlns:HaloEffect1="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/Fadingaffectbias.owl#"
+     xmlns:description="http://www.ontologydesignpatterns.org/cp/owl/description.owl#"
+     xmlns:cpannotationschema="http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#">
+    <owl:Ontology rdf:about="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/Fadingaffectbias.owl">
+        <owl:versionIRI rdf:resource="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/Fadingaffectbias.owl"/>
+        <terms:creator xml:lang="en">Atousa Heidarnia</terms:creator>
+        <terms:creator xml:lang="en">Maede Hajjari</terms:creator>
+        <terms:description xml:lang="en">Fading affect bias module of the Cognitive Bias Ontology.</terms:description>
+        <terms:hasVersion xml:lang="en">0.1</terms:hasVersion>
+        <terms:title xml:lang="en">Fading affect bias Ontology</terms:title>
+        <rdfs:comment xml:lang="en">The &quot;Fading affect bias&quot;is the cognitive phenomenon where negative emotions associated with past events tend to diminish more quickly than positive emotions.</rdfs:comment>
+    </owl:Ontology>
+    
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.ontologydesignpatterns.org/cp/owl/description.owl#InfluencesRelationship">
+        <rdfs:domain rdf:resource="https://w3id.org/framester/data/framestercore/Contrition"/>
+        <rdfs:range rdf:resource="https://w3id.org/framester/data/framestercore/CognitiveConnection"/>
+        <rdfs:comment>Indicates how emotional events impact the dynamics of relationships, fostering changes in overall relationship dynamics. (Misunderstandings, Regrets, Positive Experiences)</rdfs:comment>
+        <rdfs:label>InfluencesRelationship</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+    <owl:ObjectProperty rdf:about="http://www.ontologydesignpatterns.org/cp/owl/description.owl#EvokesEmotion">
+        <rdfs:domain rdf:resource="https://w3id.org/framester/data/framestercore/Cogitation"/>
+        <rdfs:range rdf:resource="https://w3id.org/framester/data/framestercore/EmotionDirected"/>
+        <rdfs:comment>Relates specific emotional events to the broader category of emotional events.(Misunderstandings, Regrets, Positive Experiences)</rdfs:comment>
+        <rdfs:label>EvokesEmotion</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+    <owl:ObjectProperty rdf:about="http://www.ontologydesignpatterns.org/cp/owl/description.owl#FadesOverTime">
+        <rdfs:domain rdf:resource="https://w3id.org/framester/data/framestercore/EmotionDirected"/>
+        <rdfs:label>FadesOverTime</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+    <owl:Class rdf:about="https://w3id.org/framester/data/framestercore/EmotionDirected">
+        <rdfs:comment>Represents events or incidents that evoke emotional responses.</rdfs:comment>
+        <rdfs:label>Emotional Events</rdfs:label>
+    </owl:Class>
+    
+
+    <owl:Class rdf:about="https://w3id.org/framester/data/framestercore/CognitiveConnection">
+        <rdfs:comment>Encompasses the various aspects of relationships between individuals.</rdfs:comment>
+        <rdfs:label>Relationship Dynamics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <owl:Class rdf:about="https://w3id.org/framester/data/framestercore/ExperiencerObj">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/CognitiveConnection"/>
+        <rdfs:comment>Instances where there is tension or difficulty in the relationship, possibly caused by emotional events like misunderstandings or regrets.</rdfs:comment>
+        <rdfs:label>Strain Periods</rdfs:label>
+    </owl:Class>
+    
+
+    <owl:Class rdf:about="https://w3id.org/framester/data/framestercore/MentalPropert">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/CognitiveConnection"/>
+        <rdfs:comment>Instances of events or experiences that elicit positive emotions.</rdfs:comment>
+        <rdfs:label>Positive Experiences</rdfs:label>
+    </owl:Class>
+    
+
+
+    <owl:Class rdf:about="https://w3id.org/framester/data/framestercore/Creating">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/CognitiveConnection"/>
+        <rdfs:comment>Instances where a relationship is revived or renewed, often following a period of strain.</rdfs:comment>
+        <rdfs:label>Rekindling</rdfs:label>
+    </owl:Class>
+    
+
+
+
+    <owl:Class rdf:about="https://w3id.org/framester/data/framestercore/Contrition">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/EmotionDirected"/>
+        <rdfs:comment>Instances where individuals feel sorrow or remorse, triggering emotional responses.</rdfs:comment>
+        <rdfs:label>Regrets</rdfs:label>
+    </owl:Class>
+    
+
+
+ 
+
+    <owl:Class rdf:about="https://w3id.org/framester/data/framestercore/Cogitation">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/EmotionDirected"/>
+        <rdfs:comment>Instances where there is a lack of clarity or agreement, leading to emotional reactions.</rdfs:comment>
+        <rdfs:label>Misunderstandings</rdfs:label>
+    </owl:Class>
+    
+
+
+
+    <owl:Class rdf:about="https://w3id.org/framester/data/framestercore/EmotionDirected">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/CognitiveConnection"/>
+        <rdfs:comment>Instances where emotional events, whether positive or negative, have a direct impact on the overall dynamics of the relationship.</rdfs:comment>
+        <rdfs:label>Emotional Event Influence</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/framester/data/framestercore/People">
+        <rdfs:label>friend</rdfs:label>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.13) https://github.com/owlcs/owlapi -->
+
