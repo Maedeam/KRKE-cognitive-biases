@@ -50,36 +50,36 @@ _<mark style="color:green;">Large Language Models</mark>_
 
 _<mark style="color:green;">A general description of the bias to get an overall idea of the domain</mark>_
 
-The "Halo Effect" is a cognitive bias that influences individuals to form a favorable overall impression of a person, product, or entity based on a single positive trait, experience, or characteristic. This positive evaluation creates a metaphorical "halo" around the subject, leading to the assumption that other unrelated aspects or qualities must also be positive. In essence, the Halo Effect occurs when a positive perception in one area extends to influence judgments in unrelated areas, clouding objectivity. This bias can result in overly positive evaluations and skewed assessments, as individuals project their admiration or approval from one specific aspect onto the overall entity, sometimes leading to inaccurate or biased conclusions.
+In-Group Bias, a prevalent cognitive bias, refers to the tendency of individuals to favor and show preferential treatment towards members of their own social, cultural, or identity group. This bias can lead to the perception of one's group as superior or more deserving than others, often resulting in a range of behaviors such as increased cooperation and empathy within the in-group and, conversely, discrimination or hostility towards out-groups. In-Group Bias is deeply rooted in social psychology, influencing how individuals perceive, interact with, and relate to those they consider part of their social circle.
 
 ### 2.2. Examples Scenarios
 
 _<mark style="color:green;">Ten different examples of possible scenarios to understanding the context of the domain</mark>_
 
-1. **Interview Impressions:** A job candidate, known for a prestigious accomplishment, is automatically assumed to possess strong leadership skills and expertise in various areas, influencing interviewers to positively evaluate unrelated qualifications.
-2. **Celebrity Influence:** Fans of a famous musician may extend their admiration for the artist's musical talent to presume expertise in other fields, like endorsing a product or expressing political opinions.
-3. **Physical Attractiveness:** Individuals deemed physically attractive may be unconsciously perceived as possessing positive qualities in areas such as intelligence or kindness, solely based on their appearance.
-4. **Company Reputation:** A company renowned for its innovative products might benefit from the Halo Effect, with consumers assuming excellence in customer service and ethical practices, even in the absence of direct evidence.
-5. **Academic Achievements:** A student excelling in one subject is often perceived as competent in all subjects, showcasing the Halo Effect in educational settings.
-6. **Political Figures:** Supporters of a political figure may attribute competence in various policy areas based on charisma or success in a specific domain, impacting overall political judgments.
-7. **Athletic Endorsements:** An athlete's endorsement of a product might lead consumers to believe in the product's quality, even if the athlete's expertise lies solely in sports.
-8. **Social Media Influence:** Influencers with a large following may experience the Halo Effect, where their audience assumes expertise in diverse fields beyond their primary content domain.
-9. **Charitable Activities:** Individuals engaged in charitable work might be perceived as virtuous in all aspects of their lives, leading to a positive Halo Effect on their character.
-10. **Product Packaging:** A well-designed and visually appealing product package may influence consumers to assume superior quality and functionality, creating a positive Halo Effect for the entire product.
+1. **Team Collaboration:** In a workplace setting, employees may exhibit In-Group Bias by favoring their immediate team members over colleagues from other departments, leading to increased collaboration within the team but potential challenges in interdepartmental cooperation.
+2. **Sports Fandom:** Fans of a particular sports team may display In-Group Bias by perceiving their team as superior to others, resulting in heightened loyalty and camaraderie among fellow fans while potentially fostering rivalry and animosity towards supporters of rival teams.
+3. **Social Cliques:** Within a high school environment, students may engage in In-Group Bias by favoring their own social clique, fostering a sense of belonging and shared identity, but potentially contributing to social exclusion and stereotyping of individuals outside the group.
+4. **Cultural Preferences:** Individuals may demonstrate In-Group Bias by favoring their own cultural or ethnic group in terms of traditions, customs, and practices, leading to a strong sense of identity but potentially contributing to cultural misunderstandings and biases against other groups.
+5. **Nationalism:** Citizens of a country may exhibit In-Group Bias by expressing strong patriotism and favoring their own nation, fostering national unity but potentially leading to prejudices against people from other countries.
+6. **Religious Affiliation:** Individuals within a religious community may display In-Group Bias by favoring fellow believers, creating a sense of shared values and solidarity but potentially contributing to religious intolerance and discrimination against those with different beliefs.
+7. **Online Communities:** Members of online forums or social media groups may demonstrate In-Group Bias by favoring discussions and opinions within their community, fostering a sense of camaraderie but potentially leading to hostility towards individuals with differing views.
+8. **Political Parties:** Supporters of a political party may engage in In-Group Bias by favoring policies and candidates aligned with their party, fostering a sense of political identity but potentially contributing to polarization and animosity towards supporters of opposing parties.
+9. **Professional Associations:** Individuals within a professional association may exhibit In-Group Bias by favoring colleagues within their field, fostering collaboration and shared professional interests but potentially contributing to biases against professionals from other disciplines.
+10. **Family Dynamics:** Within a family unit, members may display In-Group Bias by favoring their immediate family over extended relatives, fostering a strong familial bond but potentially contributing to tensions and biases within the larger family network.
 
 ### 2.3 Main Scenario
 
-_<mark style="color:green;">Considering one scenario; here the</mark> <mark style="color:green;"></mark><mark style="color:green;">**Social Media Influence,**</mark> <mark style="color:green;"></mark><mark style="color:green;">as our main user story</mark>_
+_<mark style="color:green;">Considering one scenario; here the</mark> <mark style="color:green;"></mark><mark style="color:green;">**Sports Fandom,**</mark> <mark style="color:green;"></mark><mark style="color:green;">as our main user story</mark>_
 
-**User Story:** Navigating Social Media Influence and the Halo Effect
+**User Story:** Exploring Sports Fandom Bias
 
-**User:** Emma, an avid follower of a popular social media influencer, Lily.
+**User:** Mark, an enthusiastic fan of a local football team
 
-**Objective:** As Emma, I aim to critically assess the recommendations and opinions of Lily, the influencer, on various topics, recognizing and mitigating the potential Halo Effect that might influence my judgments.
+**Objective:** As Mark, I aim to recognize and navigate the In-Group Bias associated with my sports fandom, ensuring a balanced perspective on rival teams and fostering a positive sports community.
 
-**Scenario:** Lily, known for her engaging content on fashion and lifestyle, starts expressing opinions on environmental conservation. Emma, impressed by Lily's fashion sense, automatically assumes Lily's expertise in environmental matters, supporting Lily's initiatives without independently evaluating their environmental impact.
+**Scenario:** Mark has been a devoted fan of his local football team for years, attending games, wearing team merchandise, and engaging in discussions with fellow fans. Recently, he noticed that his passion for his team has led to a subtle bias against rival teams. During a conversation with a fan of a rival team, Mark found himself dismissing their achievements and underestimating their skills. Recognizing the potential negative impact of this bias on his interactions, Mark decides to explore ways to appreciate rival teams and promote a more inclusive and respectful sports environment.
 
-**Desired Outcome:** Emma, realizing the potential Halo Effect, decides to delve deeper into environmental issues. She seeks information from reliable sources, ensuring a more informed stance, separating Lily's influence in fashion from her credibility on environmental topics. Emma aims to avoid undue biases and make decisions based on a comprehensive understanding of each subject.
+**Desired Outcome:** Mark strives to maintain his passionate support for his local team while actively challenging any In-Group Bias that may lead to unfair judgments of rival teams. He seeks to celebrate the achievements of all teams, fostering a spirit of healthy competition and camaraderie among sports enthusiasts.
 
 ### 2.4. Possible CQs
 
@@ -87,23 +87,18 @@ _<mark style="color:green;">Generating some possible competency questions</mark>
 
 **1. AgentRole Competency Question:**
 
-* **CQ1-1:** Who is the primary agent influencing Emma's opinions in the scenario?
-* **CQ1-2:** What role does Lily, the social media influencer, play in shaping Emma's perspectives
-* **CQ1-3:** Are there other agents aside from Lily that contribute to Emma's decision-making regarding environmental matters?
+* **CQ1-1:** _Which individuals or entities in the sports community play the role of promoting positive interactions among fans and challenging biased perspectives?_
+* **CQ1-2:** _What specific roles do fans like Mark assume within the context of sports fandom, particularly in addressing biases related to rival teams?_
 
 **2. Sequence Competency Question:**
 
-* **CQ2-1:** What events or content precede Lily expressing opinions on environmental conservation in Emma's social media feed?
-* **CQ2-2:** What follows Emma's initial support for Lily's initiatives in the context of environmental matters?
-* **CQ2-3:** What is the sequence of events leading to Emma's realization of the potential Halo Effect?
+* **CQ2-1:** _What typically occurs before a sports fan like Mark recognizes the In-Group Bias associated with their sports fandom?_
+* **CQ2-2:** _What actions or events follow Mark's decision to actively challenge and navigate the In-Group Bias in sports fandom?_
 
 **3. Situation Competency Question:**
 
-* **CQ3-1:** What is the broader context or situation in which Emma encounters Lily's opinions on environmental issues?
-* **CQ3-2:** What factors are present in the social media environment that contribute to Emma's automatic support for Lily's environmental initiatives?
-* **CQ3-3:** How does Emma's understanding of the broader situation evolve as she navigates through Lily's content and environmental topics?
-
-These competency questions aim to address the roles, sequences, and situations surrounding the user story, providing a comprehensive exploration of the factors influencing Emma's decision-making.
+* **CQ3-1:** _In the context of sports fandom, what situations or settings contribute to the development of In-Group Bias among passionate fans?_
+* **CQ3-2:** _What elements are present in the sports community's context that can either perpetuate or mitigate biases related to rival teams?_
 
 ### 2.5. Modelling Bias
 
@@ -111,76 +106,66 @@ _<mark style="color:green;">For making an Ontology and modelling the bias, we ca
 
 **Classes:**
 
-* **CognitiveBias**: Represents various types of cognitive biases, including the "Halo Effect." This class serves as a superclass for specific types of biases.
-* **BiasType**: Represents different categories or types of biases. In this case, it would include the "Halo Effect" as a specific type of cognitive bias.
-* **TargetDomain**: Represents the specific domain or area where the "Halo Effect" occurs. For example, in the scenario of celebrity admiration, the target domain could be the celebrity's expertise outside of their primary field.
-* **InfluencingFactor**: Represents factors or traits that contribute to the formation of the "Halo Effect." This could include traits like talent, charisma, or public image.
+* **SocialGroup:** Represents various social groups, such as sports teams or fan communities, where In-Group Bias may manifest.
+* **Individual:** Represents people or entities within the social groups susceptible to In-Group Bias.
+* **InGroupBias:** Represents instances of bias where individuals favor members of their own social group over those from other groups.
 
 **Properties:**
 
-* **hasBiasType**: Connects a CognitiveBias instance to its corresponding BiasType instance, indicating that it is a specific type of bias, such as the "Halo Effect."
-* **targetsDomain**: Specifies the TargetDomain instance that is the subject of the "Halo Effect" in a particular scenario.
-* **isInfluencedBy**: Connects an instance of the "Halo Effect" to the factors or traits (InfluencingFactor) that contribute to its occurrence.
-* **resultsInPerception**: Indicates the impact of the "Halo Effect" on perception or judgment. For example, it could represent the perception that excellence in one area implies excellence in unrelated areas.
+* **hasBiasType:** Connects an instance of InGroupBias to its corresponding BiasType, indicating the specific type of bias involved.
+* **targetsGroup:** Specifies the SocialGroup instance that is the subject of the In-Group Bias in a particular InGroupBias instance.
+* **isInherent:** Indicates whether a biased perspective is inherently associated with individuals within a specific social group.
+* **isAttributedToGroup:** Connects a biased perspective to the SocialGroup instance that it is commonly attributed to.
 
-These classes and properties provide a foundational structure for modeling the "Halo Effect" in different contexts and scenarios. The ontology can be extended or refined based on specific use cases and requirements.
+**Object Properties:**
+
+* **hasInfluence:** Represents the factors or entities that influence individuals and contribute to the perpetuation of In-Group Bias.
+* **SocialRoleBias:** Represents biases that attribute specific social roles or behaviors to certain social groups.
+
+**Individuals (Examples):**
+
+* **FootballFanGroup:** An instance of SocialGroup representing a community of football fans.
+* **IndividualFan1:** An instance of Individual representing a specific football fan within the FootballFanGroup.
+* **InGroupBiasFootball:** An instance of InGroupBias representing bias observed within the football fan community.
 
 ### 2.6. Examples Ontology
 
 _<mark style="color:green;">Three different examples of usage of the Ontology</mark>_
 
-**Example 1: Celebrity Admiration Scenario**
+**Example 1: Football Fan Bias**
 
-Class Instances:
+* **SocialGroup:** FootballFanGroup
+* **Individuals:** IndividualFan1, IndividualFan2
+* **InGroupBias Instance:** InGroupBiasFootball
+* **hasBiasType Property:** InGroupBiasFootball hasBiasType FootballFavoritism
+* **targetsGroup Property:** InGroupBiasFootball targetsGroup FootballFanGroup
+* **isInherent Property:** True (indicating inherent bias within the football fan community)
 
-* Instance of CognitiveBias: "Halo Effect"
-* Instance of BiasType: "Celebrity Bias"
-* Instance of TargetDomain: "Environmental Advocacy"
-* Instance of InfluencingFactor: "Public Statements"
+**Explanation:** In this example, individuals within the FootballFanGroup exhibit In-Group Bias favoring their football community over others, specifically manifesting as favoritism toward their preferred football team.
 
-Properties:
+**Example 2: Cultural In-Group Bias**
 
-* hasBiasType: Connects "Halo Effect" to "Celebrity Bias."
-* targetsDomain: Connects "Halo Effect" to "Environmental Advocacy."
-* isInfluencedBy: Connects "Halo Effect" to "Public Statements."
+* **SocialGroup:** CulturalCommunity
+* **Individuals:** IndividualMember1, IndividualMember2
+* **InGroupBias Instance:** InGroupBiasCultural
+* **hasBiasType Property:** InGroupBiasCultural hasBiasType CulturalPrejudice
+* **targetsGroup Property:** InGroupBiasCultural targetsGroup CulturalCommunity
+* **isInherent Property:** False (indicating a bias that may not be inherent but observed within the cultural community)
 
+**Explanation:** This example illustrates In-Group Bias within a cultural community, where members may exhibit prejudice against other cultural groups.
 
+**Example 3: Online Gaming Community Bias**
 
-**Example 2: Product Review Bias Scenario**
+* **SocialGroup:** GamingCommunity
+* **Individuals:** IndividualGamer1, IndividualGamer2
+* **InGroupBias Instance:** InGroupBiasGaming
+* **hasBiasType Property:** InGroupBiasGaming hasBiasType GamerElitism
+* **targetsGroup Property:** InGroupBiasGaming targetsGroup GamingCommunity
+* **isInherent Property:** True (indicating inherent bias within the gaming community)
 
-Class Instances:
+**Explanation:** Here, individuals in the GamingCommunity display In-Group Bias in the form of gamer elitism, favoring their community and considering it superior to other gaming groups.
 
-* Instance of CognitiveBias: "Halo Effect"
-* Instance of BiasType: "Product Review Bias"
-* Instance of TargetDomain: "Product Expertise"
-* Instance of InfluencingFactor: "Positive User Experience"
-
-Properties:
-
-* hasBiasType: Connects "Halo Effect" to "Product Review Bias."
-* targetsDomain: Connects "Halo Effect" to "Product Expertise."
-* isInfluencedBy: Connects "Halo Effect" to "Positive User Experience."
-
-
-
-**Example 3: Academic Achievement Bias Scenario**
-
-Class Instances:
-
-* Instance of CognitiveBias: "Halo Effect"
-* Instance of BiasType: "Academic Achievement Bias"
-* Instance of TargetDomain: "General Intelligence"
-* Instance of InfluencingFactor: "High Grades"
-
-Properties:
-
-* hasBiasType: Connects "Halo Effect" to "Academic Achievement Bias."
-* targetsDomain: Connects "Halo Effect" to "General Intelligence."
-* isInfluencedBy: Connects "Halo Effect" to "High Grades."
-
-
-
-These examples demonstrate how the defined ontology can be instantiated in different scenarios, such as celebrity admiration, product reviews, or academic achievement, capturing the relationships between classes and properties.
+These examples showcase instances where the defined classes and properties capture different manifestations of In-Group Bias across diverse social contexts.
 
 ***
 
@@ -194,26 +179,30 @@ To better synchronize the biases with established semantic frames in Framester, 
 
 _<mark style="color:green;">Choosing these Lexical Units, then extracted concepts in QUOKKA's and FRED</mark>_
 
-* celebrity
-* audience
-* perspective
-* judgement
+1. **Fandom:** Refers to the enthusiastic support and admiration of a particular group, often associated with a common interest, such as sports or entertainment.
+2. **Cohesion:** Describes the unity and sense of belonging within a group, reflecting the close-knit relationships among its members.
+3. **Prejudice:** Signifies a preconceived opinion or bias, often negative, about individuals or groups based on their characteristics, such as cultural background or preferences.
+4. **Favoritism:** Implies the unfair preference or treatment of individuals within a group, showing bias towards certain members over others.
 
 ### 3.2 Selected Framester F**rames**:
 
 _<mark style="color:green;">Finally, these are the best Framester Frames can be chosen</mark>_
 
-[Fame](http://etna.istc.cnr.it/framester2/data/framestercore/Fame)
-
-stringAn Entity is well-known among a wide range of people (in general or in a particular domain) for a particular Reason, which may be a behavior, characteristic, or some other associated item. In the case of events, fame entails a large number of people being aware of the event's occurence; in the case of concrete entities, including humans, fame entails awareness of existence. In both cases, often fame is accompanied by awareness of the Entity's significance in historical, cultural, or social contexts. Shakespeare was famous during his life because he performed in front of Queen Elizabeth I more than anyone else.
-
-[People](https://w3id.org/framester/data/framestercore/People)
+[People](http://etna.istc.cnr.it/framester2/data/framestercore/People)
 
 This frame contains general words for Individuals, i.e. humans. The Person is conceived of as independent of other specific individuals with whom they have relationships and independent of their participation in any particular activity. They may have an Age, Descriptor, Origin, Persistent\_characteristic, or Ethnicity. A man from Phoenix was shot yesterday. She gave birth to a screaming babyyesterday. I study 16-year-old female adolescents. I am dating an African-American man. She comforted the terrified child. I always thought of him as a stupid man.
 
-[Cogitation](https://w3id.org/framester/data/framestercore/Cogitation)
+[Inclination](http://etna.istc.cnr.it/framester2/data/framestercore/Inclination)
 
-A person, the Cognizer, thinks about a Topic over a period of time. What is thought about may be a course of action that the person might take, or something more general. The men were silently mulling over the proposition of committing an assassination
+Due to internal forces/properties, an Entity is inclined towards a particular Behavior, which may be to perform an action or a to maintain a state. The underlying force is seen as being beyond the Entity's control. The Degree to which the Entity is inclined towards the Behavior may also be specified as well as the Basis for the inclination. My grandmother has criminal tendencies. "Smithers has always had a deplorable tendency to exhibitionism. Chuck was not very inclined to believe me. Smithers has a genetic predisposition for neural tube defects.
+
+[Partiality](https://w3id.org/framester/data/framestercore/Partiality)
+
+This frame has to do with the bias or lack of bias of a Judge making an assessment concerning two or more Sides. The Sides may stand opposed to each other in a dispute or be alternatives in a situation of choice. The Domain in which the Judge is partial or impartial may be expressed as well as the Degree of bias or lack thereof. In sentences in this frame one may also find expressions of Manifestation\_of\_bias, i.e. expressions that tell us how the Judge's bias is realized.
+
+[Categorization](http://etna.istc.cnr.it/framester2/data/framestercore/Categorization)
+
+A Cognizer construes an Item as belonging to a certain Category. In this process, the Cognizer may either passively perceive the Item and note that it fits the Criteria for a Category, or, alternatively, actively examine the Item for certain Criteria that define a Category (or set of Categorys). Most members of the frame can also describe a resulting cognitive state of the Cognizer with respect to the Item and Category which no longer requires the current perception or consideration of the Item. A few LUs (e.g. peg.v, pigeonhole.v) do not readily allow stative interpretation, and a few LUs (e.g. deem.v, regard.v) only allow stative interpretation. You 've already stereotyped me as a bimbo, have n't you?
 
 ### 3.3 Creating the bias ontology file:
 

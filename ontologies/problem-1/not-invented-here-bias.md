@@ -52,60 +52,50 @@ _<mark style="color:green;">Large Language Models</mark>_
 
 _<mark style="color:green;">A general description of the bias to get an overall idea of the domain</mark>_
 
-The "Halo Effect" is a cognitive bias that influences individuals to form a favorable overall impression of a person, product, or entity based on a single positive trait, experience, or characteristic. This positive evaluation creates a metaphorical "halo" around the subject, leading to the assumption that other unrelated aspects or qualities must also be positive. In essence, the Halo Effect occurs when a positive perception in one area extends to influence judgments in unrelated areas, clouding objectivity. This bias can result in overly positive evaluations and skewed assessments, as individuals project their admiration or approval from one specific aspect onto the overall entity, sometimes leading to inaccurate or biased conclusions.
+"Not Invented Here Bias" is a cognitive bias characterized by a reluctance or skepticism towards adopting external ideas, products, or solutions, simply because they were not created internally. Individuals or organizations affected by this bias may undervalue or dismiss external innovations, preferring to rely on their own methods or developments. This bias can hinder progress, limit diversity of thought, and impede the adoption of valuable insights from external sources. Overcoming the "Not Invented Here Bias" involves fostering a more open-minded approach that appreciates external contributions and acknowledges the potential benefits of embracing ideas regardless of their origin.
 
 ### 2.2. Examples Scenarios
 
 _<mark style="color:green;">Ten different examples of possible scenarios to understanding the context of the domain</mark>_
 
-1. **Interview Impressions:** A job candidate, known for a prestigious accomplishment, is automatically assumed to possess strong leadership skills and expertise in various areas, influencing interviewers to positively evaluate unrelated qualifications.
-2. **Celebrity Influence:** Fans of a famous musician may extend their admiration for the artist's musical talent to presume expertise in other fields, like endorsing a product or expressing political opinions.
-3. **Physical Attractiveness:** Individuals deemed physically attractive may be unconsciously perceived as possessing positive qualities in areas such as intelligence or kindness, solely based on their appearance.
-4. **Company Reputation:** A company renowned for its innovative products might benefit from the Halo Effect, with consumers assuming excellence in customer service and ethical practices, even in the absence of direct evidence.
-5. **Academic Achievements:** A student excelling in one subject is often perceived as competent in all subjects, showcasing the Halo Effect in educational settings.
-6. **Political Figures:** Supporters of a political figure may attribute competence in various policy areas based on charisma or success in a specific domain, impacting overall political judgments.
-7. **Athletic Endorsements:** An athlete's endorsement of a product might lead consumers to believe in the product's quality, even if the athlete's expertise lies solely in sports.
-8. **Social Media Influence:** Influencers with a large following may experience the Halo Effect, where their audience assumes expertise in diverse fields beyond their primary content domain.
-9. **Charitable Activities:** Individuals engaged in charitable work might be perceived as virtuous in all aspects of their lives, leading to a positive Halo Effect on their character.
-10. **Product Packaging:** A well-designed and visually appealing product package may influence consumers to assume superior quality and functionality, creating a positive Halo Effect for the entire product.
+1. **Software Development:** A tech company dismisses a groundbreaking software solution because it was developed by an external vendor, favoring in-house solutions even if they are less effective.
+2. **Research Projects:** A research team refuses to consider external studies or findings in their project, believing that internally generated data and research are inherently more reliable.
+3. **Product Design:** An industrial design team rejects incorporating a cutting-edge design concept from an external consultant, insisting on relying solely on their in-house design ideas.
+4. **Innovation Competition:** A company ignores an innovative idea presented at an industry innovation event, assuming that internally generated ideas are superior and overlooking potential advancements.
+5. **Strategic Planning:** A business organization hesitates to adopt a strategic plan proposed by external consultants, assuming that internally devised strategies are inherently more aligned with their goals.
+6. **Marketing Campaigns:** A marketing team disregards an effective marketing strategy developed by an external agency, opting for in-house campaigns that may not be as successful.
+7. **Employee Training:** A company rejects an external training program for its employees, assuming that internally developed training modules are more tailored to their specific needs.
+8. **Medical Research:** A scientific research team neglects incorporating findings from external studies, believing that internally conducted research is more rigorous and reliable.
+9. **Manufacturing Processes:** A manufacturing company refuses to implement a more efficient production process suggested by an external expert, insisting on using their established methods.
+10. **Organizational Change:** A company resists adopting organizational changes recommended by external consultants, favoring its own internal approach, even if it may be less effective in the current business landscape.
 
 ### 2.3 Main Scenario
 
-_<mark style="color:green;">Considering one scenario; here the</mark> <mark style="color:green;"></mark><mark style="color:green;">**Social Media Influence,**</mark> <mark style="color:green;"></mark><mark style="color:green;">as our main user story</mark>_
+_<mark style="color:green;">Considering one scenario; here th</mark><mark style="color:green;">**e Research Projects,**</mark> <mark style="color:green;"></mark><mark style="color:green;">as our main user story</mark>_
 
-**User Story:** Navigating Social Media Influence and the Halo Effect
+**User Story: Navigating Not Invented Here Bias in Research Projects**
 
-**User:** Emma, an avid follower of a popular social media influencer, Lily.
+**User:** Emily, a seasoned researcher leading a team.
 
-**Objective:** As Emma, I aim to critically assess the recommendations and opinions of Lily, the influencer, on various topics, recognizing and mitigating the potential Halo Effect that might influence my judgments.
+**Objective:** As Emily, I aim to foster a more inclusive and open-minded research environment by overcoming the "Not Invented Here Bias" within our team. This bias has led us to undervalue external research findings, hindering our ability to leverage diverse perspectives and innovative approaches.
 
-**Scenario:** Lily, known for her engaging content on fashion and lifestyle, starts expressing opinions on environmental conservation. Emma, impressed by Lily's fashion sense, automatically assumes Lily's expertise in environmental matters, supporting Lily's initiatives without independently evaluating their environmental impact.
+**Scenario:** During a research meeting, a team member suggests incorporating findings from a relevant external study to enhance the depth of our current project. However, the team hesitates, expressing a preference for relying solely on internally generated data and methodologies. This hesitation is rooted in the belief that internally conducted research is inherently more trustworthy and aligned with our objectives.
 
-**Desired Outcome:** Emma, realizing the potential Halo Effect, decides to delve deeper into environmental issues. She seeks information from reliable sources, ensuring a more informed stance, separating Lily's influence in fashion from her credibility on environmental topics. Emma aims to avoid undue biases and make decisions based on a comprehensive understanding of each subject.
+**Desired Outcome:** Emily recognizes the influence of the "Not Invented Here Bias" on the team's decision-making process. She encourages open discussion, emphasizing the value of considering external perspectives to enrich our research endeavors. By overcoming this bias, Emily aims to create a collaborative environment where the team appreciates the contributions of both internal and external sources, fostering innovation and comprehensive insights in their research projects.
 
 ### 2.4. Possible CQs
 
 _<mark style="color:green;">Generating some possible competency questions</mark>_
 
-**1. AgentRole Competency Question:**
-
-* **CQ1-1:** Who is the primary agent influencing Emma's opinions in the scenario?
-* **CQ1-2:** What role does Lily, the social media influencer, play in shaping Emma's perspectives
-* **CQ1-3:** Are there other agents aside from Lily that contribute to Emma's decision-making regarding environmental matters?
-
-**2. Sequence Competency Question:**
-
-* **CQ2-1:** What events or content precede Lily expressing opinions on environmental conservation in Emma's social media feed?
-* **CQ2-2:** What follows Emma's initial support for Lily's initiatives in the context of environmental matters?
-* **CQ2-3:** What is the sequence of events leading to Emma's realization of the potential Halo Effect?
-
-**3. Situation Competency Question:**
-
-* **CQ3-1:** What is the broader context or situation in which Emma encounters Lily's opinions on environmental issues?
-* **CQ3-2:** What factors are present in the social media environment that contribute to Emma's automatic support for Lily's environmental initiatives?
-* **CQ3-3:** How does Emma's understanding of the broader situation evolve as she navigates through Lily's content and environmental topics?
-
-These competency questions aim to address the roles, sequences, and situations surrounding the user story, providing a comprehensive exploration of the factors influencing Emma's decision-making.
+1. **AgentRole CPs:**
+   * _Q1:_ Who is the primary agent responsible for leading the research team?
+   * _Q2:_ What role does Emily play in the research meeting scenario?
+2. **Sequence CPs:**
+   * _Q3:_ What events precede the team's hesitation to incorporate external findings?
+   * _Q4:_ What actions does Emily take immediately after recognizing the impact of the "Not Invented Here Bias"?
+3. **Situation CPs:**
+   * _Q5:_ What is the context of the team meeting where the bias influences decision-making?
+   * _Q6:_ What factors contribute to the team's preference for internal research in this situation?
 
 ### 2.5. Modelling Bias
 
@@ -113,76 +103,43 @@ _<mark style="color:green;">For making an Ontology and modelling the bias, we ca
 
 **Classes:**
 
-* **CognitiveBias**: Represents various types of cognitive biases, including the "Halo Effect." This class serves as a superclass for specific types of biases.
-* **BiasType**: Represents different categories or types of biases. In this case, it would include the "Halo Effect" as a specific type of cognitive bias.
-* **TargetDomain**: Represents the specific domain or area where the "Halo Effect" occurs. For example, in the scenario of celebrity admiration, the target domain could be the celebrity's expertise outside of their primary field.
-* **InfluencingFactor**: Represents factors or traits that contribute to the formation of the "Halo Effect." This could include traits like talent, charisma, or public image.
+1. **ResearchProject:** Represents a specific research initiative undertaken by a team.
+2. **ExternalFindings:** Signifies information or outcomes derived from sources outside the immediate research team.
+3. **InternalFindings:** Represents information generated or discovered by the team conducting the research.
+4. **DecisionPoint:** Marks a juncture in the research process where a decision is made regarding the incorporation of findings.
+5. **ResearchTeam:** Represents the collective group responsible for conducting the research.
 
-**Properties:**
+**Object Properties:**
 
-* **hasBiasType**: Connects a CognitiveBias instance to its corresponding BiasType instance, indicating that it is a specific type of bias, such as the "Halo Effect."
-* **targetsDomain**: Specifies the TargetDomain instance that is the subject of the "Halo Effect" in a particular scenario.
-* **isInfluencedBy**: Connects an instance of the "Halo Effect" to the factors or traits (InfluencingFactor) that contribute to its occurrence.
-* **resultsInPerception**: Indicates the impact of the "Halo Effect" on perception or judgment. For example, it could represent the perception that excellence in one area implies excellence in unrelated areas.
+1. **hasExternalFindings:** Connects a ResearchProject instance to relevant ExternalFindings.
+2. **hasInternalFindings:** Connects a ResearchProject instance to InternalFindings.
+3. **leadsResearchTeam:** Associates a ResearchTeam instance with the leader or primary agent responsible for guiding the research.
+4. **influencesDecision:** Relates a DecisionPoint instance to factors or biases impacting the decision-making process.
 
-These classes and properties provide a foundational structure for modeling the "Halo Effect" in different contexts and scenarios. The ontology can be extended or refined based on specific use cases and requirements.
+**Individuals:**
+
+1. **ProjectA:** An instance of ResearchProject representing a specific research endeavor.
+2. **ExternalReportX:** An instance of ExternalFindings, signifying information from an external source.
+3. **InternalDataY:** An instance of InternalFindings, representing data generated by the research team.
+4. **CriticalDecision:** An instance of DecisionPoint, marking a crucial decision point in the research process.
+5. **ResearchTeamAlpha:** An instance of ResearchTeam representing the group involved in the research.
 
 ### 2.6. Examples Ontology
 
 _<mark style="color:green;">Three different examples of usage of the Ontology</mark>_
 
-**Example 1: Celebrity Admiration Scenario**
-
-Class Instances:
-
-* Instance of CognitiveBias: "Halo Effect"
-* Instance of BiasType: "Celebrity Bias"
-* Instance of TargetDomain: "Environmental Advocacy"
-* Instance of InfluencingFactor: "Public Statements"
-
-Properties:
-
-* hasBiasType: Connects "Halo Effect" to "Celebrity Bias."
-* targetsDomain: Connects "Halo Effect" to "Environmental Advocacy."
-* isInfluencedBy: Connects "Halo Effect" to "Public Statements."
-
-
-
-**Example 2: Product Review Bias Scenario**
-
-Class Instances:
-
-* Instance of CognitiveBias: "Halo Effect"
-* Instance of BiasType: "Product Review Bias"
-* Instance of TargetDomain: "Product Expertise"
-* Instance of InfluencingFactor: "Positive User Experience"
-
-Properties:
-
-* hasBiasType: Connects "Halo Effect" to "Product Review Bias."
-* targetsDomain: Connects "Halo Effect" to "Product Expertise."
-* isInfluencedBy: Connects "Halo Effect" to "Positive User Experience."
-
-
-
-**Example 3: Academic Achievement Bias Scenario**
-
-Class Instances:
-
-* Instance of CognitiveBias: "Halo Effect"
-* Instance of BiasType: "Academic Achievement Bias"
-* Instance of TargetDomain: "General Intelligence"
-* Instance of InfluencingFactor: "High Grades"
-
-Properties:
-
-* hasBiasType: Connects "Halo Effect" to "Academic Achievement Bias."
-* targetsDomain: Connects "Halo Effect" to "General Intelligence."
-* isInfluencedBy: Connects "Halo Effect" to "High Grades."
-
-
-
-These examples demonstrate how the defined ontology can be instantiated in different scenarios, such as celebrity admiration, product reviews, or academic achievement, capturing the relationships between classes and properties.
+1. **Example Usage 1: Research Project Initiation**
+   * _Class Instances:_ ProjectA (ResearchProject), ResearchTeamAlpha (ResearchTeam)
+   * _Object Properties:_ leadsResearchTeam
+   * _Description:_ ResearchTeamAlpha, led by Dr. Smith, initiates ProjectA, focusing on sustainable energy solutions. The _leadsResearchTeam_ property connects ResearchTeamAlpha to Dr. Smith, indicating their leadership role.
+2. **Example Usage 2: Incorporating External Findings**
+   * _Class Instances:_ ProjectA (ResearchProject), ExternalReportX (ExternalFindings)
+   * _Object Properties:_ hasExternalFindings
+   * _Description:_ During ProjectA, ExternalReportX, a comprehensive report on global energy trends, is incorporated. The _hasExternalFindings_ property links ProjectA to ExternalReportX, reflecting the integration of external insights.
+3. **Example Usage 3: Critical Decision Point**
+   * _Class Instances:_ ProjectA (ResearchProject), CriticalDecision (DecisionPoint)
+   * _Object Properties:_ influencesDecision
+   * _Description:_ At a critical juncture, the team faces a decision on whether to pursue solar or wind energy. Biases and external factors at this DecisionPoint, such as cost considerations and team preferences, are captured by the _influencesDecision_ property.
 
 ***
 
@@ -196,26 +153,30 @@ To better synchronize the biases with established semantic frames in Framester, 
 
 _<mark style="color:green;">Choosing these Lexical Units, then extracted concepts in QUOKKA's and FRED</mark>_
 
-* celebrity
-* audience
-* perspective
-* judgement
+1. **Innovation:** The user story involves a bias related to reluctance in accepting external innovations or solutions.
+2. **External Contributions:** The story highlights challenges in acknowledging and integrating contributions or ideas from external sources.
+3. **In-House Preference:** The bias involves a tendency to favor internally developed solutions over those originating from external sources.
+4. **Team Autonomy:** The story suggests a bias associated with a team's inclination to maintain autonomy and develop solutions independently rather than considering external input.
 
 ### 3.2 Selected Framester F**rames**:
 
 _<mark style="color:green;">Finally, these are the best Framester Frames can be chosen</mark>_
 
-[Fame](http://etna.istc.cnr.it/framester2/data/framestercore/Fame)
+[Creating](http://etna.istc.cnr.it/framester2/data/framestercore/Creating)
 
-stringAn Entity is well-known among a wide range of people (in general or in a particular domain) for a particular Reason, which may be a behavior, characteristic, or some other associated item. In the case of events, fame entails a large number of people being aware of the event's occurence; in the case of concrete entities, including humans, fame entails awareness of existence. In both cases, often fame is accompanied by awareness of the Entity's significance in historical, cultural, or social contexts. Shakespeare was famous during his life because he performed in front of Queen Elizabeth I more than anyone else.
+A Cause leads to the formation of a Created\_entity.
 
-[People](https://w3id.org/framester/data/framestercore/People)
+[PartInnerOuter](http://etna.istc.cnr.it/framester2/data/framestercore/PartInnerOuter)
 
-This frame contains general words for Individuals, i.e. humans. The Person is conceived of as independent of other specific individuals with whom they have relationships and independent of their participation in any particular activity. They may have an Age, Descriptor, Origin, Persistent\_characteristic, or Ethnicity. A man from Phoenix was shot yesterday. She gave birth to a screaming babyyesterday. I study 16-year-old female adolescents. I am dating an African-American man. She comforted the terrified child. I always thought of him as a stupid man.
+This frame concerns Parts of objects that are defined relative to the center or edge of the object. The Part is a part of the Whole and the Part\_Prop describes a property of the Part. She discarded the exterior of the walnut. She preferred a sparse church interior . . In cases where the Target is an adjective, it has a special relationship with the noun that it modifies such that a phrase which is a syntactic argument of the noun is semantically available to fill the argument structure of the adjective, as in "the outside row of the class"The inner shelf of the bookcase was lying on the floor.
 
-[Cogitation](https://w3id.org/framester/data/framestercore/Cogitation)
+[Preference](http://etna.istc.cnr.it/framester2/data/framestercore/Preference)
 
-A person, the Cognizer, thinks about a Topic over a period of time. What is thought about may be a course of action that the person might take, or something more general. The men were silently mulling over the proposition of committing an assassination
+An Experiencer has a greater desire to participate in some Event, as against another (contextually recoverable) event which exhibits a specific Contrast with the Event. Alternatively, the Experiencer may have a greater desire that some Focal\_participant participate in the Event. The Location\_of\_Event may also be mentioned. Why do women prefer manly faces? I prefer open source programs over proprietary ones. Other customers prefer to send us an order together with a cheque. I prefer my tartar sauce on fish.
+
+[Organization](http://etna.istc.cnr.it/framester2/data/framestercore/Organization)
+
+This frame describes intentionally formed human social groups (here termed Organizations) with some definite structure and Members. They may be relatively informal, consisting only of a group of individuals who are aware of who is and who is not a fellow member, or they may be complex and long-lasting, such as the Roman Catholic Church or the Conservative Party.
 
 ### 3.3 Creating the bias ontology file:
 
