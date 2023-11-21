@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://www.semanticweb.org/delayed/cognitive-bias-ontology/HaloEffect#"
-     xml:base="http://www.semanticweb.org/delayed/cognitive-bias-ontology/HaloEffect"
+<rdf:RDF xmlns="http://www.semanticweb.org/delayed/cognitive-bias-ontology/NotInventedHere#"
+     xml:base="http://www.semanticweb.org/delayed/cognitive-bias-ontology/NotInventedHere"
      xmlns:ns="http://creativecommons.org/ns#"
      xmlns:ns1="http://www.w3.org/2003/06/sw-vocab-status/ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
@@ -8,20 +8,22 @@
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
      xmlns:vann="http://purl.org/vocab/vann/"
      xmlns:terms="http://purl.org/dc/terms/"
-     xmlns:People="http://etna.istc.cnr.it/framester2/data/framestercore/People#"
-     xmlns:HaloEffect="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/HaloEffect.owl"
-     xmlns:HaloEffect1="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/HaloEffect.owl#"
+     xmlns:NotInventedHere="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/NotInventedHere.owl"
      xmlns:description="http://www.ontologydesignpatterns.org/cp/owl/description.owl#"
+     xmlns:NotInventedHere1="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/NotInventedHere.owl#"
+     xmlns:NotInventedHere2="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/NotInventedHere#"
      xmlns:cpannotationschema="http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#">
-    <owl:Ontology rdf:about="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/HaloEffect.owl">
-        <owl:versionIRI rdf:resource="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/HaloEffect.owl"/>
+    <owl:Ontology rdf:about="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/NotInventedHere.owl">
+        <owl:versionIRI rdf:resource="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/NotInventedHere.owl"/>
+        <terms:creator xml:lang="en">Atousa Heidarnia</terms:creator>
         <terms:creator xml:lang="en">Maede Hajjari</terms:creator>
-        <terms:description xml:lang="en">Halo Effect bias module of the Cognitive Bias Ontology.</terms:description>
+        <terms:description xml:lang="en">Not Invented Here module of the Cognitive Bias Ontology.</terms:description>
         <terms:hasVersion xml:lang="en">0.1</terms:hasVersion>
-        <terms:title xml:lang="en">Halo Effect Bias Ontology</terms:title>
-        <rdfs:comment xml:lang="en">The &quot;Halo Effect&quot; is a cognitive bias that influences individuals to form a favorable overall impression of a person, product, or entity based on a single positive trait, experience, or characteristic. This positive evaluation creates a metaphorical &quot;halo&quot; around the subject, leading to the assumption that other unrelated aspects or qualities must also be positive.</rdfs:comment>
+        <terms:title xml:lang="en">Not Invented Here Ontology</terms:title>
+        <rdfs:comment xml:lang="en">&quot;Not Invented Here Bias&quot; is a cognitive bias characterized by a reluctance or skepticism towards adopting external ideas, products, or solutions, simply because they were not created internally. Individuals or organizations affected by this bias may undervalue or dismiss external innovations, preferring to rely on their own methods or developments. This bias can hinder progress, limit diversity of thought, and impede the adoption of valuable insights from external sources. Overcoming the &quot;Not Invented Here Bias&quot; involves fostering a more open-minded approach that appreciates external contributions and acknowledges the potential benefits of embracing ideas regardless of their origin.</rdfs:comment>
     </owl:Ontology>
     
 
@@ -61,6 +63,12 @@
     
 
 
+    <!-- http://www.w3.org/2004/02/skos/core#comment -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#comment"/>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -72,58 +80,35 @@
     
 
 
-    <!-- http://etna.istc.cnr.it/framester2/data/framestercore/People#hasJudgment -->
+    <!-- https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/NotInventedHere#develops -->
 
-    <owl:ObjectProperty rdf:about="http://etna.istc.cnr.it/framester2/data/framestercore/People#hasJudgment">
-        <owl:equivalentProperty rdf:resource="http://etna.istc.cnr.it/framester2/data/framestercore/People#hasOpinionAbout"/>
-        <rdfs:domain rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl#Agent"/>
-        <rdfs:range rdf:resource="https://w3id.org/framester/data/framestercore/Fame"/>
-        <rdfs:comment xml:lang="en">Represents the cognitive judgment made by an individual</rdfs:comment>
-        <rdfs:label xml:lang="en">hasJudgment</rdfs:label>
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/NotInventedHere#develops">
+        <rdfs:domain rdf:resource="http://etna.istc.cnr.it/framester2/data/framestercore/Partiality#Organization"/>
+        <rdfs:range rdf:resource="http://etna.istc.cnr.it/framester2/data/framestercore/Categorization#Creating"/>
+        <rdfs:comment xml:lang="en">Represents the act of an organization creating solutions.</rdfs:comment>
+        <rdfs:label xml:lang="en">develops</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://etna.istc.cnr.it/framester2/data/framestercore/People#hasOpinionAbout -->
+    <!-- https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/NotInventedHere#hasPartOrigin -->
 
-    <owl:ObjectProperty rdf:about="http://etna.istc.cnr.it/framester2/data/framestercore/People#hasOpinionAbout">
-        <rdfs:domain rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl#Agent"/>
-        <rdfs:range rdf:resource="https://w3id.org/framester/data/framestercore/Fame"/>
-        <rdfs:comment xml:lang="en">Represents the opinions held by individuals</rdfs:comment>
-        <rdfs:label xml:lang="en">hasOpinionAbout</rdfs:label>
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/NotInventedHere#hasPartOrigin">
+        <rdfs:domain rdf:resource="http://etna.istc.cnr.it/framester2/data/framestercore/Categorization#Creating"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/NotInventedHere#PartInnerOuter"/>
+        <rdfs:comment xml:lang="en">Represents the origin (internal or external) of parts in the creation process.</rdfs:comment>
+        <rdfs:label xml:lang="en">hasPartOrigin</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://etna.istc.cnr.it/framester2/data/framestercore/People#wrongAssumption -->
+    <!-- https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/NotInventedHere#hasPreference -->
 
-    <owl:ObjectProperty rdf:about="http://etna.istc.cnr.it/framester2/data/framestercore/People#wrongAssumption">
-        <rdfs:subPropertyOf rdf:resource="http://etna.istc.cnr.it/framester2/data/framestercore/People#hasJudgment"/>
-        <rdfs:domain rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl#Agent"/>
-        <rdfs:range rdf:resource="https://w3id.org/framester/data/framestercore/Fame"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/HaloEffect.owl#isEngagedIn -->
-
-    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/HaloEffect.owl#isEngagedIn">
-        <rdfs:domain rdf:resource="https://w3id.org/framester/data/framestercore/Fame"/>
-        <rdfs:range rdf:resource="http://etna.istc.cnr.it/framester2/data/framestercore/People#Domain"/>
-        <rdfs:comment xml:lang="en">having famousness in one or more domain</rdfs:comment>
-        <rdfs:label xml:lang="en">hasFamousness</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://w3id.org/affectedBy#influencedBy -->
-
-    <owl:ObjectProperty rdf:about="https://w3id.org/affectedBy#influencedBy">
-        <rdfs:domain rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl#Agent"/>
-        <rdfs:range rdf:resource="https://w3id.org/framester/data/framestercore/Fame"/>
-        <rdfs:comment xml:lang="en">Represents the influence of one entity on another</rdfs:comment>
-        <rdfs:comment xml:lang="en">When something or someone is influenced by an external entity or factor.</rdfs:comment>
-        <rdfs:comment xml:lang="en">hasInfluencedBy</rdfs:comment>
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/NotInventedHere#hasPreference">
+        <rdfs:domain rdf:resource="http://etna.istc.cnr.it/framester2/data/framestercore/Partiality#Organization"/>
+        <rdfs:range rdf:resource="http://etna.istc.cnr.it/framester2/data/framestercore/Preference"/>
+        <rdfs:comment xml:lang="en">Represents the preference of an organization towards internal or external solutions.</rdfs:comment>
+        <rdfs:label xml:lang="en">hasPreference</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -139,50 +124,47 @@
     
 
 
-    <!-- http://etna.istc.cnr.it/framester2/data/framestercore/People#Domain -->
+    <!-- http://etna.istc.cnr.it/framester2/data/framestercore/Preference -->
 
-    <owl:Class rdf:about="http://etna.istc.cnr.it/framester2/data/framestercore/People#Domain">
-        <rdfs:comment xml:lang="en">Domain of avtivity</rdfs:comment>
-        <rdfs:label xml:lang="en">Domain</rdfs:label>
+    <owl:Class rdf:about="http://etna.istc.cnr.it/framester2/data/framestercore/Preference">
+        <rdfs:comment xml:lang="en">Represents the inclination or bias towards internal solutions</rdfs:comment>
+        <rdfs:label xml:lang="en">Preference</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://etna.istc.cnr.it/framester2/data/framestercore/People#People -->
+    <!-- http://etna.istc.cnr.it/framester2/data/framestercore/Categorization#Creating -->
 
-    <owl:Class rdf:about="http://etna.istc.cnr.it/framester2/data/framestercore/People#People">
-        <rdfs:comment xml:lang="en">People</rdfs:comment>
-        <rdfs:comment xml:lang="en">Represents individuals, including both fans and celebrities.</rdfs:comment>
-        <rdfs:comment xml:lang="en">This frame contains general words for Individuals, i.e. humans. The Person is conceived of as independent of other specific individuals with whom they have relationships and independent of their participation in any particular activity. They may have an Age, Descriptor, Origin, Persistent_characteristic, or Ethnicity. A man from Phoenix was shot yesterday. She gave birth to a screaming babyyesterday. I study 16-year-old female adolescents. I am dating an African-American man. She comforted the terrified child. I always thought of him as a stupid man.</rdfs:comment>
+    <owl:Class rdf:about="http://etna.istc.cnr.it/framester2/data/framestercore/Categorization#Creating">
+        <rdfs:comment xml:lang="en">Represents the act of creating or developing solutions.</rdfs:comment>
+        <rdfs:label xml:lang="en">Creating</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl#Agent -->
+    <!-- http://etna.istc.cnr.it/framester2/data/framestercore/Categorization#PartInnerOuter -->
 
-    <owl:Class rdf:about="http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl#Agent">
-        <rdfs:subClassOf rdf:resource="http://etna.istc.cnr.it/framester2/data/framestercore/People#People"/>
-        <rdfs:comment xml:lang="en">Any physical or social agent, including a person, a social group, or an organization.</rdfs:comment>
-        <rdfs:label xml:lang="en">Agent</rdfs:label>
+    <owl:Class rdf:about="http://etna.istc.cnr.it/framester2/data/framestercore/Categorization#PartInnerOuter">
+        <rdfs:comment xml:lang="en">Represents the relationship between parts and their internal or external origin.</rdfs:comment>
+        <rdfs:label xml:lang="en">GroupMember</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://w3id.org/framester/data/framestercore/Categorization -->
+    <!-- http://etna.istc.cnr.it/framester2/data/framestercore/Partiality#Organization -->
 
-    <owl:Class rdf:about="https://w3id.org/framester/data/framestercore/Categorization">
-        <rdfs:comment xml:lang="en">The act of judge or think or cognize a subject</rdfs:comment>
-        <rdfs:label xml:lang="en">Cogitation</rdfs:label>
+    <owl:Class rdf:about="http://etna.istc.cnr.it/framester2/data/framestercore/Partiality#Organization">
+        <rdfs:comment xml:lang="en">Represents entities such as companies or teams</rdfs:comment>
+        <rdfs:label xml:lang="en">Organization</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://w3id.org/framester/data/framestercore/Fame -->
+    <!-- https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/NotInventedHere#PartInnerOuter -->
 
-    <owl:Class rdf:about="https://w3id.org/framester/data/framestercore/Fame">
-        <rdfs:subClassOf rdf:resource="http://etna.istc.cnr.it/framester2/data/framestercore/People#People"/>
-        <rdfs:comment xml:lang="en">Represents the concept of fame associated with a person.</rdfs:comment>
-        <rdfs:label xml:lang="en">Fame</rdfs:label>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/NotInventedHere#PartInnerOuter">
+        <rdfs:comment xml:lang="en">represents the relationship between parts and their internal or external origin</rdfs:comment>
+        <rdfs:label xml:lang="en">PartInnerOuter</rdfs:label>
     </owl:Class>
     
 
@@ -198,41 +180,37 @@
     
 
 
-    <!-- http://etna.istc.cnr.it/framester2/data/framestercore/People#Celebrity -->
+    <!-- https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/NotInventedHere#ExternalInnovation -->
 
-    <owl:NamedIndividual rdf:about="http://etna.istc.cnr.it/framester2/data/framestercore/People#Celebrity">
-        <HaloEffect1:isEngagedIn rdf:resource="http://etna.istc.cnr.it/framester2/data/framestercore/People#Celebrity"/>
-        <rdfs:comment xml:lang="en">An individual representing the celebrity in the scenario</rdfs:comment>
-        <rdfs:label xml:lang="en">Celebrity</rdfs:label>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/NotInventedHere#ExternalInnovation">
+        <rdf:type rdf:resource="http://etna.istc.cnr.it/framester2/data/framestercore/Categorization#Creating"/>
+        <rdfs:comment xml:lang="en">An instance of Creating representing the act of developing external innovations.</rdfs:comment>
+        <rdfs:label xml:lang="en">ExternalInnovation</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://etna.istc.cnr.it/framester2/data/framestercore/People#Fan -->
+    <!-- https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/NotInventedHere#InternalSolutions -->
 
-    <owl:NamedIndividual rdf:about="http://etna.istc.cnr.it/framester2/data/framestercore/People#Fan">
-        <rdf:type rdf:resource="https://w3id.org/framester/data/framestercore/Categorization"/>
-        <People:hasOpinionAbout rdf:resource="http://etna.istc.cnr.it/framester2/data/framestercore/People#Fan"/>
-        <rdfs:comment xml:lang="en">An individual representing the fan in the scenario.</rdfs:comment>
-        <rdfs:label xml:lang="en">Fan</rdfs:label>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/NotInventedHere#InternalSolutions">
+        <rdf:type rdf:resource="http://etna.istc.cnr.it/framester2/data/framestercore/Preference"/>
+        <NotInventedHere2:develops rdf:resource="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/NotInventedHere#ExternalInnovation"/>
+        <rdfs:comment xml:lang="en">An instance of Preference representing a bias towards internal solutions.</rdfs:comment>
+        <rdfs:label xml:lang="en">InternalSolutions</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Annotations
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
+    <!-- https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/NotInventedHere#ProductDevelopmentTeam -->
 
-    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#deprecated">
-        <rdfs:label xml:lang="en">Celebrity</rdfs:label>
-    </rdf:Description>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/NotInventedHere#ProductDevelopmentTeam">
+        <rdf:type rdf:resource="http://etna.istc.cnr.it/framester2/data/framestercore/Partiality#Organization"/>
+        <NotInventedHere2:hasPreference rdf:resource="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/NotInventedHere#InternalSolutions"/>
+        <rdfs:comment xml:lang="en">An instance of Organization representing a team engaged in product development.</rdfs:comment>
+        <rdfs:label xml:lang="en">ProductDevelopmentTeam</rdfs:label>
+    </owl:NamedIndividual>
 </rdf:RDF>
 
 
 
 <!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
-
