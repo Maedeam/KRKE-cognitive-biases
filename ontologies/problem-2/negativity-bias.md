@@ -26,9 +26,9 @@ _<mark style="color:green;">Background, Context and Literature State of the Art<
 
 ### Wikipedia&#x20;
 
-The Negativity Bias is a [Cognitive Bias](https://en.wikipedia.org/wiki/Cognitive\_bias) which is&#x20;
+The Negativity Bias is a [Cognitive Bias](https://en.wikipedia.org/wiki/Cognitive\_bias) which is also known as the negativity effect, is a cognitive bias that, even when of equal intensity, things of a more negative nature (e.g. unpleasant thoughts, emotions, or social interactions; harmful/traumatic events) have a greater effect on one's psychological state and processes than neutral or positive things.In other words, something very positive will generally have less of an impact on a person's behavior and cognition than something equally emotional but negative. The negativity bias has been investigated within many different domains, including the formation of impressions and general evaluations; attention, learning, and memory; and decision-making and risk considerations.
 
-[Wikipedia Link](https://en.wikipedia.org/wiki/Misattribution\_of\_memory)
+[Wikipedia Link](https://en.wikipedia.org/wiki/Negativity\_bias)
 
 ### Research Paper(s)
 
@@ -54,137 +54,131 @@ _<mark style="color:green;">Large Language Models</mark>_
 
 _<mark style="color:green;">A general description of the bias to get an overall idea of the domain</mark>_
 
-The "Halo Effect" is a cognitive bias that influences individuals to form a favorable overall impression of a person, product, or entity based on a single positive trait, experience, or characteristic. This positive evaluation creates a metaphorical "halo" around the subject, leading to the assumption that other unrelated aspects or qualities must also be positive. In essence, the Halo Effect occurs when a positive perception in one area extends to influence judgments in unrelated areas, clouding objectivity. This bias can result in overly positive evaluations and skewed assessments, as individuals project their admiration or approval from one specific aspect onto the overall entity, sometimes leading to inaccurate or biased conclusions.
+Negativity bias is a psychological phenomenon wherein individuals tend to give more significance to and recall negative events or information more readily than positive ones. This cognitive bias suggests that humans are inherently more sensitive to adverse stimuli, possibly as an evolutionary adaptation that favored survival by prioritizing the detection of potential threats. Consequently, people often exhibit a heightened attention, stronger emotional reactions, and better memory retention for negative experiences compared to positive ones. Negativity bias can impact various aspects of decision-making, social interactions, and overall emotional well-being, as individuals may disproportionately focus on and be influenced by negative aspects of situations or information.
 
 ### 2.2. Examples Scenarios
 
 _<mark style="color:green;">Ten different examples of possible scenarios to understanding the context of the domain</mark>_
 
-1. **Interview Impressions:** A job candidate, known for a prestigious accomplishment, is automatically assumed to possess strong leadership skills and expertise in various areas, influencing interviewers to positively evaluate unrelated qualifications.
-2. **Celebrity Influence:** Fans of a famous musician may extend their admiration for the artist's musical talent to presume expertise in other fields, like endorsing a product or expressing political opinions.
-3. **Physical Attractiveness:** Individuals deemed physically attractive may be unconsciously perceived as possessing positive qualities in areas such as intelligence or kindness, solely based on their appearance.
-4. **Company Reputation:** A company renowned for its innovative products might benefit from the Halo Effect, with consumers assuming excellence in customer service and ethical practices, even in the absence of direct evidence.
-5. **Academic Achievements:** A student excelling in one subject is often perceived as competent in all subjects, showcasing the Halo Effect in educational settings.
-6. **Political Figures:** Supporters of a political figure may attribute competence in various policy areas based on charisma or success in a specific domain, impacting overall political judgments.
-7. **Athletic Endorsements:** An athlete's endorsement of a product might lead consumers to believe in the product's quality, even if the athlete's expertise lies solely in sports.
-8. **Social Media Influence:** Influencers with a large following may experience the Halo Effect, where their audience assumes expertise in diverse fields beyond their primary content domain.
-9. **Charitable Activities:** Individuals engaged in charitable work might be perceived as virtuous in all aspects of their lives, leading to a positive Halo Effect on their character.
-10. **Product Packaging:** A well-designed and visually appealing product package may influence consumers to assume superior quality and functionality, creating a positive Halo Effect for the entire product.
+**1. Performance Evaluation:** An employee receives a performance review that includes mostly positive feedback, but there's one constructive criticism. Despite the numerous positive comments, the individual fixates on the single negative aspect, potentially overshadowing their overall achievements.
+
+**2. Social Media Comments:** A person posts a photo receiving numerous compliments and positive comments. However, a single negative remark catches their attention, causing disproportionate distress and potentially leading them to dwell on the criticism rather than the praise.
+
+**3. News Consumption:** A news report highlights several positive developments alongside a single negative incident. Viewers or readers are more likely to remember and be affected by the negative event, potentially leading to a skewed perception of the overall situation.
+
+**4. Relationships:** In a relationship, one critical comment during an otherwise positive interaction can linger in the minds of individuals, leading to an exaggerated perception of the negativity within the relationship.
+
+**5. Consumer Reviews:** A product receives numerous positive reviews, but a few negative comments stand out to potential buyers, influencing their decision-making more than the overall positive feedback.
+
+**6. Public Speaking:** A speaker delivers a compelling presentation with valuable content, but the audience remembers one awkward moment or mistake, leading to a distorted perception of the speaker's overall competence.
+
+**7. Team Collaboration:** A team successfully completes a project, but the team members focus on the one challenging aspect or conflict, potentially hindering their ability to appreciate the overall success and collaboration.
+
+**8. Personal Goals:** An individual sets multiple personal goals and achieves most of them, but the failure to accomplish one goal becomes a primary focus, overshadowing the sense of accomplishment from the other achievements.
+
+**9. Body Image:** Despite numerous compliments on physical appearance, an individual fixates on a single perceived flaw, contributing to negative self-perception and potentially impacting their overall self-esteem.
+
+**10. Educational Feedback:** A student receives positive feedback on an assignment but becomes preoccupied with one critical comment from the instructor, potentially undermining their confidence and discouraging further efforts.
 
 ### 2.3 Main Scenario
 
-_<mark style="color:green;">Considering one scenario; here the</mark> <mark style="color:green;"></mark><mark style="color:green;">**Social Media Influence,**</mark> <mark style="color:green;"></mark><mark style="color:green;">as our main user story</mark>_
+_<mark style="color:green;">Considering one scenario; here the</mark> <mark style="color:green;"></mark><mark style="color:green;">**Consumer Reviews,**</mark> <mark style="color:green;"></mark><mark style="color:green;">as our main user story</mark>_
 
-**User Story:** Navigating Social Media Influence and the Halo Effect
-
-**User:** Emma, an avid follower of a popular social media influencer, Lily.
-
-**Objective:** As Emma, I aim to critically assess the recommendations and opinions of Lily, the influencer, on various topics, recognizing and mitigating the potential Halo Effect that might influence my judgments.
-
-**Scenario:** Lily, known for her engaging content on fashion and lifestyle, starts expressing opinions on environmental conservation. Emma, impressed by Lily's fashion sense, automatically assumes Lily's expertise in environmental matters, supporting Lily's initiatives without independently evaluating their environmental impact.
-
-**Desired Outcome:** Emma, realizing the potential Halo Effect, decides to delve deeper into environmental issues. She seeks information from reliable sources, ensuring a more informed stance, separating Lily's influence in fashion from her credibility on environmental topics. Emma aims to avoid undue biases and make decisions based on a comprehensive understanding of each subject.
+**User Story:** Sarah, an avid online shopper, is in search of a new laptop for her graphic design work. She comes across a model with an overall positive rating and glowing reviews about its speed, display quality, and durability. As she delves into the reviews, she stumbles upon one critique mentioning a potential compatibility issue with certain design software. Despite the numerous positive comments, Sarah becomes fixated on this single negative review, as her work heavily relies on graphic design tools. The negativity bias influences her decision, and she hesitates to proceed with the purchase, concerned that the laptop might not meet her specific software requirements. This user story highlights how a singular negative comment can disproportionately impact the perception of a product, even in the presence of overwhelmingly positive feedback.
 
 ### 2.4. Possible CQs
 
 _<mark style="color:green;">Generating some possible competency questions</mark>_
 
-**1. AgentRole Competency Question:**
+1. **AgentRole CQs:**
 
-* **CQ1-1:** Who is the primary agent influencing Emma's opinions in the scenario?
-* **CQ1-2:** What role does Lily, the social media influencer, play in shaping Emma's perspectives
-* **CQ1-3:** Are there other agents aside from Lily that contribute to Emma's decision-making regarding environmental matters?
+Question: Which agent plays a crucial role in the user story?
 
-**2. Sequence Competency Question:**
+Answer:  The agent in focus is Sarah, the avid online shopper.
 
-* **CQ2-1:** What events or content precede Lily expressing opinions on environmental conservation in Emma's social media feed?
-* **CQ2-2:** What follows Emma's initial support for Lily's initiatives in the context of environmental matters?
-* **CQ2-3:** What is the sequence of events leading to Emma's realization of the potential Halo Effect?
+Question: _What role does Sarah play in the user story?_
 
-**3. Situation Competency Question:**
+Answer:   _Sarah is the prospective buyer searching for a new laptop for her graphic design work._
 
-* **CQ3-1:** What is the broader context or situation in which Emma encounters Lily's opinions on environmental issues?
-* **CQ3-2:** What factors are present in the social media environment that contribute to Emma's automatic support for Lily's environmental initiatives?
-* **CQ3-3:** How does Emma's understanding of the broader situation evolve as she navigates through Lily's content and environmental topics?
+2. **Sequence CQs:**
 
-These competency questions aim to address the roles, sequences, and situations surrounding the user story, providing a comprehensive exploration of the factors influencing Emma's decision-making.
+Question:  What comes before the moment of hesitation in the user story?
+
+Answer:   Before the hesitation, Sarah encounters overall positive reviews about the laptop, praising its features.
+
+Question:  What's next after Sarah hesitates in the user story?
+
+Answer:  Following her hesitation, Sarah is concerned about the potential compatibility issue with her graphic design software, influencing her decision-making  process.
+
+3. **Situation CQs:**
+
+Question:  What is the context or situation in which the negativity bias becomes evident in the user story?
+
+Answer:  The context is Sarah's search for a new laptop, and the situation arises when she encounters a singular negative review about potential compatibility issues with graphic design software.
+
+Question:  What are the things present in the context of the user story?
+
+Answer:  The context includes Sarah's need for a laptop, the positive reviews, and the presence of a single negative comment about software compatibility, leading to the manifestation of the negativity bias in her decision-making.
 
 ### 2.5. Modelling Bias
 
 _<mark style="color:green;">For making an Ontology and modelling the bias, we can create these classes and properties</mark>_
 
-**Classes:**
+1. **Class: UserPerceptionAnalysis:** _The overarching class representing the analysis of user perception, encompassing various factors such as cognitive processes, emotional responses, and review analysis._
+2. **Class: CognitiveProcesses:** _A subclass of UserPerceptionAnalysis that focuses on mental processes involved in information perception and processing._
+3. **Class: DecisionMakingProcess:** _Comment: A subclass of CognitiveProcesses representing the cognitive steps individuals take when making choices, influenced by factors including the Negativity Bias._
+4. **Class: EmotionalResponse:** _A subclass of UserPerceptionAnalysis representing emotional reactions individuals may experience, including heightened emotional responses influenced by the Negativity Bias._
+5. **Subclass: EmotionalDistress:** _A subclass of EmotionalResponse that specifically denotes heightened emotional responses, such as DisproportionateDistress._
+6. **Class: InformationFocus:** _A subclass of UserPerceptionAnalysis representing the selective attention individuals exhibit, as seen in Fixation on specific information._
+7. **Class: ReviewAnalysis:** _Comment: A subclass of UserPerceptionAnalysis representing the examination of reviews, including AdverseEvaluation, as part of the cognitive processes influenced by the Negativity Bias._
+8. **Class: AdverseEvaluation:** _Comment: A subclass of UserPerceptionAnalysis representing a review or evaluation that emphasizes negative aspects of a subject, serving as a stimulus for the activation of the Negativity Bias._
+9. **Class: ReviewerRole:** _A subclass of UserPerceptionAnalysis representing the role of individuals who provide reviews, influencing the ReviewAnalysis process._
+10. **Individual: Reviewer:** _An individual representing the role of a person who contributes reviews, influencing the overall review analysis and potentially contributing to the activation of the Negativity Bias._
+11. **Property: influences**
 
-* **CognitiveBias**: Represents various types of cognitive biases, including the "Halo Effect." This class serves as a superclass for specific types of biases.
-* **BiasType**: Represents different categories or types of biases. In this case, it would include the "Halo Effect" as a specific type of cognitive bias.
-* **TargetDomain**: Represents the specific domain or area where the "Halo Effect" occurs. For example, in the scenario of celebrity admiration, the target domain could be the celebrity's expertise outside of their primary field.
-* **InfluencingFactor**: Represents factors or traits that contribute to the formation of the "Halo Effect." This could include traits like talent, charisma, or public image.
+* _Domain: UserPerceptionAnalysis_
+* _Range: CognitiveProcesses_
+* _Comment: Describes the relationship between the UserPerceptionAnalysis class and the cognitive processes it influences, such as the DecisionMakingProcess._
 
-**Properties:**
+12. **Property: experiencedEmotion**
 
-* **hasBiasType**: Connects a CognitiveBias instance to its corresponding BiasType instance, indicating that it is a specific type of bias, such as the "Halo Effect."
-* **targetsDomain**: Specifies the TargetDomain instance that is the subject of the "Halo Effect" in a particular scenario.
-* **isInfluencedBy**: Connects an instance of the "Halo Effect" to the factors or traits (InfluencingFactor) that contribute to its occurrence.
-* **resultsInPerception**: Indicates the impact of the "Halo Effect" on perception or judgment. For example, it could represent the perception that excellence in one area implies excellence in unrelated areas.
+* _Domain: EmotionalResponse_
+* _Range: EmotionalDistress_
+* _Comment: Describes the relationship between the EmotionalResponse class and the specific emotional distress individuals may experience._
 
-These classes and properties provide a foundational structure for modeling the "Halo Effect" in different contexts and scenarios. The ontology can be extended or refined based on specific use cases and requirements.
+13. **Property: focusesOn**
+
+* _Domain: UserPerceptionAnalysis_
+* _Range: InformationFocus_
+* _Comment: Describes the relationship between the UserPerceptionAnalysis class and the specific focus on information, such as Fixation on negative aspects._
+
+14. **Property: providesReview**
+
+* _Domain: ReviewerRole_
+* _Range: AdverseEvaluation_
+* _Comment: Describes the relationship between the ReviewerRole class and the specific reviews they provide, which may include AdverseEvaluations._
 
 ### 2.6. Examples Ontology
 
 _<mark style="color:green;">Three different examples of usage of the Ontology</mark>_
 
-**Example 1: Celebrity Admiration Scenario**
+**Example 1: User Decision-Making Process Analysis**
 
-Class Instances:
+Scenario: A company is analyzing user feedback on a new software product. They use the ontology to understand the DecisionMakingProcess and CognitiveProcesses involved in users' decision-making.
 
-* Instance of CognitiveBias: "Halo Effect"
-* Instance of BiasType: "Celebrity Bias"
-* Instance of TargetDomain: "Environmental Advocacy"
-* Instance of InfluencingFactor: "Public Statements"
+In this example, an individual UserFeedback1 provides an AdverseEvaluation, representing a negative review. The ReviewAnalysis of this feedback influences the DecisionMakingProcess, allowing the company to understand how negative reviews impact user decisions.
 
-Properties:
+**Example2: Emotional Response Tracking**
 
-* hasBiasType: Connects "Halo Effect" to "Celebrity Bias."
-* targetsDomain: Connects "Halo Effect" to "Environmental Advocacy."
-* isInfluencedBy: Connects "Halo Effect" to "Public Statements."
+Scenario: A researcher is conducting a study on emotional responses to online content. They utilize the EmotionalResponse class and its subclasses to categorize and analyze emotional reactions.
 
+In this instance, an individual OnlineContent is analyzed using the EmotionalResponse subclass, specifically DisproportionateDistress. User1 is an example of an individual experiencing disproportionate distress in response to the online content.
 
+**Example3: Reviewer Role Influence**
 
-**Example 2: Product Review Bias Scenario**
+Scenario: An e-commerce platform wants to understand how different types of reviewers contribute to the perception of products. They use the ontology to model the relationship between ReviewerRole, providesReview, and AdverseEvaluation.
 
-Class Instances:
-
-* Instance of CognitiveBias: "Halo Effect"
-* Instance of BiasType: "Product Review Bias"
-* Instance of TargetDomain: "Product Expertise"
-* Instance of InfluencingFactor: "Positive User Experience"
-
-Properties:
-
-* hasBiasType: Connects "Halo Effect" to "Product Review Bias."
-* targetsDomain: Connects "Halo Effect" to "Product Expertise."
-* isInfluencedBy: Connects "Halo Effect" to "Positive User Experience."
-
-
-
-**Example 3: Academic Achievement Bias Scenario**
-
-Class Instances:
-
-* Instance of CognitiveBias: "Halo Effect"
-* Instance of BiasType: "Academic Achievement Bias"
-* Instance of TargetDomain: "General Intelligence"
-* Instance of InfluencingFactor: "High Grades"
-
-Properties:
-
-* hasBiasType: Connects "Halo Effect" to "Academic Achievement Bias."
-* targetsDomain: Connects "Halo Effect" to "General Intelligence."
-* isInfluencedBy: Connects "Halo Effect" to "High Grades."
-
-
-
-These examples demonstrate how the defined ontology can be instantiated in different scenarios, such as celebrity admiration, product reviews, or academic achievement, capturing the relationships between classes and properties.
+In this scenario, a specific ProductReview1 is categorized as an AdverseEvaluation, and it is provided by an individual with the role of ProfessionalReviewer, who belongs to the ReviewerRole class. This allows the e-commerce platform to analyze how reviews from professional reviewers influence the overall perception of a product.
 
 ***
 
@@ -198,26 +192,11 @@ To better synchronize the biases with established semantic frames in Framester, 
 
 _<mark style="color:green;">Choosing these Lexical Units, then extracted concepts in QUOKKA's and FRED</mark>_
 
-* celebrity
-* audience
-* perspective
-* judgement
-
-### 3.2 Selected Framester F**rames**:
-
-_<mark style="color:green;">Finally, these are the best Framester Frames can be chosen</mark>_
-
-[Fame](http://etna.istc.cnr.it/framester2/data/framestercore/Fame)
-
-stringAn Entity is well-known among a wide range of people (in general or in a particular domain) for a particular Reason, which may be a behavior, characteristic, or some other associated item. In the case of events, fame entails a large number of people being aware of the event's occurence; in the case of concrete entities, including humans, fame entails awareness of existence. In both cases, often fame is accompanied by awareness of the Entity's significance in historical, cultural, or social contexts. Shakespeare was famous during his life because he performed in front of Queen Elizabeth I more than anyone else.
-
-[People](https://w3id.org/framester/data/framestercore/People)
-
-This frame contains general words for Individuals, i.e. humans. The Person is conceived of as independent of other specific individuals with whom they have relationships and independent of their participation in any particular activity. They may have an Age, Descriptor, Origin, Persistent\_characteristic, or Ethnicity. A man from Phoenix was shot yesterday. She gave birth to a screaming babyyesterday. I study 16-year-old female adolescents. I am dating an African-American man. She comforted the terrified child. I always thought of him as a stupid man.
-
-[Cogitation](https://w3id.org/framester/data/framestercore/Cogitation)
-
-A person, the Cognizer, thinks about a Topic over a period of time. What is thought about may be a course of action that the person might take, or something more general. The men were silently mulling over the proposition of committing an assassination.
+* Hesitation
+* Fixation
+* Decision-Making Process
+* Disproportionate Distress
+* Negative Review
 
 ### 3.3 Creating the bias ontology file:
 

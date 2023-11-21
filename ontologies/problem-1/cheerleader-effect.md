@@ -65,7 +65,7 @@ _<mark style="color:green;">Ten different examples of possible scenarios to unde
 
 ### 2.3 Main Scenario
 
-_<mark style="color:green;">Considering one scenario; here the</mark> <mark style="color:green;"></mark><mark style="color:green;">**Social Media Influence,**</mark> <mark style="color:green;"></mark><mark style="color:green;">as our main user story</mark>_
+_<mark style="color:green;">Considering one scenario; here the</mark> <mark style="color:green;"></mark><mark style="color:green;">**Team Sports,**</mark> <mark style="color:green;"></mark><mark style="color:green;">as our main user story</mark>_
 
 As a dedicated _**soccer player**_, Emily felt a surge of _**excitement**_ as she and her _**teammates**_ gathered on the field for their _**championship game**_. Eagerly donning their team uniforms, they exuded a sense of _**unity**_ and camaraderie that had been cultivated through weeks of rigorous training. As they positioned themselves for the group photo before the match, Emily couldn't help but marvel at how everyone looked more attractive together.
 
@@ -333,22 +333,6 @@ _<mark style="color:green;">Choosing these Lexical Units, then extracted concept
 * Collective Charisma: Visual synergy,Appealing
 * Positive Feedback on Social Media: Comments , Magnetism
 * Personal Experience: Excitement , Pride
-
-### 3.2 Selected Framester F**rames**:
-
-_<mark style="color:green;">Finally, these are the best Framester Frames can be chosen</mark>_
-
-[Fame](http://etna.istc.cnr.it/framester2/data/framestercore/Fame)
-
-stringAn Entity is well-known among a wide range of people (in general or in a particular domain) for a particular Reason, which may be a behavior, characteristic, or some other associated item. In the case of events, fame entails a large number of people being aware of the event's occurence; in the case of concrete entities, including humans, fame entails awareness of existence. In both cases, often fame is accompanied by awareness of the Entity's significance in historical, cultural, or social contexts. Shakespeare was famous during his life because he performed in front of Queen Elizabeth I more than anyone else.
-
-[People](https://w3id.org/framester/data/framestercore/People)
-
-This frame contains general words for Individuals, i.e. humans. The Person is conceived of as independent of other specific individuals with whom they have relationships and independent of their participation in any particular activity. They may have an Age, Descriptor, Origin, Persistent\_characteristic, or Ethnicity. A man from Phoenix was shot yesterday. She gave birth to a screaming babyyesterday. I study 16-year-old female adolescents. I am dating an African-American man. She comforted the terrified child. I always thought of him as a stupid man.
-
-[Cogitation](https://w3id.org/framester/data/framestercore/Cogitation)
-
-A person, the Cognizer, thinks about a Topic over a period of time. What is thought about may be a course of action that the person might take, or something more general. The men were silently mulling over the proposition of committing an assassination.
 
 ### 3.3 Creating the bias ontology file:
 

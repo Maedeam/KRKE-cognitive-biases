@@ -208,12 +208,6 @@ _<mark style="color:green;">Choosing these Lexical Units, then extracted concept
 * changed
 * capabilities
 
-### 3.2 Selected Framester F**rames**:
-
-_<mark style="color:green;">Finally, these are the best Framester Frames can be chosen</mark>_
-
-
-
 ### 3.3 Creating the bias ontology file:
 
 _<mark style="color:green;">In the last step, we create the bias ontology in the Protege and also a Graph of it</mark>_

@@ -26,13 +26,15 @@ _<mark style="color:green;">Background, Context and Literature State of the Art<
 
 ### Wikipedia&#x20;
 
-The Fading Affect Bias is a [Cognitive Bias](https://en.wikipedia.org/wiki/Cognitive\_bias) which is&#x20;
+The Fading Affect Bias is a [Cognitive Bias](https://en.wikipedia.org/wiki/Cognitive\_bias) which is more commonly known as FAB, is a psychological phenomenon in which memories associated with negative emotions tend to be forgotten more quickly than those associated with positive emotions. It is important to note that FAB only refers to the feelings one has associated with the memories and not the content of the memories themselves. Early research studied FAB retrospectively, or through personal reflection, which brought about some criticism because retrospective analysis can be affected by subjective retrospective biases. However, new research using non-retrospective recall studies have found evidence for FAB., and the phenomenon has become largely accepted.
 
-[Wikipedia Link](https://en.wikipedia.org/wiki/Misattribution\_of\_memory)
+[Wikipedia Link](https://en.wikipedia.org/wiki/Fading\_affect\_bias)
 
 ### Research Paper(s)
 
-\[1] T
+\[1] _Skowronski, John J.; Walker, W. Richard; Henderson, Dawn X.; Bond, Gary D. (2014). "The Fading Affect Bias: Its History, Its Implications, and Its Future". Advances in Experimental Social Psychology. Vol. 49. pp. 163–218._ [_doi_](https://en.wikipedia.org/wiki/Doi\_\(identifier\))_:_[_10.1016/B978-0-12-800052-6.00003-2_](https://doi.org/10.1016%2FB978-0-12-800052-6.00003-2)_._ [_ISBN_](https://en.wikipedia.org/wiki/ISBN\_\(identifier\)) [_9780128000526_](https://en.wikipedia.org/wiki/Special:BookSources/9780128000526)_._
+
+\[2] _Ritchie, Timothy D.; Batteson, Tamzin J.; Bohn, Annette; Crawford, Matthew T.; Ferguson, Georgie V.; Schrauf, Robert W.; Vogl, Rodney J.; Walker, W. Richard (2015)._ [_"A pancultural perspective on the fading affect bias in autobiographical memory"_](https://pure.au.dk/ws/files/71845286/Ritchie\_Batteson\_Bohn\_Crawford\_Ferguson\_Schrauf\_Vogl\_og\_Walker\_2014\_.pdf) _(PDF). Memory. 23 (2): 278–290._ [_doi_](https://en.wikipedia.org/wiki/Doi\_\(identifier\))_:_[_10.1080/09658211.2014.884138_](https://doi.org/10.1080%2F09658211.2014.884138)_._ [_PMID_](https://en.wikipedia.org/wiki/PMID\_\(identifier\)) [_24524255_](https://pubmed.ncbi.nlm.nih.gov/24524255)_._ [_S2CID_](https://en.wikipedia.org/wiki/S2CID\_\(identifier\)) [_33335274_](https://api.semanticscholar.org/CorpusID:33335274)_._
 
 ***
 
@@ -44,137 +46,130 @@ _<mark style="color:green;">Large Language Models</mark>_
 
 _<mark style="color:green;">A general description of the bias to get an overall idea of the domain</mark>_
 
-The "Halo Effect" is a cognitive bias that influences individuals to form a favorable overall impression of a person, product, or entity based on a single positive trait, experience, or characteristic. This positive evaluation creates a metaphorical "halo" around the subject, leading to the assumption that other unrelated aspects or qualities must also be positive. In essence, the Halo Effect occurs when a positive perception in one area extends to influence judgments in unrelated areas, clouding objectivity. This bias can result in overly positive evaluations and skewed assessments, as individuals project their admiration or approval from one specific aspect onto the overall entity, sometimes leading to inaccurate or biased conclusions.
+The Fading Affect Bias (FAB) is a psychological phenomenon characterized by the tendency of individuals to recall negative emotions associated with past events as less intense over time, while positive emotions fade more slowly or are remembered as more enduring. In other words, people exhibit a bias in the fading of emotional memories, with negative feelings diminishing more rapidly than positive ones. This cognitive bias contributes to a generally optimistic view of one's past experiences, as individuals tend to remember negative events as less emotionally impactful than they actually were, promoting emotional resilience and potentially influencing overall well-being. The Fading Affect Bias has been studied in the context of memory and emotional regulation, shedding light on the complex ways in which individuals remember and process their emotional histories.
 
 ### 2.2. Examples Scenarios
 
 _<mark style="color:green;">Ten different examples of possible scenarios to understanding the context of the domain</mark>_
 
-1. **Interview Impressions:** A job candidate, known for a prestigious accomplishment, is automatically assumed to possess strong leadership skills and expertise in various areas, influencing interviewers to positively evaluate unrelated qualifications.
-2. **Celebrity Influence:** Fans of a famous musician may extend their admiration for the artist's musical talent to presume expertise in other fields, like endorsing a product or expressing political opinions.
-3. **Physical Attractiveness:** Individuals deemed physically attractive may be unconsciously perceived as possessing positive qualities in areas such as intelligence or kindness, solely based on their appearance.
-4. **Company Reputation:** A company renowned for its innovative products might benefit from the Halo Effect, with consumers assuming excellence in customer service and ethical practices, even in the absence of direct evidence.
-5. **Academic Achievements:** A student excelling in one subject is often perceived as competent in all subjects, showcasing the Halo Effect in educational settings.
-6. **Political Figures:** Supporters of a political figure may attribute competence in various policy areas based on charisma or success in a specific domain, impacting overall political judgments.
-7. **Athletic Endorsements:** An athlete's endorsement of a product might lead consumers to believe in the product's quality, even if the athlete's expertise lies solely in sports.
-8. **Social Media Influence:** Influencers with a large following may experience the Halo Effect, where their audience assumes expertise in diverse fields beyond their primary content domain.
-9. **Charitable Activities:** Individuals engaged in charitable work might be perceived as virtuous in all aspects of their lives, leading to a positive Halo Effect on their character.
-10. **Product Packaging:** A well-designed and visually appealing product package may influence consumers to assume superior quality and functionality, creating a positive Halo Effect for the entire product.
+1. **Romantic Relationships:** After a breakup, individuals may remember the negative emotions associated with the end of the relationship as less intense over time, while positive memories of the relationship persist, contributing to a more favorable view of the past.
+2. **Academic Challenges:** Students who faced significant stress or anxiety during exams or academic challenges might recall the negative emotions associated with those events as fading faster than the positive emotions related to successful outcomes or personal growth.
+3. **Job Loss:** Individuals who experienced the emotional distress of losing a job may, over time, remember the negative feelings and stress associated with unemployment as less intense compared to the positive emotions tied to new opportunities or personal development.
+4. **Health Scares:** People who have gone through health scares or medical issues may exhibit the fading affect bias by recalling the fear and anxiety associated with the experience as diminishing faster than the positive emotions related to recovery or resilience.
+5. **Financial Struggles:** Individuals facing financial difficulties may, with time, remember the stress and anxiety of economic challenges as less intense, while positive emotions associated with overcoming obstacles or learning financial management persist.
+6. **Friendship Dynamics:** After conflicts or disagreements with friends, individuals may exhibit the fading affect bias by remembering the negative emotions associated with the rift as less intense over time, while positive memories of shared experiences endure.
+7. **Mistakes and Failures:** People may recall the negative emotions tied to past mistakes or failures as fading faster than the positive emotions related to learning experiences, personal growth, or eventual success.
+8. **Family Issues:** Individuals who have faced family conflicts may exhibit the fading affect bias by remembering the negative emotions associated with those conflicts as less intense over time, while positive emotions related to family bonding endure.
+9. **Travel Challenges:** Tourists who encountered difficulties during their travels, such as delays, inconveniences, or unexpected events, may remember the negative emotions associated with these challenges as fading more rapidly than the positive emotions tied to enjoyable experiences.
+10. **Life Transitions:** During major life transitions, such as moving to a new city or starting a new phase in life, individuals may exhibit the fading affect bias by recalling the initial negative emotions and uncertainties as less intense over time, while positive emotions related to adaptation and personal growth persist.
 
 ### 2.3 Main Scenario
 
-_<mark style="color:green;">Considering one scenario; here the</mark> <mark style="color:green;"></mark><mark style="color:green;">**Social Media Influence,**</mark> <mark style="color:green;"></mark><mark style="color:green;">as our main user story</mark>_
+_<mark style="color:green;">Considering one scenario; here the</mark> <mark style="color:green;"></mark><mark style="color:green;">**Friendship Dynamics,**</mark> <mark style="color:green;"></mark><mark style="color:green;">as our main user story</mark>_
 
-**User Story:** Navigating Social Media Influence and the Halo Effect
-
-**User:** Emma, an avid follower of a popular social media influencer, Lily.
-
-**Objective:** As Emma, I aim to critically assess the recommendations and opinions of Lily, the influencer, on various topics, recognizing and mitigating the potential Halo Effect that might influence my judgments.
-
-**Scenario:** Lily, known for her engaging content on fashion and lifestyle, starts expressing opinions on environmental conservation. Emma, impressed by Lily's fashion sense, automatically assumes Lily's expertise in environmental matters, supporting Lily's initiatives without independently evaluating their environmental impact.
-
-**Desired Outcome:** Emma, realizing the potential Halo Effect, decides to delve deeper into environmental issues. She seeks information from reliable sources, ensuring a more informed stance, separating Lily's influence in fashion from her credibility on environmental topics. Emma aims to avoid undue biases and make decisions based on a comprehensive understanding of each subject.
+**User Story:** Sarah and Emily, longtime friends, experienced a period of strain in their friendship due to a misunderstanding. Sarah felt hurt and disappointed, and Emily regretted her actions that led to the conflict. As time passed, Sarah found herself recalling the negative emotions associated with the disagreement as less intense. The initial hurt and disappointment gradually faded from her memory, allowing more positive memories of their years of friendship to come to the forefront. One day, prompted by a shared interest, Sarah and Emily reconnected. During their conversation, the negative emotions that once strained their friendship seemed trivial compared to the positive emotions tied to their shared history. The fading affect bias played a role in Sarah's ability to move past the negative emotions, fostering the rekindling of their friendship and a focus on the enduring positive aspects of their relationship.
 
 ### 2.4. Possible CQs
 
 _<mark style="color:green;">Generating some possible competency questions</mark>_
 
-**1. AgentRole Competency Question:**
+1. **AgentRole CQs:**
 
-* **CQ1-1:** Who is the primary agent influencing Emma's opinions in the scenario?
-* **CQ1-2:** What role does Lily, the social media influencer, play in shaping Emma's perspectives
-* **CQ1-3:** Are there other agents aside from Lily that contribute to Emma's decision-making regarding environmental matters?
+Question: Who plays the role of the agent in the user story of Sarah and Emily's reconciliation?
 
-**2. Sequence Competency Question:**
+Answer: Sarah and Emily are the agents in this story, playing the roles of friends experiencing a period of strain in their relationship.
 
-* **CQ2-1:** What events or content precede Lily expressing opinions on environmental conservation in Emma's social media feed?
-* **CQ2-2:** What follows Emma's initial support for Lily's initiatives in the context of environmental matters?
-* **CQ2-3:** What is the sequence of events leading to Emma's realization of the potential Halo Effect?
+2. **Sequence CQs:**
 
-**3. Situation Competency Question:**
+Question: What is the sequence of events in the user story of Sarah and Emily's reconciliation?
 
-* **CQ3-1:** What is the broader context or situation in which Emma encounters Lily's opinions on environmental issues?
-* **CQ3-2:** What factors are present in the social media environment that contribute to Emma's automatic support for Lily's environmental initiatives?
-* **CQ3-3:** How does Emma's understanding of the broader situation evolve as she navigates through Lily's content and environmental topics?
+Answer: The sequence involves an initial disagreement leading to a period of strain, the gradual fading of negative emotions, and a reconnection prompted by a shared interest.
 
-These competency questions aim to address the roles, sequences, and situations surrounding the user story, providing a comprehensive exploration of the factors influencing Emma's decision-making.
+3. **Situation CQs:**
+
+Question: What is the situation or context in which the user story unfolds?
+
+Answer: The situation involves a strained friendship between Sarah and Emily due to a misunderstanding, with the context being a shared history of friendship and the eventual reconnection prompted by common interests.
 
 ### 2.5. Modelling Bias
 
 _<mark style="color:green;">For making an Ontology and modelling the bias, we can create these classes and properties</mark>_
 
-**Classes:**
+**1. Class 1: Emotional Events**
 
-* **CognitiveBias**: Represents various types of cognitive biases, including the "Halo Effect." This class serves as a superclass for specific types of biases.
-* **BiasType**: Represents different categories or types of biases. In this case, it would include the "Halo Effect" as a specific type of cognitive bias.
-* **TargetDomain**: Represents the specific domain or area where the "Halo Effect" occurs. For example, in the scenario of celebrity admiration, the target domain could be the celebrity's expertise outside of their primary field.
-* **InfluencingFactor**: Represents factors or traits that contribute to the formation of the "Halo Effect." This could include traits like talent, charisma, or public image.
+&#x20;  \- Comment: Represents events or incidents that evoke emotional responses. This class can have subclasses to categorize different types of emotional events:
+
+&#x20;     \- Subclass 1.1: Misunderstandings
+
+&#x20;        \- Comment: Instances where there is a lack of clarity or agreement, leading to emotional reactions.
+
+&#x20;     \- Subclass 1.2: Regrets
+
+&#x20;        \- Comment: Instances where individuals feel sorrow or remorse, triggering emotional responses.
+
+&#x20;     \- Subclass 1.3: Positive Experiences
+
+&#x20;        \- Comment: Instances of events or experiences that elicit positive emotions.
+
+**2. Class 2: Relationship Dynamics**
+
+&#x20;  \- Comment: Encompasses the various aspects of relationships between individuals. This class can have subclasses to further detail different aspects of relationship dynamics:
+
+&#x20;     \- Subclass 2.1: Strain Periods
+
+&#x20;        \- Comment: Instances where there is tension or difficulty in the relationship, possibly caused by emotional events like misunderstandings or regrets.
+
+&#x20;     \- Subclass 2.2: Rekindling
+
+&#x20;        \- Comment:\* Instances where a relationship is revived or renewed, often following a period of strain.
+
+&#x20;     \- Subclass 2.3: Emotional Event Influence
+
+&#x20;        \- Comment: Instances where emotional events, whether positive or negative, have a direct impact on the overall dynamics of the relationship
 
 **Properties:**
 
-* **hasBiasType**: Connects a CognitiveBias instance to its corresponding BiasType instance, indicating that it is a specific type of bias, such as the "Halo Effect."
-* **targetsDomain**: Specifies the TargetDomain instance that is the subject of the "Halo Effect" in a particular scenario.
-* **isInfluencedBy**: Connects an instance of the "Halo Effect" to the factors or traits (InfluencingFactor) that contribute to its occurrence.
-* **resultsInPerception**: Indicates the impact of the "Halo Effect" on perception or judgment. For example, it could represent the perception that excellence in one area implies excellence in unrelated areas.
+Property 1: EvokesEmotion
 
-These classes and properties provide a foundational structure for modeling the "Halo Effect" in different contexts and scenarios. The ontology can be extended or refined based on specific use cases and requirements.
+Domain: {Misunderstandings, Regrets, Positive Experiences}
+
+Range: {Emotional Events}
+
+Comment: Relates specific emotional events to the broader category of emotional events.
+
+Property 2: FadesOverTime
+
+Domain: {Emotional Events}
+
+Comment: Describes the temporal aspect of emotional events, indicating that emotional intensity diminishes gradually over time.
+
+Property 3: InfluencesRelationship
+
+Domain: {Misunderstandings, Regrets, Positive Experiences}
+
+Range: {Relationship Dynamics}
+
+Comment: Indicates how emotional events impact the dynamics of relationships, fostering changes in overall relationship dynamics.
+
+**Individuals :** friend
+
+Comment: Represents a specific friend involved in instances of emotional events and relationship dynamics within the Fading Affect Bias context.
 
 ### 2.6. Examples Ontology
 
 _<mark style="color:green;">Three different examples of usage of the Ontology</mark>_
 
-**Example 1: Celebrity Admiration Scenario**
+**Example 1: Recording Emotional Events**
 
-Class Instances:
+&#x20;  \- Scenario: Imagine logging emotional events in a diary application. A user, represented as an individual (e.g., "Friend1"), records a positive experience by associating it with the class "Positive Experiences" and capturing the date and time of the event using the "FadesOverTime" property.
 
-* Instance of CognitiveBias: "Halo Effect"
-* Instance of BiasType: "Celebrity Bias"
-* Instance of TargetDomain: "Environmental Advocacy"
-* Instance of InfluencingFactor: "Public Statements"
+**Example 2: Analyzing Relationship Dynamics**
 
-Properties:
+&#x20;  \- Scenario: A relationship counseling application analyzes relationship dynamics over time. Instances of "Strain Periods" and "Rekindling" are linked to specific friends (individuals) through the "InfluencesRelationship" property. The application visualizes how emotional events impact the overall dynamics of friendships.
 
-* hasBiasType: Connects "Halo Effect" to "Celebrity Bias."
-* targetsDomain: Connects "Halo Effect" to "Environmental Advocacy."
-* isInfluencedBy: Connects "Halo Effect" to "Public Statements."
+**Example 3: Predicting Emotional Event Influence**
 
-
-
-**Example 2: Product Review Bias Scenario**
-
-Class Instances:
-
-* Instance of CognitiveBias: "Halo Effect"
-* Instance of BiasType: "Product Review Bias"
-* Instance of TargetDomain: "Product Expertise"
-* Instance of InfluencingFactor: "Positive User Experience"
-
-Properties:
-
-* hasBiasType: Connects "Halo Effect" to "Product Review Bias."
-* targetsDomain: Connects "Halo Effect" to "Product Expertise."
-* isInfluencedBy: Connects "Halo Effect" to "Positive User Experience."
-
-
-
-**Example 3: Academic Achievement Bias Scenario**
-
-Class Instances:
-
-* Instance of CognitiveBias: "Halo Effect"
-* Instance of BiasType: "Academic Achievement Bias"
-* Instance of TargetDomain: "General Intelligence"
-* Instance of InfluencingFactor: "High Grades"
-
-Properties:
-
-* hasBiasType: Connects "Halo Effect" to "Academic Achievement Bias."
-* targetsDomain: Connects "Halo Effect" to "General Intelligence."
-* isInfluencedBy: Connects "Halo Effect" to "High Grades."
-
-
-
-These examples demonstrate how the defined ontology can be instantiated in different scenarios, such as celebrity admiration, product reviews, or academic achievement, capturing the relationships between classes and properties.
+&#x20;  \- Scenario: An emotional well-being prediction system uses historical data to predict how certain emotional events, represented as instances of "Emotional Event Influence," might influence relationships. The system considers the "FadesOverTime" property to understand the temporal aspect of emotional events.
 
 ***
 
@@ -188,26 +183,11 @@ To better synchronize the biases with established semantic frames in Framester, 
 
 _<mark style="color:green;">Choosing these Lexical Units, then extracted concepts in QUOKKA's and FRED</mark>_
 
-* celebrity
-* audience
-* perspective
-* judgement
-
-### 3.2 Selected Framester F**rames**:
-
-_<mark style="color:green;">Finally, these are the best Framester Frames can be chosen</mark>_
-
-[Fame](http://etna.istc.cnr.it/framester2/data/framestercore/Fame)
-
-stringAn Entity is well-known among a wide range of people (in general or in a particular domain) for a particular Reason, which may be a behavior, characteristic, or some other associated item. In the case of events, fame entails a large number of people being aware of the event's occurence; in the case of concrete entities, including humans, fame entails awareness of existence. In both cases, often fame is accompanied by awareness of the Entity's significance in historical, cultural, or social contexts. Shakespeare was famous during his life because he performed in front of Queen Elizabeth I more than anyone else.
-
-[People](https://w3id.org/framester/data/framestercore/People)
-
-This frame contains general words for Individuals, i.e. humans. The Person is conceived of as independent of other specific individuals with whom they have relationships and independent of their participation in any particular activity. They may have an Age, Descriptor, Origin, Persistent\_characteristic, or Ethnicity. A man from Phoenix was shot yesterday. She gave birth to a screaming babyyesterday. I study 16-year-old female adolescents. I am dating an African-American man. She comforted the terrified child. I always thought of him as a stupid man.
-
-[Cogitation](https://w3id.org/framester/data/framestercore/Cogitation)
-
-A person, the Cognizer, thinks about a Topic over a period of time. What is thought about may be a course of action that the person might take, or something more general. The men were silently mulling over the proposition of committing an assassination.
+* Misunderstanding
+* Regret
+* Prompted
+* Trivial
+* Rekindling
 
 ### 3.3 Creating the bias ontology file:
 
