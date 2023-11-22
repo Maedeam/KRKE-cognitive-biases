@@ -138,6 +138,8 @@
     <!-- http://etna.istc.cnr.it/framester2/data/framestercore/Differentiation -->
 
     <owl:Class rdf:about="http://etna.istc.cnr.it/framester2/data/framestercore/Differentiation">
+        <owl:equivalentClass rdf:resource="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/StereotypicalBias#SocialContext"/>
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/StereotypicalBias#ChallengeAction"/>
         <rdfs:comment xml:lang="en">Represents the process of distinguishing or categorizing individuals based on attributes.</rdfs:comment>
         <rdfs:label xml:lang="en">Differentiation</rdfs:label>
     </owl:Class>
@@ -194,6 +196,7 @@
     <!-- https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/StereotypicalBias#SocialContext -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/StereotypicalBias#SocialContext">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/StereotypicalBias#ChallengeAction"/>
         <rdfs:comment xml:lang="en">Represents the broader societal or cultural context influencing stereotypical biases.</rdfs:comment>
         <rdfs:label xml:lang="en">SocialContext</rdfs:label>
     </owl:Class>
