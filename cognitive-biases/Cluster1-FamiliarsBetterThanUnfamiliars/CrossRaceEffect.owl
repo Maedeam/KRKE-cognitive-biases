@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://www.semanticweb.org/delayed/cognitive-bias-ontology/HaloEffect#"
-     xml:base="http://www.semanticweb.org/delayed/cognitive-bias-ontology/HaloEffect"
+<rdf:RDF xmlns="http://www.semanticweb.org/delayed/cognitive-bias-ontology/CrossRaceEffect#"
+     xml:base="http://www.semanticweb.org/delayed/cognitive-bias-ontology/CrossRaceEffect"
      xmlns:ns="http://creativecommons.org/ns#"
      xmlns:ns1="http://www.w3.org/2003/06/sw-vocab-status/ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
@@ -8,20 +8,22 @@
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
      xmlns:vann="http://purl.org/vocab/vann/"
      xmlns:terms="http://purl.org/dc/terms/"
-     xmlns:People="http://etna.istc.cnr.it/framester2/data/framestercore/People#"
-     xmlns:HaloEffect="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/HaloEffect.owl"
-     xmlns:HaloEffect1="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/HaloEffect.owl#"
      xmlns:description="http://www.ontologydesignpatterns.org/cp/owl/description.owl#"
+     xmlns:CrossRaceEffect="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/CrossRaceEffect.owl"
+     xmlns:CrossRaceEffect1="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/CrossRaceEffect.owl#"
+     xmlns:CrossRaceEffect2="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/CrossRaceEffect#"
      xmlns:cpannotationschema="http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#">
-    <owl:Ontology rdf:about="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/HaloEffect.owl">
-        <owl:versionIRI rdf:resource="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/HaloEffect.owl"/>
+    <owl:Ontology rdf:about="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/CrossRaceEffect.owl">
+        <owl:versionIRI rdf:resource="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/CrossRaceEffect.owl"/>
+        <terms:creator xml:lang="en">Atousa Heidarnia</terms:creator>
         <terms:creator xml:lang="en">Maede Hajjari</terms:creator>
-        <terms:description xml:lang="en">Halo Effect bias module of the Cognitive Bias Ontology.</terms:description>
+        <terms:description xml:lang="en">Cross Race Effect module of the Cognitive Bias Ontology.</terms:description>
         <terms:hasVersion xml:lang="en">0.1</terms:hasVersion>
-        <terms:title xml:lang="en">Halo Effect Bias Ontology</terms:title>
-        <rdfs:comment xml:lang="en">The &quot;Halo Effect&quot; is a cognitive bias that influences individuals to form a favorable overall impression of a person, product, or entity based on a single positive trait, experience, or characteristic. This positive evaluation creates a metaphorical &quot;halo&quot; around the subject, leading to the assumption that other unrelated aspects or qualities must also be positive.</rdfs:comment>
+        <terms:title xml:lang="en">Cross Race Effect Ontology</terms:title>
+        <rdfs:comment xml:lang="en">The &quot;Cross Race Effect Bias&quot; also known as the &quot;Own-Race Bias&quot; or &quot;Other-Race Effect,&quot; refers to the phenomenon where individuals exhibit greater difficulty in recognizing and distinguishing faces of individuals from races other than their own. This cognitive bias is characterized by a reduced ability to accurately identify and remember facial features of people belonging to races with which an individual has limited exposure. The Cross-Race Effect can impact various aspects of social interactions, such as eyewitness identification, and is believed to stem from a combination of familiarity, social exposure, and perceptual processes that influence facial recognition abilities.</rdfs:comment>
     </owl:Ontology>
     
 
@@ -61,6 +63,12 @@
     
 
 
+    <!-- http://www.w3.org/2004/02/skos/core#comment -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#comment"/>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -72,58 +80,68 @@
     
 
 
-    <!-- http://etna.istc.cnr.it/framester2/data/framestercore/People#hasJudgment -->
+    <!-- https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/CrossRaceEffect#hasAccuracyLevel -->
 
-    <owl:ObjectProperty rdf:about="http://etna.istc.cnr.it/framester2/data/framestercore/People#hasJudgment">
-        <owl:equivalentProperty rdf:resource="http://etna.istc.cnr.it/framester2/data/framestercore/People#hasOpinionAbout"/>
-        <rdfs:domain rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl#Agent"/>
-        <rdfs:range rdf:resource="https://w3id.org/framester/data/framestercore/Fame"/>
-        <rdfs:comment xml:lang="en">Represents the cognitive judgment made by an individual</rdfs:comment>
-        <rdfs:label xml:lang="en">hasJudgment</rdfs:label>
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/CrossRaceEffect#hasAccuracyLevel">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/CrossRaceEffect#Identification"/>
+        <rdfs:range rdf:resource="http://etna.istc.cnr.it/framester2/data/framestercore/Accuracy"/>
+        <rdfs:comment xml:lang="en">Relates an Identification to its Accuracy level.</rdfs:comment>
+        <rdfs:label xml:lang="en">hasAccuracyLevel</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://etna.istc.cnr.it/framester2/data/framestercore/People#hasOpinionAbout -->
+    <!-- https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/CrossRaceEffect#hasIndications -->
 
-    <owl:ObjectProperty rdf:about="http://etna.istc.cnr.it/framester2/data/framestercore/People#hasOpinionAbout">
-        <rdfs:domain rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl#Agent"/>
-        <rdfs:range rdf:resource="https://w3id.org/framester/data/framestercore/Fame"/>
-        <rdfs:comment xml:lang="en">Represents the opinions held by individuals</rdfs:comment>
-        <rdfs:label xml:lang="en">hasOpinionAbout</rdfs:label>
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/CrossRaceEffect#hasIndications">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/CrossRaceEffect#Identification"/>
+        <rdfs:range rdf:resource="http://etna.istc.cnr.it/framester2/data/framestercore/Indicating"/>
+        <rdfs:comment xml:lang="en">Relates an Identification to the action of Indicating a particular person.</rdfs:comment>
+        <rdfs:label xml:lang="en">hasIndications</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://etna.istc.cnr.it/framester2/data/framestercore/People#wrongAssumption -->
+    <!-- https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/CrossRaceEffect#hasMemory -->
 
-    <owl:ObjectProperty rdf:about="http://etna.istc.cnr.it/framester2/data/framestercore/People#wrongAssumption">
-        <rdfs:subPropertyOf rdf:resource="http://etna.istc.cnr.it/framester2/data/framestercore/People#hasJudgment"/>
-        <rdfs:domain rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl#Agent"/>
-        <rdfs:range rdf:resource="https://w3id.org/framester/data/framestercore/Fame"/>
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/CrossRaceEffect#hasMemory">
+        <rdfs:domain rdf:resource="https://w3id.org/framester/data/framestercore/Seeking#Eyewitness"/>
+        <rdfs:range rdf:resource="http://etna.istc.cnr.it/framester2/data/framestercore/Memory"/>
+        <rdfs:comment xml:lang="en">Relates an Eyewitness to their Memory.</rdfs:comment>
+        <rdfs:label xml:lang="en">hasMemory</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/HaloEffect.owl#isEngagedIn -->
+    <!-- https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/CrossRaceEffect#hasSeekingBehavior -->
 
-    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/HaloEffect.owl#isEngagedIn">
-        <rdfs:domain rdf:resource="https://w3id.org/framester/data/framestercore/Fame"/>
-        <rdfs:range rdf:resource="http://etna.istc.cnr.it/framester2/data/framestercore/People#Domain"/>
-        <rdfs:comment xml:lang="en">having famousness in one or more domain</rdfs:comment>
-        <rdfs:label xml:lang="en">hasFamousness</rdfs:label>
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/CrossRaceEffect#hasSeekingBehavior">
+        <rdfs:domain rdf:resource="https://w3id.org/framester/data/framestercore/Seeking#Eyewitness"/>
+        <rdfs:range rdf:resource="http://etna.istc.cnr.it/framester2/data/framestercore/Seeking"/>
+        <rdfs:comment xml:lang="en">Relates an Eyewitness to the act of Seeking.</rdfs:comment>
+        <rdfs:label xml:lang="en">hasSeekingBehavior</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://w3id.org/affectedBy#influencedBy -->
+    <!-- https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/CrossRaceEffect#hasSigns -->
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/affectedBy#influencedBy">
-        <rdfs:domain rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl#Agent"/>
-        <rdfs:range rdf:resource="https://w3id.org/framester/data/framestercore/Fame"/>
-        <rdfs:comment xml:lang="en">Represents the influence of one entity on another</rdfs:comment>
-        <rdfs:comment xml:lang="en">When something or someone is influenced by an external entity or factor.</rdfs:comment>
-        <rdfs:comment xml:lang="en">hasInfluencedBy</rdfs:comment>
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/CrossRaceEffect#hasSigns">
+        <rdfs:domain rdf:resource="https://w3id.org/framester/data/framestercore/Seeking#Eyewitness"/>
+        <rdfs:range rdf:resource="http://etna.istc.cnr.it/framester2/data/framestercore/Sign"/>
+        <rdfs:comment xml:lang="en">RelRelates an Eyewitness to Signs observed during an event.</rdfs:comment>
+        <rdfs:label xml:lang="en">hasSigns</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/CrossRaceEffect#indicatesCrossRaceEffect -->
+
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/CrossRaceEffect#indicatesCrossRaceEffect">
+        <rdfs:domain rdf:resource="https://w3id.org/framester/data/framestercore/Seeking#Eyewitness"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/CrossRaceEffect#CrossRaceEffect"/>
+        <rdfs:comment xml:lang="en">Indicates whether an Eyewitness&apos;s Identification is influenced by the Cross Race Effect.</rdfs:comment>
+        <rdfs:label xml:lang="en">indicatesCrossRaceEffect</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -139,50 +157,77 @@
     
 
 
-    <!-- http://etna.istc.cnr.it/framester2/data/framestercore/People#Domain -->
+    <!-- http://etna.istc.cnr.it/framester2/data/framestercore/Accuracy -->
 
-    <owl:Class rdf:about="http://etna.istc.cnr.it/framester2/data/framestercore/People#Domain">
-        <rdfs:comment xml:lang="en">Domain of avtivity</rdfs:comment>
-        <rdfs:label xml:lang="en">Domain</rdfs:label>
+    <owl:Class rdf:about="http://etna.istc.cnr.it/framester2/data/framestercore/Accuracy">
+        <rdfs:subClassOf rdf:resource="http://etna.istc.cnr.it/framester2/data/framestercore/Memory"/>
+        <rdfs:comment xml:lang="en">Represents the correctness or precision of an identification.</rdfs:comment>
+        <rdfs:label xml:lang="en">Accuracy</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://etna.istc.cnr.it/framester2/data/framestercore/People#People -->
+    <!-- http://etna.istc.cnr.it/framester2/data/framestercore/Indicating -->
 
-    <owl:Class rdf:about="http://etna.istc.cnr.it/framester2/data/framestercore/People#People">
-        <rdfs:comment xml:lang="en">People</rdfs:comment>
-        <rdfs:comment xml:lang="en">Represents individuals, including both fans and celebrities.</rdfs:comment>
-        <rdfs:comment xml:lang="en">This frame contains general words for Individuals, i.e. humans. The Person is conceived of as independent of other specific individuals with whom they have relationships and independent of their participation in any particular activity. They may have an Age, Descriptor, Origin, Persistent_characteristic, or Ethnicity. A man from Phoenix was shot yesterday. She gave birth to a screaming babyyesterday. I study 16-year-old female adolescents. I am dating an African-American man. She comforted the terrified child. I always thought of him as a stupid man.</rdfs:comment>
+    <owl:Class rdf:about="http://etna.istc.cnr.it/framester2/data/framestercore/Indicating">
+        <rdfs:comment xml:lang="en">Represents the action of pointing out or suggesting a particular person in an identification process.</rdfs:comment>
+        <rdfs:label xml:lang="en">Indicating</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl#Agent -->
+    <!-- http://etna.istc.cnr.it/framester2/data/framestercore/Memory -->
 
-    <owl:Class rdf:about="http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl#Agent">
-        <rdfs:subClassOf rdf:resource="http://etna.istc.cnr.it/framester2/data/framestercore/People#People"/>
-        <rdfs:comment xml:lang="en">Any physical or social agent, including a person, a social group, or an organization.</rdfs:comment>
-        <rdfs:label xml:lang="en">Agent</rdfs:label>
+    <owl:Class rdf:about="http://etna.istc.cnr.it/framester2/data/framestercore/Memory">
+        <rdfs:comment xml:lang="en">Represents the mental capacity to store and recall information.</rdfs:comment>
+        <rdfs:label xml:lang="en">Memory</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://w3id.org/framester/data/framestercore/Categorization -->
+    <!-- http://etna.istc.cnr.it/framester2/data/framestercore/Seeking -->
 
-    <owl:Class rdf:about="https://w3id.org/framester/data/framestercore/Categorization">
-        <rdfs:comment xml:lang="en">The act of judge or think or cognize a subject</rdfs:comment>
-        <rdfs:label xml:lang="en">Cogitation</rdfs:label>
+    <owl:Class rdf:about="http://etna.istc.cnr.it/framester2/data/framestercore/Seeking">
+        <rdfs:comment xml:lang="en">Represents the act of actively searching or looking for information.</rdfs:comment>
+        <rdfs:label xml:lang="en">Seeking</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://w3id.org/framester/data/framestercore/Fame -->
+    <!-- http://etna.istc.cnr.it/framester2/data/framestercore/Sign -->
 
-    <owl:Class rdf:about="https://w3id.org/framester/data/framestercore/Fame">
-        <rdfs:subClassOf rdf:resource="http://etna.istc.cnr.it/framester2/data/framestercore/People#People"/>
-        <rdfs:comment xml:lang="en">Represents the concept of fame associated with a person.</rdfs:comment>
-        <rdfs:label xml:lang="en">Fame</rdfs:label>
+    <owl:Class rdf:about="http://etna.istc.cnr.it/framester2/data/framestercore/Sign">
+        <rdfs:subClassOf rdf:resource="http://etna.istc.cnr.it/framester2/data/framestercore/Indicating"/>
+        <rdfs:comment xml:lang="en">Represents a clue or signal that aids in the process of identification.</rdfs:comment>
+        <rdfs:label xml:lang="en">Sign</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/CrossRaceEffect#CrossRaceEffect -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/CrossRaceEffect#CrossRaceEffect">
+        <rdfs:comment xml:lang="en">Represents the phenomenon where people may have difficulty recognizing individuals of a different race.</rdfs:comment>
+        <rdfs:label xml:lang="en">CrossRaceEffect</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/CrossRaceEffect#Identification -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/CrossRaceEffect#Identification">
+        <rdfs:subClassOf rdf:resource="http://etna.istc.cnr.it/framester2/data/framestercore/Seeking"/>
+        <rdfs:comment xml:lang="en">Represents the process of recognizing and naming a person.</rdfs:comment>
+        <rdfs:label xml:lang="en">Identification</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/framester/data/framestercore/Seeking#Eyewitness -->
+
+    <owl:Class rdf:about="https://w3id.org/framester/data/framestercore/Seeking#Eyewitness">
+        <rdfs:comment xml:lang="en">Represents individuals who observe a crime or event.</rdfs:comment>
+        <rdfs:label xml:lang="en">Eyewitness</rdfs:label>
     </owl:Class>
     
 
@@ -198,38 +243,23 @@
     
 
 
-    <!-- http://etna.istc.cnr.it/framester2/data/framestercore/People#Celebrity -->
+    <!-- https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/CrossRaceEffect#HighAccuracy -->
 
-    <owl:NamedIndividual rdf:about="http://etna.istc.cnr.it/framester2/data/framestercore/People#Celebrity">
-        <HaloEffect1:isEngagedIn rdf:resource="http://etna.istc.cnr.it/framester2/data/framestercore/People#Celebrity"/>
-        <rdfs:comment xml:lang="en">An individual representing the celebrity in the scenario</rdfs:comment>
-        <rdfs:label xml:lang="en">Celebrity</rdfs:label>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/CrossRaceEffect#HighAccuracy">
+        <rdf:type rdf:resource="http://etna.istc.cnr.it/framester2/data/framestercore/Accuracy"/>
+        <rdfs:comment xml:lang="en">Represents a high level of accuracy in identification.</rdfs:comment>
+        <rdfs:label xml:lang="en">HighAccuracy</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://etna.istc.cnr.it/framester2/data/framestercore/People#Fan -->
+    <!-- https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/CrossRaceEffect#John -->
 
-    <owl:NamedIndividual rdf:about="http://etna.istc.cnr.it/framester2/data/framestercore/People#Fan">
-        <rdf:type rdf:resource="https://w3id.org/framester/data/framestercore/Categorization"/>
-        <People:hasOpinionAbout rdf:resource="http://etna.istc.cnr.it/framester2/data/framestercore/People#Fan"/>
-        <rdfs:comment xml:lang="en">An individual representing the fan in the scenario.</rdfs:comment>
-        <rdfs:label xml:lang="en">Fan</rdfs:label>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/CrossRaceEffect#John">
+        <rdf:type rdf:resource="https://w3id.org/framester/data/framestercore/Seeking#Eyewitness"/>
+        <rdfs:comment xml:lang="en">An eyewitness to a crime.</rdfs:comment>
+        <rdfs:label xml:lang="en">John</rdfs:label>
     </owl:NamedIndividual>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Annotations
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#deprecated">
-        <rdfs:label xml:lang="en">Celebrity</rdfs:label>
-    </rdf:Description>
 </rdf:RDF>
 
 
