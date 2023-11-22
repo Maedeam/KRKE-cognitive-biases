@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://www.semanticweb.org/delayed/cognitive-bias-ontology/HaloEffect#"
-     xml:base="http://www.semanticweb.org/delayed/cognitive-bias-ontology/HaloEffect"
+<rdf:RDF xmlns="http://www.semanticweb.org/delayed/cognitive-bias-ontology/ImplicitStereotypes#"
+     xml:base="http://www.semanticweb.org/delayed/cognitive-bias-ontology/ImplicitStereotypes"
      xmlns:ns="http://creativecommons.org/ns#"
      xmlns:ns1="http://www.w3.org/2003/06/sw-vocab-status/ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
@@ -8,20 +8,23 @@
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
      xmlns:vann="http://purl.org/vocab/vann/"
      xmlns:terms="http://purl.org/dc/terms/"
-     xmlns:People="http://etna.istc.cnr.it/framester2/data/framestercore/People#"
-     xmlns:HaloEffect="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/HaloEffect.owl"
-     xmlns:HaloEffect1="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/HaloEffect.owl#"
      xmlns:description="http://www.ontologydesignpatterns.org/cp/owl/description.owl#"
-     xmlns:cpannotationschema="http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#">
-    <owl:Ontology rdf:about="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/HaloEffect.owl">
-        <owl:versionIRI rdf:resource="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/HaloEffect.owl"/>
+     xmlns:cognitive-biases="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/"
+     xmlns:cpannotationschema="http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#"
+     xmlns:ImplicitStereotypes="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/ImplicitStereotypes.owl"
+     xmlns:ImplicitStereotypes1="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/ImplicitStereotypes.owl#"
+     xmlns:ImplicitStereotypes2="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/ImplicitStereotypes#">
+    <owl:Ontology rdf:about="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/ImplicitStereotypes.owl">
+        <owl:versionIRI rdf:resource="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/ImplicitStereotypes.owl"/>
+        <terms:creator xml:lang="en">Atousa Heidarnia</terms:creator>
         <terms:creator xml:lang="en">Maede Hajjari</terms:creator>
-        <terms:description xml:lang="en">Halo Effect bias module of the Cognitive Bias Ontology.</terms:description>
+        <terms:description xml:lang="en">Implicit Stereotypes module of the Cognitive Bias Ontology.</terms:description>
         <terms:hasVersion xml:lang="en">0.1</terms:hasVersion>
-        <terms:title xml:lang="en">Halo Effect Bias Ontology</terms:title>
-        <rdfs:comment xml:lang="en">The &quot;Halo Effect&quot; is a cognitive bias that influences individuals to form a favorable overall impression of a person, product, or entity based on a single positive trait, experience, or characteristic. This positive evaluation creates a metaphorical &quot;halo&quot; around the subject, leading to the assumption that other unrelated aspects or qualities must also be positive.</rdfs:comment>
+        <terms:title xml:lang="en">Implicit Stereotypes Ontology</terms:title>
+        <rdfs:comment xml:lang="en">Implicit Stereotype Bias refers to the unconscious and automatic associations or attitudes individuals hold toward certain groups or categories, influencing their judgments and behavior without conscious awareness. These biases are often deeply ingrained in societal norms and cultural contexts, shaping perceptions based on characteristics such as gender, race, or ethnicity. Implicit stereotypes can affect decision-making processes, interactions, and evaluations, even when individuals consciously reject or oppose such biases. Recognizing and addressing implicit stereotype bias is crucial for promoting fairness, inclusivity, and equitable treatment in various social settings.</rdfs:comment>
     </owl:Ontology>
     
 
@@ -61,6 +64,30 @@
     
 
 
+    <!-- http://www.w3.org/2004/02/skos/core#comment -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#comment"/>
+    
+
+
+    <!-- https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/ImplicitStereotypes.owlchallengesBias -->
+
+    <owl:AnnotationProperty rdf:about="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/ImplicitStereotypes.owlchallengesBias"/>
+    
+
+
+    <!-- https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/ImplicitStereotypes.owlexhibitsBiasTowards -->
+
+    <owl:AnnotationProperty rdf:about="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/ImplicitStereotypes.owlexhibitsBiasTowards"/>
+    
+
+
+    <!-- https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/ImplicitStereotypes.owlhasAttribute -->
+
+    <owl:AnnotationProperty rdf:about="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/ImplicitStereotypes.owlhasAttribute"/>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -72,58 +99,68 @@
     
 
 
-    <!-- http://etna.istc.cnr.it/framester2/data/framestercore/People#hasJudgment -->
+    <!-- https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/ImplicitStereotypes#challengesBias -->
 
-    <owl:ObjectProperty rdf:about="http://etna.istc.cnr.it/framester2/data/framestercore/People#hasJudgment">
-        <owl:equivalentProperty rdf:resource="http://etna.istc.cnr.it/framester2/data/framestercore/People#hasOpinionAbout"/>
-        <rdfs:domain rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl#Agent"/>
-        <rdfs:range rdf:resource="https://w3id.org/framester/data/framestercore/Fame"/>
-        <rdfs:comment xml:lang="en">Represents the cognitive judgment made by an individual</rdfs:comment>
-        <rdfs:label xml:lang="en">hasJudgment</rdfs:label>
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/ImplicitStereotypes#challengesBias">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/ImplicitStereotypes#Person"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/ImplicitStereotypes#ChallengeAction"/>
+        <rdfs:comment xml:lang="en">Represents actions or behaviors that challenge or confront Implicit Stereotypes.</rdfs:comment>
+        <rdfs:label xml:lang="en">challengesBias</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://etna.istc.cnr.it/framester2/data/framestercore/People#hasOpinionAbout -->
+    <!-- https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/ImplicitStereotypes#exhibitsBiasTowards -->
 
-    <owl:ObjectProperty rdf:about="http://etna.istc.cnr.it/framester2/data/framestercore/People#hasOpinionAbout">
-        <rdfs:domain rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl#Agent"/>
-        <rdfs:range rdf:resource="https://w3id.org/framester/data/framestercore/Fame"/>
-        <rdfs:comment xml:lang="en">Represents the opinions held by individuals</rdfs:comment>
-        <rdfs:label xml:lang="en">hasOpinionAbout</rdfs:label>
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/ImplicitStereotypes#exhibitsBiasTowards">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/ImplicitStereotypes#Person"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/ImplicitStereotypes#ImplicitStereotypes"/>
+        <rdfs:comment xml:lang="en">Represents the bias exhibited by individuals toward others based on stereotypical attributes.</rdfs:comment>
+        <rdfs:label xml:lang="en">exhibitsBiasTowards</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://etna.istc.cnr.it/framester2/data/framestercore/People#wrongAssumption -->
+    <!-- https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/ImplicitStereotypes#hasAttribute -->
 
-    <owl:ObjectProperty rdf:about="http://etna.istc.cnr.it/framester2/data/framestercore/People#wrongAssumption">
-        <rdfs:subPropertyOf rdf:resource="http://etna.istc.cnr.it/framester2/data/framestercore/People#hasJudgment"/>
-        <rdfs:domain rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl#Agent"/>
-        <rdfs:range rdf:resource="https://w3id.org/framester/data/framestercore/Fame"/>
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/ImplicitStereotypes#hasAttribute">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/ImplicitStereotypes#Person"/>
+        <rdfs:range rdf:resource="https://en.wiktionary.org/wiki/attribute"/>
+        <rdfs:comment xml:lang="en">Relates a person to an attribute that is subject to stereotyping.</rdfs:comment>
+        <rdfs:label xml:lang="en">hasAttribute</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/HaloEffect.owl#isEngagedIn -->
+    <!-- https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/ImplicitStereotypes#hasContext -->
 
-    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/HaloEffect.owl#isEngagedIn">
-        <rdfs:domain rdf:resource="https://w3id.org/framester/data/framestercore/Fame"/>
-        <rdfs:range rdf:resource="http://etna.istc.cnr.it/framester2/data/framestercore/People#Domain"/>
-        <rdfs:comment xml:lang="en">having famousness in one or more domain</rdfs:comment>
-        <rdfs:label xml:lang="en">hasFamousness</rdfs:label>
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/ImplicitStereotypes#hasContext">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/ImplicitStereotypes#ImplicitStereotypes"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/ImplicitStereotypes#SocialContext"/>
+        <rdfs:comment xml:lang="en">Specifies the context in which Implicit Stereotypes occurs.</rdfs:comment>
+        <rdfs:label xml:lang="en">hasContext</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://w3id.org/affectedBy#influencedBy -->
+    <!-- https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/ImplicitStereotypes#hasRelation -->
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/affectedBy#influencedBy">
-        <rdfs:domain rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl#Agent"/>
-        <rdfs:range rdf:resource="https://w3id.org/framester/data/framestercore/Fame"/>
-        <rdfs:comment xml:lang="en">Represents the influence of one entity on another</rdfs:comment>
-        <rdfs:comment xml:lang="en">When something or someone is influenced by an external entity or factor.</rdfs:comment>
-        <rdfs:comment xml:lang="en">hasInfluencedBy</rdfs:comment>
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/ImplicitStereotypes#hasRelation">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/ImplicitStereotypes#ImplicitStereotypes"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/ImplicitStereotypes#Attribute"/>
+        <rdfs:comment xml:lang="en">Specifies the relation between Implicit Stereotypes and attributes.</rdfs:comment>
+        <rdfs:label xml:lang="en">hasRelation</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/ImplicitStereotypes#isAffectedBy -->
+
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/ImplicitStereotypes#isAffectedBy">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/ImplicitStereotypes#ImplicitStereotypes"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/ImplicitStereotypes#SocialContext"/>
+        <rdfs:comment xml:lang="en">Represents the influence of social context on Implicit Stereotypes.</rdfs:comment>
+        <rdfs:label xml:lang="en">isAffectedBy</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -139,50 +176,86 @@
     
 
 
-    <!-- http://etna.istc.cnr.it/framester2/data/framestercore/People#Domain -->
+    <!-- https://en.wiktionary.org/wiki/attribute -->
 
-    <owl:Class rdf:about="http://etna.istc.cnr.it/framester2/data/framestercore/People#Domain">
-        <rdfs:comment xml:lang="en">Domain of avtivity</rdfs:comment>
-        <rdfs:label xml:lang="en">Domain</rdfs:label>
+    <owl:Class rdf:about="https://en.wiktionary.org/wiki/attribute">
+        <rdfs:comment xml:lang="en">Represents characteristics or traits that are subject to stereotyping.</rdfs:comment>
+        <rdfs:label xml:lang="en">Attribute</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://etna.istc.cnr.it/framester2/data/framestercore/People#People -->
+    <!-- https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/ImplicitStereotypes#Attribute -->
 
-    <owl:Class rdf:about="http://etna.istc.cnr.it/framester2/data/framestercore/People#People">
-        <rdfs:comment xml:lang="en">People</rdfs:comment>
-        <rdfs:comment xml:lang="en">Represents individuals, including both fans and celebrities.</rdfs:comment>
-        <rdfs:comment xml:lang="en">This frame contains general words for Individuals, i.e. humans. The Person is conceived of as independent of other specific individuals with whom they have relationships and independent of their participation in any particular activity. They may have an Age, Descriptor, Origin, Persistent_characteristic, or Ethnicity. A man from Phoenix was shot yesterday. She gave birth to a screaming babyyesterday. I study 16-year-old female adolescents. I am dating an African-American man. She comforted the terrified child. I always thought of him as a stupid man.</rdfs:comment>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/ImplicitStereotypes#Attribute">
+        <rdfs:comment xml:lang="en">Represents characteristics or traits that are subject to stereotyping.</rdfs:comment>
+        <rdfs:label xml:lang="en">Attribute</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl#Agent -->
+    <!-- https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/ImplicitStereotypes#ChallengeAction -->
 
-    <owl:Class rdf:about="http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl#Agent">
-        <rdfs:subClassOf rdf:resource="http://etna.istc.cnr.it/framester2/data/framestercore/People#People"/>
-        <rdfs:comment xml:lang="en">Any physical or social agent, including a person, a social group, or an organization.</rdfs:comment>
-        <rdfs:label xml:lang="en">Agent</rdfs:label>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/ImplicitStereotypes#ChallengeAction">
+        <rdfs:comment xml:lang="en">Represents actions or behaviors that challenge or confront Implicit Stereotypes.</rdfs:comment>
+        <rdfs:label xml:lang="en">ChallengeAction</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://w3id.org/framester/data/framestercore/Categorization -->
+    <!-- https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/ImplicitStereotypes#Differentiation -->
 
-    <owl:Class rdf:about="https://w3id.org/framester/data/framestercore/Categorization">
-        <rdfs:comment xml:lang="en">The act of judge or think or cognize a subject</rdfs:comment>
-        <rdfs:label xml:lang="en">Cogitation</rdfs:label>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/ImplicitStereotypes#Differentiation">
+        <owl:equivalentClass rdf:resource="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/ImplicitStereotypes#SocialContext"/>
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/ImplicitStereotypes#ChallengeAction"/>
+        <rdfs:comment xml:lang="en">Represents the process of distinguishing or categorizing individuals based on attributes.</rdfs:comment>
+        <rdfs:label xml:lang="en">Differentiation</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://w3id.org/framester/data/framestercore/Fame -->
+    <!-- https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/ImplicitStereotypes#Gender -->
 
-    <owl:Class rdf:about="https://w3id.org/framester/data/framestercore/Fame">
-        <rdfs:subClassOf rdf:resource="http://etna.istc.cnr.it/framester2/data/framestercore/People#People"/>
-        <rdfs:comment xml:lang="en">Represents the concept of fame associated with a person.</rdfs:comment>
-        <rdfs:label xml:lang="en">Fame</rdfs:label>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/ImplicitStereotypes#Gender">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/ImplicitStereotypes#Attribute"/>
+        <rdfs:comment xml:lang="en">Subclass of Attribute, representing gender-related stereotypes.</rdfs:comment>
+        <rdfs:label xml:lang="en">Gender</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/ImplicitStereotypes#ImplicitStereotypes -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/ImplicitStereotypes#ImplicitStereotypes">
+        <rdfs:label xml:lang="en">ImplicitStereotypes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/ImplicitStereotypes#Person -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/ImplicitStereotypes#Person">
+        <rdfs:label xml:lang="en">Person</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/ImplicitStereotypes#Race -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/ImplicitStereotypes#Race">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/ImplicitStereotypes#Attribute"/>
+        <rdfs:comment xml:lang="en">Subclass of Attribute, representing racial stereotypes.</rdfs:comment>
+        <rdfs:label xml:lang="en">Race</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/ImplicitStereotypes#SocialContext -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/ImplicitStereotypes#SocialContext">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/ImplicitStereotypes#ChallengeAction"/>
+        <rdfs:comment xml:lang="en">Represents the broader societal or cultural context influencing Implicit Stereotypes.</rdfs:comment>
+        <rdfs:label xml:lang="en">SocialContext</rdfs:label>
     </owl:Class>
     
 
@@ -198,38 +271,46 @@
     
 
 
-    <!-- http://etna.istc.cnr.it/framester2/data/framestercore/People#Celebrity -->
+    <!-- https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/ImplicitStereotypes#ChallengeEvent -->
 
-    <owl:NamedIndividual rdf:about="http://etna.istc.cnr.it/framester2/data/framestercore/People#Celebrity">
-        <HaloEffect1:isEngagedIn rdf:resource="http://etna.istc.cnr.it/framester2/data/framestercore/People#Celebrity"/>
-        <rdfs:comment xml:lang="en">An individual representing the celebrity in the scenario</rdfs:comment>
-        <rdfs:label xml:lang="en">Celebrity</rdfs:label>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/ImplicitStereotypes#ChallengeEvent">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/ImplicitStereotypes#ChallengeAction"/>
+        <rdfs:comment xml:lang="en">An instance representing a specific event challenging Implicit Stereotypes.</rdfs:comment>
+        <rdfs:label xml:lang="en">ChallengeEvent</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://etna.istc.cnr.it/framester2/data/framestercore/People#Fan -->
+    <!-- https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/ImplicitStereotypes#FashionableAttribute -->
 
-    <owl:NamedIndividual rdf:about="http://etna.istc.cnr.it/framester2/data/framestercore/People#Fan">
-        <rdf:type rdf:resource="https://w3id.org/framester/data/framestercore/Categorization"/>
-        <People:hasOpinionAbout rdf:resource="http://etna.istc.cnr.it/framester2/data/framestercore/People#Fan"/>
-        <rdfs:comment xml:lang="en">An individual representing the fan in the scenario.</rdfs:comment>
-        <rdfs:label xml:lang="en">Fan</rdfs:label>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/ImplicitStereotypes#FashionableAttribute">
+        <rdf:type rdf:resource="https://en.wiktionary.org/wiki/attribute"/>
+        <rdfs:comment xml:lang="en">An attribute related to fashion choices.</rdfs:comment>
+        <rdfs:label xml:lang="en">FashionableAttribute</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Annotations
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
+    <!-- https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/ImplicitStereotypes#GenderBiasExample -->
 
-    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#deprecated">
-        <rdfs:label xml:lang="en">Celebrity</rdfs:label>
-    </rdf:Description>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/ImplicitStereotypes#GenderBiasExample">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/ImplicitStereotypes#ImplicitStereotypes"/>
+        <rdfs:comment xml:lang="en">An instance representing a specific case of gender-based Implicit Stereotypes.</rdfs:comment>
+        <rdfs:label xml:lang="en">GenderBiasExample</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/ImplicitStereotypes#John -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/ImplicitStereotypes#John">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/ImplicitStereotypes#Person"/>
+        <rdfs:comment xml:lang="en">An individual person.</rdfs:comment>
+        <rdfs:label xml:lang="en">John</rdfs:label>
+        <cognitive-biases:ImplicitStereotypes.owlchallengesBias rdf:resource="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/ImplicitStereotypes#ChallengeEvent"/>
+        <cognitive-biases:ImplicitStereotypes.owlexhibitsBiasTowards rdf:resource="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/ImplicitStereotypes#GenderBiasExample"/>
+        <cognitive-biases:ImplicitStereotypes.owlhasAttribute rdf:resource="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/ImplicitStereotypes#FashionableAttribute"/>
+    </owl:NamedIndividual>
 </rdf:RDF>
 
 
