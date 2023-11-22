@@ -70,6 +70,24 @@
     
 
 
+    <!-- https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/ImplicitAssociationsBias.challengesBias -->
+
+    <owl:AnnotationProperty rdf:about="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/ImplicitAssociationsBias.challengesBias"/>
+    
+
+
+    <!-- https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/ImplicitAssociationsBias.exhibitsBiasTowards -->
+
+    <owl:AnnotationProperty rdf:about="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/ImplicitAssociationsBias.exhibitsBiasTowards"/>
+    
+
+
+    <!-- https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/ImplicitAssociationsBias.hasAttribute -->
+
+    <owl:AnnotationProperty rdf:about="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/ImplicitAssociationsBias.hasAttribute"/>
+    
+
+
     <!-- https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/ImplicitAssociationss.owlchallengesBias -->
 
     <owl:AnnotationProperty rdf:about="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/ImplicitAssociationss.owlchallengesBias"/>
@@ -261,41 +279,45 @@
     
 
 
-    <!--
-///////////////////////////////////////////////////////////////////////////////////////
-//
-// Individuals
-//
-///////////////////////////////////////////////////////////////////////////////////////
--->
+    <!-- https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/ImplicitAssociationss#ChallengeEvent -->
 
-<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/ImplicitAssociationss#ChallengeEvent">
-    <rdf:type rdf:resource="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/ImplicitAssociationss#ChallengeAction"/>
-    <rdfs:comment xml:lang="en">An instance representing a specific event challenging Implicit Associations Bias.</rdfs:comment>
-    <rdfs:label xml:lang="en">ChallengeEvent</rdfs:label>
-</owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/ImplicitAssociationss#ChallengeEvent">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/ImplicitAssociationss#ChallengeAction"/>
+        <rdfs:comment xml:lang="en">An instance representing a specific event challenging Implicit Associations Bias.</rdfs:comment>
+        <rdfs:label xml:lang="en">ChallengeEvent</rdfs:label>
+    </owl:NamedIndividual>
+    
 
-<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/ImplicitAssociationss#FashionableAttribute">
-    <rdf:type rdf:resource="https://en.wiktionary.org/wiki/attribute"/>
-    <rdfs:comment xml:lang="en">An attribute related to fashion choices.</rdfs:comment>
-    <rdfs:label xml:lang="en">FashionableAttribute</rdfs:label>
-</owl:NamedIndividual>
 
-<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/ImplicitAssociationss#GenderBiasExample">
-    <rdf:type rdf:resource="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/ImplicitAssociationss#ImplicitAssociationsBias"/>
-    <rdfs:comment xml:lang="en">An instance representing a specific case of gender-based Implicit Associations Bias.</rdfs:comment>
-    <rdfs:label xml:lang="en">GenderBiasExample</rdfs:label>
-</owl:NamedIndividual>
+    <!-- https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/ImplicitAssociationss#FashionableAttribute -->
 
-<owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/ImplicitAssociationss#John">
-    <rdf:type rdf:resource="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/ImplicitAssociationss#Person"/>
-    <rdfs:comment xml:lang="en">An individual person.</rdfs:comment>
-    <rdfs:label xml:lang="en">John</rdfs:label>
-    <cognitive-biases:ImplicitAssociationsBias.challengesBias rdf:resource="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/ImplicitAssociationss#ChallengeEvent"/>
-    <cognitive-biases:ImplicitAssociationsBias.exhibitsBiasTowards rdf:resource="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/ImplicitAssociationss#GenderBiasExample"/>
-    <cognitive-biases:ImplicitAssociationsBias.hasAttribute rdf:resource="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/ImplicitAssociationss#FashionableAttribute"/>
-</owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/ImplicitAssociationss#FashionableAttribute">
+        <rdfs:comment xml:lang="en">An attribute related to fashion choices.</rdfs:comment>
+        <rdfs:label xml:lang="en">FashionableAttribute</rdfs:label>
+    </owl:NamedIndividual>
+    
 
+
+    <!-- https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/ImplicitAssociationss#GenderBiasExample -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/ImplicitAssociationss#GenderBiasExample">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/ImplicitAssociationss#ImplicitAssociationsBias"/>
+        <rdfs:comment xml:lang="en">An instance representing a specific case of gender-based Implicit Associations Bias.</rdfs:comment>
+        <rdfs:label xml:lang="en">GenderBiasExample</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/ImplicitAssociationss#John -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/ImplicitAssociationss#John">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/ImplicitAssociationss#Person"/>
+        <rdfs:comment xml:lang="en">An individual person.</rdfs:comment>
+        <rdfs:label xml:lang="en">John</rdfs:label>
+        <cognitive-biases:ImplicitAssociationsBias.challengesBias rdf:resource="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/ImplicitAssociationss#ChallengeEvent"/>
+        <cognitive-biases:ImplicitAssociationsBias.exhibitsBiasTowards rdf:resource="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/ImplicitAssociationss#GenderBiasExample"/>
+        <cognitive-biases:ImplicitAssociationsBias.hasAttribute rdf:resource="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/ImplicitAssociationss#FashionableAttribute"/>
+    </owl:NamedIndividual>
 </rdf:RDF>
 
 
