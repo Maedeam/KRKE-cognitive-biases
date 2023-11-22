@@ -50,25 +50,55 @@ _<mark style="color:green;">Large Language Models</mark>_
 
 _<mark style="color:green;">A general description of the bias to get an overall idea of the domain</mark>_
 
-
+The "Cross-Race Effect," also known as the "Own-Race Bias" or "Other-Race Effect," refers to the phenomenon where individuals exhibit greater difficulty in recognizing and distinguishing faces of individuals from races other than their own. This cognitive bias is characterized by a reduced ability to accurately identify and remember facial features of people belonging to races with which an individual has limited exposure. The Cross-Race Effect can impact various aspects of social interactions, such as eyewitness identification, and is believed to stem from a combination of familiarity, social exposure, and perceptual processes that influence facial recognition abilities.
 
 ### 2.2. Examples Scenarios
 
 _<mark style="color:green;">Ten different examples of possible scenarios to understanding the context of the domain</mark>_
 
-1.
+1. **Eyewitness Identification:** John, who is accustomed to interacting mostly with people of his own race, struggles to accurately identify a suspect from a different racial background in a police lineup.
+2. **Job Interview:** Sarah, unfamiliar with faces of a certain ethnicity, finds it challenging to remember and distinguish between candidates during a job interview where applicants are from diverse racial backgrounds.
+3. **Classroom Recognition:** In a multicultural classroom, students like Alex tend to remember and recognize the faces of classmates from their own racial or ethnic group more easily than those from other groups.
+4. **Cultural Event:** During a cultural festival, attendees such as Emily may experience difficulty in remembering and identifying individuals from ethnicities less familiar to them.
+5. **Social Gathering:** Mark, attending a party with people from various racial backgrounds, encounters challenges in recalling the names and faces of acquaintances who belong to races different from his own.
+6. **Sports Event:** Jenny, who predominantly watches sports featuring athletes of her own race, may struggle to identify and remember athletes from diverse racial backgrounds during a multiethnic competition.
+7. **Customer Service:** David, accustomed to interacting with individuals from his own racial group in a service setting, may face challenges recognizing and remembering the faces of customers from other ethnicities.
+8. **Community Meeting:** At a neighborhood meeting with residents of different racial backgrounds, Maria may experience the Cross-Race Effect, making it harder to recall and identify fellow attendees.
+9. **Educational Setting:** In a university setting with a diverse student body, Tom may find it more challenging to recognize and remember faces of professors and classmates from racial backgrounds less represented in his social circles.
+10. **Travel Experience:** While traveling to a culturally rich destination, Rachel, unfamiliar with the local racial demographics, may struggle to remember and distinguish between faces encountered during her journey.
 
 ### 2.3 Main Scenario
 
-_<mark style="color:green;">Considering one scenario; here the</mark> <mark style="color:green;"></mark><mark style="color:green;">**Social Media Influence,**</mark> <mark style="color:green;"></mark><mark style="color:green;">as our main user story</mark>_
+_<mark style="color:green;">Considering one scenario; here the Eyewitness Identification</mark><mark style="color:green;">**,**</mark> <mark style="color:green;"></mark><mark style="color:green;">as our main user story</mark>_
 
+**User Story: Overcoming Cross-Race Effect in Eyewitness Identification**
 
+**User:** Emily, a university student with limited exposure to people from diverse racial backgrounds.
+
+**Objective:** As Emily, I want to ensure accurate eyewitness identification, overcoming the Cross-Race Effect during a criminal investigation.
+
+**Scenario:** Emily witnesses a theft on campus involving individuals from various racial backgrounds. During the police lineup, she struggles to identify the perpetrator accurately, experiencing the Cross-Race Effect, where faces of people from other races are harder to distinguish.
+
+**Desired Outcome:** Emily recognizes the impact of the Cross-Race Effect on her ability to identify the thief. She decides to actively engage with individuals from diverse racial backgrounds to improve her ability to recognize and remember faces accurately, contributing to fair and unbiased eyewitness identification in the future.
 
 ### 2.4. Possible CQs
 
 _<mark style="color:green;">Generating some possible competency questions</mark>_
 
-**1.**&#x20;
+**AgentRole CQs:**
+
+1. Which agent is experiencing the Cross-Race Effect in eyewitness identification?
+2. What role does Emily play in the scenario, and how does this role contribute to the Cross-Race Effect?
+
+**Sequence CQs:**
+
+1. What events precede Emily's participation in the police lineup for eyewitness identification?
+2. What steps does Emily take immediately after struggling with the Cross-Race Effect during the identification process?
+
+**Situation CQs:**
+
+1. What is the context surrounding the criminal investigation and Emily's eyewitness identification task?
+2. What factors are present in the situation that contribute to the Cross-Race Effect impacting Emily's ability to identify the thief accurately?
 
 ### 2.5. Modelling Bias
 
@@ -76,13 +106,49 @@ _<mark style="color:green;">For making an Ontology and modelling the bias, we ca
 
 **Classes:**
 
+1. **Individual Identification Process:** Represents the overall process of identifying individuals in various contexts.
+2. **Eyewitness:** Represents individuals who provide firsthand observational evidence in legal situations.
+3. **Cross-Race Effect:** Represents the phenomenon where individuals find it challenging to recognize faces of individuals from races different from their own.
+4. **Identification Task:** Represents specific instances where individuals are required to identify others, such as police lineups.
 
+**Object Properties:**
+
+1. **hasIdentificationTask:** Connects an Eyewitness instance to the specific Identification Task they are involved in.
+2. **experiences:** Connects an individual to the Cross-Race Effect they experience during the identification process.
+
+**Data Properties:**
+
+1. **identificationAccuracy:** Specifies the accuracy level of an eyewitness's identification, considering the presence of the Cross-Race Effect.
+
+**Individuals:**
+
+1. **Emily:** An instance of the Eyewitness class.
+2. **PoliceLineup\_December2023:** An instance of the Identification Task class.
+
+**Domain and Range:**
+
+* _hasIdentificationTask:_ Domain - Eyewitness, Range - Identification Task
+* _experiences:_ Domain - Eyewitness, Range - Cross-Race Effect
+* _identificationAccuracy:_ Domain - Eyewitness, Range - Data Property (Accuracy Level)
+
+This ontology models the Cross-Race Effect in the context of eyewitness identification, capturing the relationships between the involved entities and their properties.
 
 ### 2.6. Examples Ontology
 
 _<mark style="color:green;">Three different examples of usage of the Ontology</mark>_
 
-
+1. **Example 1: Eyewitness Identification in a Police Lineup**
+   * **Eyewitness:** Emily participates in a police lineup (Identification Task) to identify a suspect.
+   * **Identification Task:** PoliceLineup\_December2023 involves Emily and other individuals.
+   * **Cross-Race Effect:** Emily experiences difficulties in recognizing faces of individuals from a different race, affecting her identification accuracy.
+2. **Example 2: Research Study on Cross-Race Effect**
+   * **Eyewitness:** Participants in a research study on eyewitness identification.
+   * **Identification Task:** Each participant engages in identifying individuals from various races.
+   * **Cross-Race Effect:** Researchers analyze data to observe the impact of the Cross-Race Effect on identification accuracy.
+3. **Example 3: Training Program for Law Enforcement**
+   * **Eyewitness:** Police officers undergoing training in eyewitness identification.
+   * **Identification Task:** Simulation exercises where officers identify individuals from different races.
+   * **Cross-Race Effect:** The training program aims to address and mitigate the impact of the Cross-Race Effect on officers' identification accuracy.
 
 ***
 
@@ -96,13 +162,34 @@ To better synchronize the biases with established semantic frames in Framester, 
 
 _<mark style="color:green;">Choosing these Lexical Units, then extracted concepts in QUOKKA's and FRED</mark>_
 
-*
+* Eyewitness
+* Identification
+* Memory
+* Accuracy
 
 ### 3.2 Selected Framester F**rames**:
 
 _<mark style="color:green;">Finally, these are the best Framester Frames can be chosen</mark>_
 
-[Fame](http://etna.istc.cnr.it/framester2/data/framestercore/Fame)
+[Seeking](https://w3id.org/framester/data/framestercore/Seeking)
+
+A Cognizer\_agent attempts to find some Sought\_entity by examining some Ground. The success or failure of this activity (the Outcome) may be indicated. NB: This frame should be compared to the Scrutiny frame, in which the primary focus is on the Ground.
+
+[Memory](http://etna.istc.cnr.it/framester2/data/framestercore/Memory)
+
+This frame is concerned with Cognizers remembering and forgetting mental Content.
+
+[Sign](https://w3id.org/framester/data/framestercore/Sign)
+
+A phenomenon, the Indicator, exists as an indication of another phenomenon, the Indicated. The relationship is asymmetric: the Indicated is not necessarily a sign for the existence or presence of an Indicator. The Indicated can be a past, present, or future entity or eventuality. The relationship between Indicator and Indicated is not one of symbolization or iconicity. Rather the Indicator is an index of the Indicated.
+
+[Indicating](https://w3id.org/framester/data/framestercore/Indicating)
+
+A Communicator or Medium assigns linguistic meaning to an Unresolved\_referent thereby identifying the specific actor or entity which fulfills the answer to this question. Can you name all the U.S. Presidents? No doctor can name the disease that's killing him. Every year, InfoWorld names 100 companies that have made the best use of technology.
+
+[Accuracy](http://etna.istc.cnr.it/framester2/data/framestercore/Accuracy)
+
+An Agent is involved in an activity whose degree of success is dependent on a parameter of the action matching a particular set of values of a continuous variable or variables (e.g. quantity, location, time). The Agent, or metonymically the Instrument or Means action, is described in terms of the actual or expected Deviation between the location, time, or quantity in the activity and the location, time, or quantity which is necessary for the intended event. The Longview Rangefinder is accurate to within one foot per hundred yards . His estimate was off by an order of magnitude . The fork truck operator must be fairly accurate in his aim. The precision of the daily measurements is dependent on a number of factors.
 
 ### 3.3 Creating the bias ontology file:
 

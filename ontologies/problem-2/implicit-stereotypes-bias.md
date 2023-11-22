@@ -48,35 +48,123 @@ _<mark style="color:green;">Large Language Models</mark>_
 
 _<mark style="color:green;">A general description of the bias to get an overall idea of the domain</mark>_
 
-
+Implicit Stereotype Bias refers to the unconscious and automatic associations or attitudes individuals hold toward certain groups or categories, influencing their judgments and behavior without conscious awareness. These biases are often deeply ingrained in societal norms and cultural contexts, shaping perceptions based on characteristics such as gender, race, or ethnicity. Implicit stereotypes can affect decision-making processes, interactions, and evaluations, even when individuals consciously reject or oppose such biases. Recognizing and addressing implicit stereotype bias is crucial for promoting fairness, inclusivity, and equitable treatment in various social settings.
 
 ### 2.2. Examples Scenarios
 
 _<mark style="color:green;">Ten different examples of possible scenarios to understanding the context of the domain</mark>_
 
+1. **Hiring Decisions:** An employer unconsciously favors a candidate from their own cultural background, despite qualifications being equal, due to implicit stereotypes about work habits associated with that culture.
+2. **Classroom Dynamics:** A teacher may inadvertently provide more attention and opportunities for participation to students of a certain gender, influenced by implicit stereotypes about academic abilities.
+3. **Medical Treatment:** A healthcare provider might make assumptions about a patient's pain tolerance based on their ethnicity, leading to disparities in pain management.
+4. **Leadership Perceptions:** Individuals may unconsciously associate leadership qualities with specific gender traits, impacting promotion decisions and perpetuating gender-based stereotypes.
+5. **Consumer Preferences:** A marketing team might unintentionally create ads that align with racial or cultural stereotypes, influencing product appeal in a way that reinforces biases.
+6. **Criminal Justice:** Law enforcement officers might subconsciously associate certain demographics with criminal behavior, affecting their approach during stops or investigations.
+7. **Performance Evaluations:** Managers might rate employees differently based on implicit assumptions about age, leading to biased performance assessments.
+8. **Educational Opportunities:** Implicit stereotypes can influence recommendations for advanced courses, limiting opportunities for students from underrepresented backgrounds.
+9. **Media Portrayals:** Stereotypical representations in media can reinforce implicit biases, affecting how individuals perceive and interact with people from different backgrounds.
+10. **Networking Events:** Individuals may unconsciously gravitate towards those who share similar backgrounds at networking events, limiting the diversity of their professional connections due to implicit biases.
+
 ### 2.3 Main Scenario
 
-_<mark style="color:green;">Considering one scenario; here the</mark> <mark style="color:green;"></mark><mark style="color:green;">**Social Media Influence,**</mark> <mark style="color:green;"></mark><mark style="color:green;">as our main user story</mark>_
+_<mark style="color:green;">Considering one scenario; here the Hiring Decisions, as our main user story</mark>_
 
+**User Story: Hiring Decisions**
 
+As a hiring manager for a tech company, I want to ensure fair and unbiased recruitment processes to build a diverse and talented team. During the screening of resumes, I notice that I have a preference for candidates with names that sound familiar or culturally similar to mine. Recognizing the potential for implicit stereotypes to influence my decisions, I decide to implement blind recruitment practices. By removing personally identifiable information from resumes, such as names and photos, I aim to focus solely on the skills and qualifications of each candidate. This user story reflects the commitment to addressing implicit biases in hiring decisions and promoting a more inclusive workplace.
 
 ### 2.4. Possible CQs
 
 _<mark style="color:green;">Generating some possible competency questions</mark>_
 
+**AgentRole Competency Questions:**
 
+1. Which agent is responsible for the hiring decisions in this scenario?
+2. What role does the hiring manager play in the recruitment process?
+3. Are there any other agents involved in the decision-making process, and what roles do they play?
+
+**Sequence Competency Questions:**
+
+1. What precedes the decision to implement blind recruitment practices in the hiring process?
+2. What steps are taken immediately after the hiring manager recognizes a potential preference for culturally familiar names?
+3. What follows the implementation of blind recruitment practices to ensure fair and unbiased hiring?
+
+**Situation Competency Questions:**
+
+1. What is the context or situation that triggers the hiring manager's decision to address implicit biases?
+2. Are there external factors influencing the need for diverse hiring practices in the tech company?
+3. What elements are present in the recruitment process context that contribute to the recognition of potential biases?
 
 ### 2.5. Modelling Bias
 
 _<mark style="color:green;">For making an Ontology and modelling the bias, we can create these classes and properties</mark>_
 
+**Classes:**
 
+1. **ImplicitStereotypeBias:**
+   * Represents the overarching concept of implicit stereotypes bias.
+2. **Person:**
+   * Represents individuals affected by implicit stereotypes bias.
+3. **Attribute:**
+   * Represents characteristics or traits that are subject to stereotyping.
+4. **SocialContext:**
+   * Represents the broader societal or cultural context influencing implicit stereotypes bias.
+
+#### Properties:
+
+1. **exhibitsBiasTowards:**
+   * Domain: Person
+   * Range: ImplicitStereotypeBias
+   * Represents the bias exhibited by individuals toward others based on implicit stereotypes.
+2. **hasAttribute:**
+   * Domain: Person
+   * Range: Attribute
+   * Relates a person to an attribute that is subject to stereotyping.
+3. **isAffectedBy:**
+   * Domain: ImplicitStereotypeBias
+   * Range: SocialContext
+   * Represents the influence of social context on implicit stereotypes bias.
+
+#### Individuals:
+
+1. **StereotypeChallengeEvent:**
+   * Type: ImplicitStereotypeBias
+   * Represents an event challenging or confronting implicit stereotypes bias.
+2. **John:**
+   * Type: Person
+   * Individuals affected by implicit stereotypes bias.
+3. **GenderAttribute:**
+   * Type: Attribute
+   * Represents an attribute related to gender that may be subject to stereotyping.
 
 ### 2.6. Examples Ontology
 
 _<mark style="color:green;">Three different examples of usage of the Ontology</mark>_
 
-
+1. **Example 1: Stereotype Challenge Workshop**
+   * **Context:**
+     * A workshop is organized to challenge and address implicit stereotypes in a workplace.
+   * **Usage:**
+     * Individuals attending the workshop (e.g., employees) are instances of the class "Person."
+     * The workshop event itself is an instance of the class "ImplicitStereotypeBias."
+     * The property "exhibitsBiasTowards" is used to link individuals (e.g., John) to specific attributes (e.g., GenderAttribute) that are subject to stereotyping.
+     * The property "isAffectedBy" links the workshop event to the broader societal or cultural context (e.g., SocialContext).
+2. **Example 2: Implicit Gender Bias Study**
+   * **Context:**
+     * A research study is conducted to investigate implicit gender biases in decision-making.
+   * **Usage:**
+     * Participants in the study are instances of the class "Person."
+     * The study itself is an instance of the class "ImplicitStereotypeBias."
+     * The property "exhibitsBiasTowards" is used to link participants to attributes (e.g., GenderAttribute) under investigation.
+     * The property "isAffectedBy" connects the study to the broader social context influencing implicit stereotypes.
+3. **Example 3: Online Diversity Training Program**
+   * **Context:**
+     * An online diversity training program aims to address and reduce implicit stereotypes in a virtual learning environment.
+   * **Usage:**
+     * Participants enrolled in the training program are instances of the class "Person."
+     * The training program event is an instance of the class "ImplicitStereotypeBias."
+     * The property "exhibitsBiasTowards" is used to link participants to specific attributes targeted in the training (e.g., RaceAttribute).
+     * The property "isAffectedBy" establishes the link between the training program and the broader social context.
 
 ***
 
@@ -90,13 +178,11 @@ To better synchronize the biases with established semantic frames in Framester, 
 
 _<mark style="color:green;">Choosing these Lexical Units, then extracted concepts in QUOKKA's and FRED</mark>_
 
-*
-
-### 3.2 Selected Framester F**rames**:
-
-_<mark style="color:green;">Finally, these are the best Framester Frames can be chosen</mark>_
-
-[Fame](http://etna.istc.cnr.it/framester2/data/framestercore/Fame)
+* ImplicitStereotypesBias
+* StereotypeChallenge
+* WorkplaceDiversity
+* DecisionMakingBias
+* AwarenessTraining
 
 ### 3.3 Creating the bias ontology file:
 
