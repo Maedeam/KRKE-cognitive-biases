@@ -1,21 +1,15 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://www.semanticweb.org/delayed/cognitive-bias-ontology/HaloEffect#"
      xml:base="http://www.semanticweb.org/delayed/cognitive-bias-ontology/HaloEffect"
-     xmlns:ns="http://creativecommons.org/ns#"
-     xmlns:ns1="http://www.w3.org/2003/06/sw-vocab-status/ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:vann="http://purl.org/vocab/vann/"
      xmlns:terms="http://purl.org/dc/terms/"
-     xmlns:People="http://etna.istc.cnr.it/framester2/data/framestercore/People#"
-     xmlns:HaloEffect="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/Cluster1-FamiliarsBetterThanUnfamiliars/HaloEffect.owl#"
-     xmlns:description="http://www.ontologydesignpatterns.org/cp/owl/description.owl#"
-     xmlns:cpannotationschema="http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#">
+     xmlns:HaloEffect="http://www.semanticweb.org/delayed/cognitive-bias-ontology/HaloEffect#"
+     xmlns:HaloEffect1="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/Cluster1-FamiliarsBetterThanUnfamiliars/HaloEffect.owl#">
     <owl:Ontology rdf:about="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/Cluster1-FamiliarsBetterThanUnfamiliars/HaloEffect.owl">
-        <owl:versionIRI rdf:resource="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/Cluster1-FamiliarsBetterThanUnfamiliars/HaloEffect.owl"/>
         <terms:creator xml:lang="en">Atousa Heidarnia</terms:creator>
         <terms:creator xml:lang="en">Maede Hajjari</terms:creator>
         <terms:description xml:lang="en">Halo Effect bias module of the Cognitive Bias Ontology.</terms:description>
@@ -72,36 +66,24 @@
     
 
 
-    <!-- http://etna.istc.cnr.it/framester2/data/framestercore/People#hasJudgment -->
+    <!-- http://www.ontologydesignpatterns.org/cp/owl/partof.owl#hasPart -->
 
-    <owl:ObjectProperty rdf:about="http://etna.istc.cnr.it/framester2/data/framestercore/People#hasJudgment">
-        <owl:equivalentProperty rdf:resource="http://etna.istc.cnr.it/framester2/data/framestercore/People#hasOpinionAbout"/>
-        <rdfs:domain rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl#Agent"/>
-        <rdfs:range rdf:resource="https://w3id.org/framester/data/framestercore/Fame"/>
-        <rdfs:comment xml:lang="en">Represents the cognitive judgment made by an individual</rdfs:comment>
-        <rdfs:label xml:lang="en">hasJudgment</rdfs:label>
+    <owl:ObjectProperty rdf:about="http://www.ontologydesignpatterns.org/cp/owl/partof.owl#hasPart">
+        <rdfs:domain rdf:resource="https://w3id.org/framester/data/framestercore/Cogitation"/>
+        <rdfs:range rdf:resource="https://w3id.org/framester/data/framestercore/Justifying"/>
+        <rdfs:comment xml:lang="en">A transitive relation expressing parthood between any entities.</rdfs:comment>
+        <rdfs:label xml:lang="en">hasPart</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://etna.istc.cnr.it/framester2/data/framestercore/People#hasOpinionAbout -->
+    <!-- http://www.ontologydesignpatterns.org/cp/owl/partof.owl#isPartOf -->
 
-    <owl:ObjectProperty rdf:about="http://etna.istc.cnr.it/framester2/data/framestercore/People#hasOpinionAbout">
-        <rdfs:domain rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl#Agent"/>
-        <rdfs:range rdf:resource="https://w3id.org/framester/data/framestercore/Fame"/>
-        <rdfs:comment xml:lang="en">Represents the opinions held by individuals</rdfs:comment>
-        <rdfs:label xml:lang="en">hasOpinionAbout</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://etna.istc.cnr.it/framester2/data/framestercore/People#wrongAssumption -->
-
-    <owl:ObjectProperty rdf:about="http://etna.istc.cnr.it/framester2/data/framestercore/People#wrongAssumption">
-        <rdfs:subPropertyOf rdf:resource="http://etna.istc.cnr.it/framester2/data/framestercore/People#hasJudgment"/>
-        <rdfs:subPropertyOf rdf:resource="http://etna.istc.cnr.it/framester2/data/framestercore/People#hasOpinionAbout"/>
-        <rdfs:domain rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl#Agent"/>
-        <rdfs:range rdf:resource="https://w3id.org/framester/data/framestercore/Fame"/>
+    <owl:ObjectProperty rdf:about="http://www.ontologydesignpatterns.org/cp/owl/partof.owl#isPartOf">
+        <rdfs:domain rdf:resource="https://w3id.org/framester/data/framestercore/Justifying"/>
+        <rdfs:range rdf:resource="https://w3id.org/framester/data/framestercore/Cogitation"/>
+        <rdfs:comment xml:lang="en">A transitive relation expressing parthood between any entities.</rdfs:comment>
+        <rdfs:label xml:lang="en">isPartOf</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -109,22 +91,43 @@
     <!-- https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/Cluster1-FamiliarsBetterThanUnfamiliars/HaloEffect.owl#isEngagedIn -->
 
     <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/Cluster1-FamiliarsBetterThanUnfamiliars/HaloEffect.owl#isEngagedIn">
-        <rdfs:domain rdf:resource="https://w3id.org/framester/data/framestercore/Fame"/>
-        <rdfs:range rdf:resource="http://etna.istc.cnr.it/framester2/data/framestercore/People#Domain"/>
-        <rdfs:comment xml:lang="en">having famousness in one or more domain</rdfs:comment>
-        <rdfs:label xml:lang="en">hasFamousness</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl#Agent"/>
+        <rdfs:range rdf:resource="https://w3id.org/framester/data/framestercore/Justifying"/>
+        <rdfs:comment xml:lang="en">To take part in some action, mental or physical.</rdfs:comment>
+        <rdfs:label xml:lang="en">isEngagedIn</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://w3id.org/affectedBy#influencedBy -->
+    <!-- https://w3id.org/affectedBy -->
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/affectedBy#influencedBy">
-        <rdfs:domain rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl#Agent"/>
-        <rdfs:range rdf:resource="https://w3id.org/framester/data/framestercore/Fame"/>
-        <rdfs:comment xml:lang="en">Represents the influence of one entity on another</rdfs:comment>
-        <rdfs:comment xml:lang="en">When something or someone is influenced by an external entity or factor.</rdfs:comment>
-        <rdfs:comment xml:lang="en">hasInfluencedBy</rdfs:comment>
+    <owl:ObjectProperty rdf:about="https://w3id.org/affectedBy">
+        <rdfs:domain rdf:resource="https://w3id.org/framester/data/framestercore/Justifying"/>
+        <rdfs:range rdf:resource="http://etna.istc.cnr.it/framester2/data/framestercore/Fame"/>
+        <rdfs:comment xml:lang="en">A relation between qualities or entities.</rdfs:comment>
+        <rdfs:label xml:lang="en">affectedBy</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/affectedBy#belongsTo -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/affectedBy#belongsTo">
+        <rdfs:domain rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl#Celebrity%20"/>
+        <rdfs:range rdf:resource="http://etna.istc.cnr.it/framester2/data/framestercore/Fame"/>
+        <rdfs:comment xml:lang="en">A relation between qualities and features of interest.</rdfs:comment>
+        <rdfs:label xml:lang="en">belongsTo</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/framester/data/framestercore/SubjectiveInfluence -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/framester/data/framestercore/SubjectiveInfluence">
+        <rdfs:domain rdf:resource="http://etna.istc.cnr.it/framester2/data/framestercore/Fame"/>
+        <rdfs:range rdf:resource="https://w3id.org/framester/data/framestercore/Justifying"/>
+        <rdfs:comment xml:lang="en">Represents a strategy used to guide or influence the decision-making process.</rdfs:comment>
+        <rdfs:label xml:lang="en">SubjectiveInfluence</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -140,21 +143,11 @@
     
 
 
-    <!-- http://etna.istc.cnr.it/framester2/data/framestercore/People#Domain -->
+    <!-- http://etna.istc.cnr.it/framester2/data/framestercore/Fame -->
 
-    <owl:Class rdf:about="http://etna.istc.cnr.it/framester2/data/framestercore/People#Domain">
-        <rdfs:comment xml:lang="en">Domain of avtivity</rdfs:comment>
-        <rdfs:label xml:lang="en">Domain</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://etna.istc.cnr.it/framester2/data/framestercore/People#People -->
-
-    <owl:Class rdf:about="http://etna.istc.cnr.it/framester2/data/framestercore/People#People">
-        <rdfs:comment xml:lang="en">People</rdfs:comment>
-        <rdfs:comment xml:lang="en">Represents individuals, including both fans and celebrities.</rdfs:comment>
-        <rdfs:comment xml:lang="en">This frame contains general words for Individuals, i.e. humans. The Person is conceived of as independent of other specific individuals with whom they have relationships and independent of their participation in any particular activity. They may have an Age, Descriptor, Origin, Persistent_characteristic, or Ethnicity. A man from Phoenix was shot yesterday. She gave birth to a screaming babyyesterday. I study 16-year-old female adolescents. I am dating an African-American man. She comforted the terrified child. I always thought of him as a stupid man.</rdfs:comment>
+    <owl:Class rdf:about="http://etna.istc.cnr.it/framester2/data/framestercore/Fame">
+        <rdfs:comment xml:lang="en">Fame is widespread recognition and popularity.</rdfs:comment>
+        <rdfs:label xml:lang="en">Fame</rdfs:label>
     </owl:Class>
     
 
@@ -162,46 +155,46 @@
     <!-- http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl#Agent -->
 
     <owl:Class rdf:about="http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl#Agent">
-        <rdfs:subClassOf rdf:resource="http://etna.istc.cnr.it/framester2/data/framestercore/People#People"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/People"/>
         <rdfs:comment xml:lang="en">Any physical or social agent, including a person, a social group, or an organization.</rdfs:comment>
-        <rdfs:label xml:lang="en">Agent</rdfs:label>
+        <rdfs:label xml:lang="en">Fan</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://w3id.org/framester/data/framestercore/Categorization -->
+    <!-- http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl#Celebrity%20 -->
 
-    <owl:Class rdf:about="https://w3id.org/framester/data/framestercore/Categorization">
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://etna.istc.cnr.it/framester2/data/framestercore/People#hasJudgment"/>
-                <owl:someValuesFrom rdf:resource="https://w3id.org/framester/data/framestercore/Categorization"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://etna.istc.cnr.it/framester2/data/framestercore/People#hasOpinionAbout"/>
-                <owl:someValuesFrom rdf:resource="https://w3id.org/framester/data/framestercore/Categorization"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://etna.istc.cnr.it/framester2/data/framestercore/People#wrongAssumption"/>
-                <owl:someValuesFrom rdf:resource="https://w3id.org/framester/data/framestercore/Categorization"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
-        <rdfs:comment xml:lang="en">The act of judge or think or cognize a subject</rdfs:comment>
+    <owl:Class rdf:about="http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl#Celebrity%20">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/People"/>
+        <rdfs:comment xml:lang="en">Represents the concept of fame associated with a person.</rdfs:comment>
+        <rdfs:label xml:lang="en">Celebrity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/framester/data/framestercore/Cogitation -->
+
+    <owl:Class rdf:about="https://w3id.org/framester/data/framestercore/Cogitation">
+        <rdfs:comment xml:lang="en">The act of thinking about a subject.</rdfs:comment>
         <rdfs:label xml:lang="en">Cogitation</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://w3id.org/framester/data/framestercore/Fame -->
+    <!-- https://w3id.org/framester/data/framestercore/Justifying -->
 
-    <owl:Class rdf:about="https://w3id.org/framester/data/framestercore/Fame">
-        <rdfs:subClassOf rdf:resource="http://etna.istc.cnr.it/framester2/data/framestercore/People#People"/>
-        <rdfs:comment xml:lang="en">Represents the concept of fame associated with a person.</rdfs:comment>
-        <rdfs:label xml:lang="en">Fame</rdfs:label>
+    <owl:Class rdf:about="https://w3id.org/framester/data/framestercore/Justifying">
+        <rdfs:comment xml:lang="en">To show that something is reasonable, right, or true.</rdfs:comment>
+        <rdfs:label xml:lang="en">Justifying</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/framester/data/framestercore/People -->
+
+    <owl:Class rdf:about="https://w3id.org/framester/data/framestercore/People">
+        <rdfs:comment xml:lang="en">A group composed of individuals who are united by a common characteristic, interest, or purpose.</rdfs:comment>
+        <rdfs:label xml:lang="en">People</rdfs:label>
     </owl:Class>
     
 
@@ -217,61 +210,14 @@
     
 
 
-    <!-- http://etna.istc.cnr.it/framester2/data/framestercore/People#Celebrity -->
+    <!-- https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/NotInventedHere#Fan1 -->
 
-    <owl:NamedIndividual rdf:about="http://etna.istc.cnr.it/framester2/data/framestercore/People#Celebrity">
-        <rdf:type rdf:resource="http://etna.istc.cnr.it/framester2/data/framestercore/People#People"/>
-        <rdf:type rdf:resource="https://w3id.org/framester/data/framestercore/Fame"/>
-        <HaloEffect:isEngagedIn rdf:resource="http://etna.istc.cnr.it/framester2/data/framestercore/People#Celebrity"/>
-        <rdfs:comment xml:lang="en">An individual representing the celebrity in the scenario</rdfs:comment>
-        <rdfs:label xml:lang="en">Celebrity</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://etna.istc.cnr.it/framester2/data/framestercore/People#Fan -->
-
-    <owl:NamedIndividual rdf:about="http://etna.istc.cnr.it/framester2/data/framestercore/People#Fan">
-        <rdf:type rdf:resource="http://etna.istc.cnr.it/framester2/data/framestercore/People#People"/>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/NotInventedHere#Fan1">
         <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl#Agent"/>
-        <owl:sameAs rdf:resource="http://etna.istc.cnr.it/framester2/data/framestercore/People#Fan2"/>
-        <People:hasOpinionAbout rdf:resource="http://etna.istc.cnr.it/framester2/data/framestercore/People#Fan"/>
-        <rdfs:comment xml:lang="en">An individual representing the fan in the scenario.</rdfs:comment>
-        <rdfs:label xml:lang="en">Fan1</rdfs:label>
     </owl:NamedIndividual>
-    
-
-
-    <!-- http://etna.istc.cnr.it/framester2/data/framestercore/People#Fan2 -->
-
-    <rdf:Description rdf:about="http://etna.istc.cnr.it/framester2/data/framestercore/People#Fan2"/>
-    
-
-
-    <!-- http://etna.istc.cnr.it/framester2/data/framestercore/People#Fan2 -->
-
-    <owl:NamedIndividual rdf:about="http://etna.istc.cnr.it/framester2/data/framestercore/People#Fan2">
-        <rdf:type rdf:resource="http://etna.istc.cnr.it/framester2/data/framestercore/People#People"/>
-        <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl#Agent"/>
-        <rdfs:comment xml:lang="en">An individual representing the fan in the scenario.</rdfs:comment>
-        <rdfs:label xml:lang="en">Fan2</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Annotations
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#deprecated">
-        <rdfs:label xml:lang="en">Celebrity</rdfs:label>
-    </rdf:Description>
 </rdf:RDF>
 
 
 
 <!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+
