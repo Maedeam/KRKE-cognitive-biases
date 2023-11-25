@@ -1,23 +1,15 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://www.semanticweb.org/delayed/cognitive-bias-ontology/InGroupBias#"
      xml:base="http://www.semanticweb.org/delayed/cognitive-bias-ontology/InGroupBias"
-     xmlns:ns="http://creativecommons.org/ns#"
-     xmlns:ns1="http://www.w3.org/2003/06/sw-vocab-status/ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-     xmlns:vann="http://purl.org/vocab/vann/"
      xmlns:terms="http://purl.org/dc/terms/"
-     xmlns:InGroupBias="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/InGroupBias.owl"
-     xmlns:description="http://www.ontologydesignpatterns.org/cp/owl/description.owl#"
-     xmlns:InGroupBias1="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/InGroupBias.owl#"
-     xmlns:InGroupBias2="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/InGroupBias#"
-     xmlns:cpannotationschema="http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#">
-    <owl:Ontology rdf:about="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/InGroupBiasowl">
-        <owl:versionIRI rdf:resource="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/InGroupBias.owl"/>
+     xmlns:InGroupBias="http://www.semanticweb.org/delayed/cognitive-bias-ontology/InGroupBias#"
+     xmlns:InGroupBias1="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/InGroupBias.owl#">
+    <owl:Ontology rdf:about="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/InGroupBias.owl">
         <terms:creator xml:lang="en">Atousa Heidarnia</terms:creator>
         <terms:creator xml:lang="en">Maede Hajjari</terms:creator>
         <terms:description xml:lang="en">In Group Bias module of the Cognitive Bias Ontology.</terms:description>
@@ -63,12 +55,6 @@
     
 
 
-    <!-- http://www.w3.org/2004/02/skos/core#comment -->
-
-    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#comment"/>
-    
-
-
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -80,55 +66,50 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/InGroupBias#belongsToGroup -->
+    <!-- https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/InGroupBias.owl#causedBy -->
 
-    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/InGroupBias#belongsToGroup">
-        <rdfs:domain rdf:resource="http://etna.istc.cnr.it/framester2/data/framestercore/Categorization#GroupMember"/>
-        <rdfs:range rdf:resource="http://etna.istc.cnr.it/framester2/data/framestercore/Categorization#SocialGroup"/>
-        <rdfs:comment xml:lang="en">Connects an individual to the social group they are a part of.</rdfs:comment>
-        <rdfs:label xml:lang="en">belongsToGroup</rdfs:label>
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/InGroupBias.owl#causedBy">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/InGroupBias.owl#Loyality"/>
+        <rdfs:domain rdf:resource="https://w3id.org/framester/data/framestercore/Competition"/>
+        <rdfs:domain rdf:resource="https://w3id.org/framester/data/framestercore/Supporting"/>
+        <rdfs:range rdf:resource="https://w3id.org/framester/data/framestercore/Categorization"/>
+        <rdfs:label xml:lang="en">causedBy</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/InGroupBias#exhibitsCategorization -->
+    <!-- https://w3id.org/affectedBy -->
 
-    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/InGroupBias#exhibitsCategorization">
-        <rdfs:domain rdf:resource="http://etna.istc.cnr.it/framester2/data/framestercore/Categorization#SocialGroup"/>
-        <rdfs:range rdf:resource="http://etna.istc.cnr.it/framester2/data/framestercore/Categorization"/>
-        <rdfs:comment xml:lang="en">Indicates the categorization process employed within a social group.</rdfs:comment>
-        <rdfs:label xml:lang="en">exhibitsCategorization</rdfs:label>
+    <owl:ObjectProperty rdf:about="https://w3id.org/affectedBy">
+        <rdfs:domain rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl#Agent"/>
+        <rdfs:domain rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl#GroupMember"/>
+        <rdfs:range rdf:resource="https://w3id.org/framester/data/framestercore/Categorization"/>
+        <rdfs:comment xml:lang="en">A relation between qualities or entities.</rdfs:comment>
+        <rdfs:label xml:lang="en">affectedBy</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/InGroupBias#hasBias -->
+    <!-- https://w3id.org/affectedBy#belongsTo -->
 
-    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/InGroupBias#hasBias">
-        <rdfs:domain rdf:resource="http://etna.istc.cnr.it/framester2/data/framestercore/Categorization#SocialGroup"/>
-        <rdfs:range rdf:resource="http://etna.istc.cnr.it/framester2/data/framestercore/Partiality#Bias"/>
-        <rdfs:comment xml:lang="en">Relates a social group to the bias it exhibits towards its members.</rdfs:comment>
-        <rdfs:label xml:lang="en">hasBias</rdfs:label>
+    <owl:ObjectProperty rdf:about="https://w3id.org/affectedBy#belongsTo">
+        <rdfs:domain rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl#Agent"/>
+        <rdfs:domain rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl#GroupMember"/>
+        <rdfs:range rdf:resource="https://w3id.org/framester/data/framestercore/Organization#SocialGroup"/>
+        <rdfs:comment xml:lang="en">A relation between qualities and features of interest.</rdfs:comment>
+        <rdfs:label xml:lang="en">belongsTo</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/InGroupBias#hasInterest -->
+    <!-- https://w3id.org/affectedBy#influencedBy -->
 
-    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/InGroupBias#hasInterest">
-        <rdfs:domain rdf:resource="http://etna.istc.cnr.it/framester2/data/framestercore/Categorization#GroupMember"/>
-        <rdfs:range rdf:resource="http://etna.istc.cnr.it/framester2/data/framestercore/Categorization"/>
-        <rdfs:label xml:lang="en">hasInterest</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/InGroupBias#hasName -->
-
-    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/InGroupBias#hasName">
-        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-        <rdfs:range rdf:resource="http://etna.istc.cnr.it/framester2/data/framestercore/Categorization#SocialGroup"/>
-        <rdfs:label xml:lang="en">hasName</rdfs:label>
+    <owl:ObjectProperty rdf:about="https://w3id.org/affectedBy#influencedBy">
+        <rdfs:domain rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl#Agent"/>
+        <rdfs:domain rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl#GroupMember"/>
+        <rdfs:range rdf:resource="https://w3id.org/framester/data/framestercore/Categorization"/>
+        <rdfs:comment xml:lang="en">When an agent&apos;s decision is influenced by an external entity.</rdfs:comment>
+        <rdfs:label xml:lang="en">influencedBy</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -144,38 +125,67 @@
     
 
 
-    <!-- http://etna.istc.cnr.it/framester2/data/framestercore/Categorization -->
+    <!-- http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl#Agent -->
 
-    <owl:Class rdf:about="http://etna.istc.cnr.it/framester2/data/framestercore/Categorization">
-        <rdfs:comment xml:lang="en">Represents the process of classifying individuals based on certain criteria.</rdfs:comment>
-        <rdfs:label xml:lang="en">Categorization</rdfs:label>
+    <owl:Class rdf:about="http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl#Agent">
+        <owl:equivalentClass rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl#GroupMember"/>
+        <rdfs:comment xml:lang="en">Any physical or social agent, including a person, a social group, or an organization.</rdfs:comment>
+        <rdfs:label xml:lang="en">Agent</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://etna.istc.cnr.it/framester2/data/framestercore/Categorization#GroupMember -->
+    <!-- http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl#GroupMember -->
 
-    <owl:Class rdf:about="http://etna.istc.cnr.it/framester2/data/framestercore/Categorization#GroupMember">
+    <owl:Class rdf:about="http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl#GroupMember">
         <rdfs:comment xml:lang="en">Represents an individual belonging to a social group.</rdfs:comment>
         <rdfs:label xml:lang="en">GroupMember</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://etna.istc.cnr.it/framester2/data/framestercore/Categorization#SocialGroup -->
+    <!-- https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/InGroupBias.owl#Loyality -->
 
-    <owl:Class rdf:about="http://etna.istc.cnr.it/framester2/data/framestercore/Categorization#SocialGroup">
-        <rdfs:comment xml:lang="en">Represents a collection of individuals sharing common interests or affiliations.</rdfs:comment>
-        <rdfs:label xml:lang="en">SocialGroup</rdfs:label>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/InGroupBias.owl#Loyality">
+        <owl:equivalentClass rdf:resource="https://w3id.org/framester/data/framestercore/Supporting"/>
+        <rdfs:comment xml:lang="en">Loyalty is a steadfast and faithful commitment or allegiance to a person, group, cause, or organization.</rdfs:comment>
+        <rdfs:label xml:lang="en">Loyality</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://etna.istc.cnr.it/framester2/data/framestercore/Partiality#Bias -->
+    <!-- https://w3id.org/framester/data/framestercore/Categorization -->
 
-    <owl:Class rdf:about="http://etna.istc.cnr.it/framester2/data/framestercore/Partiality#Bias">
-        <rdfs:comment xml:lang="en">Represents the inclination or partiality towards certain individuals within a social group.</rdfs:comment>
-        <rdfs:label xml:lang="en">Bias</rdfs:label>
+    <owl:Class rdf:about="https://w3id.org/framester/data/framestercore/Categorization">
+        <rdfs:comment xml:lang="en">Represents the process of classifying individuals based on certain criteria.</rdfs:comment>
+        <rdfs:label xml:lang="en">Categorization</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/framester/data/framestercore/Competition -->
+
+    <owl:Class rdf:about="https://w3id.org/framester/data/framestercore/Competition">
+        <rdfs:comment xml:lang="en">This frame is concerned with the idea that people (Participant1, Participant2, or Participants) participate in an organized rule governed activity (the Competition) in order to achieve some advantageous outcome (often the Prize). Rank and Score are different criteria by which the degree of achievement of the advantageous outcome is judged.  </rdfs:comment>
+        <rdfs:label xml:lang="en">Competition</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/framester/data/framestercore/Supporting -->
+
+    <owl:Class rdf:about="https://w3id.org/framester/data/framestercore/Supporting">
+        <rdfs:comment xml:lang="en">A Supporter assists to strengthen the Supported by lending itself in material aid (or abstract assistance in the case of metaphorical uses). The bottom of the wall is supported by the foundation. Many legislators have supported the industry in the past. The revetment layers buttressed the mud-mortared cobblestone core wall. Online gambling can bolster the US economy.</rdfs:comment>
+        <rdfs:label xml:lang="en">Supporting</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/framester/data/framestercore/Organization#SocialGroup -->
+
+    <owl:Class rdf:about="https://w3id.org/framester/data/framestercore/Organization#SocialGroup">
+        <rdfs:comment xml:lang="en">Represents a collection of individuals sharing common interests or affiliations.</rdfs:comment>
+        <rdfs:label xml:lang="en">SocialGroup</rdfs:label>
     </owl:Class>
     
 
@@ -191,67 +201,33 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/InGroupBias#InGroupBias -->
+    <!-- https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/InGroupBias.owl#InterestCategory -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/InGroupBias#InGroupBias">
-        <rdf:type rdf:resource="http://etna.istc.cnr.it/framester2/data/framestercore/Partiality#Bias"/>
-        <InGroupBias2:belongsToGroup rdf:resource="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/InGroupBias#SportsFandomGroup"/>
-        <InGroupBias2:exhibitsCategorization rdf:resource="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/InGroupBias#InterestCategory"/>
-        <rdfs:comment xml:lang="en">An instance representing the bias towards individuals within a specific group.</rdfs:comment>
-        <rdfs:label xml:lang="en">InGroupBias</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/InGroupBias#InterestCategory -->
-
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/InGroupBias#InterestCategory">
-        <rdf:type rdf:resource="http://etna.istc.cnr.it/framester2/data/framestercore/Categorization"/>
-        <InGroupBias2:hasName rdf:resource="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/InGroupBias#Sports_Fandom"/>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/InGroupBias.owl#InterestCategory">
+        <rdf:type rdf:resource="https://w3id.org/framester/data/framestercore/Categorization"/>
         <rdfs:comment xml:lang="en">Represents the category used to classify individuals within the social group.</rdfs:comment>
         <rdfs:label xml:lang="en">InterestCategory</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/InGroupBias#John -->
+    <!-- https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/InGroupBias.owl#John -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/InGroupBias#John">
-        <rdf:type rdf:resource="http://etna.istc.cnr.it/framester2/data/framestercore/Categorization#GroupMember"/>
-        <InGroupBias2:belongsToGroup rdf:resource="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/InGroupBias#SportsFandomGroup"/>
-        <InGroupBias2:exhibitsCategorization rdf:resource="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/InGroupBias#InterestCategory"/>
-        <InGroupBias2:hasBias rdf:resource="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/InGroupBias#InGroupBias"/>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/InGroupBias.owl#John">
+        <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl#Agent"/>
+        <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl#GroupMember"/>
         <rdfs:comment xml:lang="en">An individual who belongs to the Sports Fandom Group.</rdfs:comment>
         <rdfs:label xml:lang="en">John</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/InGroupBias#Mary -->
+    <!-- https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/InGroupBias.owl#SportsFandomGroup -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/InGroupBias#Mary">
-        <rdf:type rdf:resource="http://etna.istc.cnr.it/framester2/data/framestercore/Categorization#GroupMember"/>
-        <InGroupBias2:belongsToGroup rdf:resource="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/InGroupBias#SportsFandomGroup"/>
-        <rdfs:label xml:lang="en">Mary</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/InGroupBias#SportsFandomGroup -->
-
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/InGroupBias#SportsFandomGroup">
-        <rdf:type rdf:resource="http://etna.istc.cnr.it/framester2/data/framestercore/Categorization#SocialGroup"/>
-        <InGroupBias2:hasBias rdf:resource="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/InGroupBias#InGroupBias"/>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/InGroupBias.owl#SportsFandomGroup">
+        <rdf:type rdf:resource="https://w3id.org/framester/data/framestercore/Organization#SocialGroup"/>
         <rdfs:comment xml:lang="en">An instance of a social group formed around sports interests.</rdfs:comment>
         <rdfs:label xml:lang="en">SportsFandomGroup</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/InGroupBias#Sports_Fandom -->
-
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/Maedeam/KRKE-cognitive-biases/modeling-cognitive-biases/cognitive-biases/InGroupBias#Sports_Fandom">
-        <rdfs:label xml:lang="en">&quot;Sports Fandom&quot;</rdfs:label>
     </owl:NamedIndividual>
 </rdf:RDF>
 
